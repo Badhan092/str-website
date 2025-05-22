@@ -1,0 +1,134 @@
+.responsiblity-header {
+  position: relative;
+  background-image: url("/img/banner/responsible-banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .responsiblity-header-content {
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+
+    .title {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .text {
+      font-size: 1.2rem;
+      font-weight: 400;
+      padding-top: 10px;
+      padding-top: 10px;
+    }
+  }
+}
+.responsible-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+
+  .responsible-content,
+  .responsible-image {
+    flex: 1;
+  }
+
+  .responsible-image {
+    display: flex;
+    align-items: stretch;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 8px;
+    }
+  }
+}
+.responsible-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 18px;
+
+  .responsible-list-card {
+    display: flex;
+    align-items: stretch;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 900px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+    .title-section {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 30px;
+      background-color: #002fa7;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+
+    .description-section {
+      flex: 3;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: disc;
+
+        li {
+          font-size: 0.9rem;
+          line-height: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+//Responsive
+@media (min-width: 300px) and (max-width: 1024px) {
+  .responsiblity-header {
+    height: 250px;
+    .responsiblity-header-content {
+      .title {
+        font-size: 1.9rem;
+      }
+
+      .text {
+        font-size: 1rem;
+        max-width: 370px;
+      }
+    }
+  }
+  .responsible-description {
+    flex-direction: column;
+  }
+
+  .responsible-list {
+    .responsible-list-card {
+      flex-direction: column;
+      .title-section {
+        padding: 20px;
+        font-size: 1rem;
+      }
+    }
+  }
+}
