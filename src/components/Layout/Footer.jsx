@@ -22,7 +22,7 @@ const Footer = () => {
         
         {/* Logo and Tagline */}
         <div className="footer-logo">
-          <img src="/img/logo.png" alt="STR Logo" className="logo" />
+          <img src="/img/logo-white.png" alt="STR Logo" className="logo" />
           <p className="text">
             At STR Textiles, we stand for Sustainability, <br />
             Trustworthiness, and Reliability — the fabric of our promise.
