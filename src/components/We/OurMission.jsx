@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 const OurMission = () => {
   return (
     <>
-      <div className="section">
         <div className="container">
           <div className="ourmission">
             <div className="ourmission-content">
@@ -33,7 +32,6 @@ const OurMission = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };

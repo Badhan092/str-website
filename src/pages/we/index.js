@@ -4,6 +4,7 @@ import WeContent from "@/components/We/WeContent";
 import WhyChooseUs from "@/components/We/WhyChooseUs";
 import OurMission from "@/components/We/OurMission";
 import OurPartner from "@/components/We/OurPartner";
+import Donation from "@/components/Home/Donation";
 
 const index = () => {
   return (
@@ -11,6 +12,7 @@ const index = () => {
       <WeHeader />
       <WeContent />
       <WhyChooseUs />
+      <Donation />
       <OurMission />
       <OurPartner />
     </>

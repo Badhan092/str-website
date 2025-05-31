@@ -7,7 +7,7 @@ import OurService from "@/components/Home/OurService";
 import OurProducts from "@/components/Home/OurProducts";
 import ContactUs from "@/components/Home/ContactUs";
 import OurPartner from "@/components/Home/OurPartner";
-
+import Donation from "@/components/Home/Donation";
 
 const IndexPage = () => {
   const [loading, setLoading] = useState(true);
@@ -31,7 +31,7 @@ const IndexPage = () => {
       <STRTab />
       <OurService />
       <OurProducts />
-      {/* <OurPartner /> */}
+      <Donation />
       <ContactUs />
     </>
   );
