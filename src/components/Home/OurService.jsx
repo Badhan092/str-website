@@ -64,6 +64,7 @@ const OurService = () => {
             data-aos="fade-up"
             alt="STR Service"
           />
+          <div className="image-overlay" />
           <img
             src="/img/banner/service-two.jpg"
             className="image-two"
