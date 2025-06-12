@@ -356,16 +356,20 @@
     margin: 0 auto;
 
     .image-one {
+      position: relative;
+      bottom: -8%;
       width: 70%;
       height: auto;
       border-radius: 10px;
+      overflow: hidden;
     }
+
     .image-two {
       position: absolute;
       width: 70%;
       height: auto;
       border-radius: 10px;
-      top: -40px;
+      top: -5px;
       right: 100px;
       border: 10px solid #fff;
     }
