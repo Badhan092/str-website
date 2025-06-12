@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React from "react";
 import { FaFacebookF, FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
@@ -10,22 +10,23 @@ const socialLinks = [
 ];
 
 const footerLinks = [
-  { href: "/about", label: "About Us" },
-  { href: "/services", label: "Services" },
-  { href: "/contact", label: "Contact Us" },
+  { href: "/we", label: "About Us" },
+  { href: "/products", label: "Products" },
+  { href: "/contact-us", label: "Contact Us" },
 ];
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        
         {/* Logo and Tagline */}
         <div className="footer-logo">
           <img src="/img/logo-white.png" alt="STR Logo" className="logo" />
           <p className="text">
-            At STR Textiles, we stand for Sustainability, <br />
-            Trustworthiness, and Reliability — the fabric of our promise.
+            At STR Sourcing, we are a global sourcing and export company built on three core values:
+            Sustainability, Trust, and Responsibility. These principles define who we are and how we
+            work—delivering world-class products with integrity, transparency, and a commitment to
+            long-term impact.
           </p>
           <div className="footer-socials">
             {socialLinks.map((link) => (
