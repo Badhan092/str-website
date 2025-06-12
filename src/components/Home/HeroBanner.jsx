@@ -1,39 +1,42 @@
-'use client';
+"use client";
 
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/autoplay"; 
-
+import "swiper/css/autoplay";
 
 const slides = [
   {
-    title: "We Are STR Textiles",
-    text: "Built on Trust. Driven by Reliability. Powered by Sustainability.",
+    title: "Where Sustainability Meets Trust & Responsibility Driven Results", 
+    text: "Together, let’s craft a future woven with excellence.",
+    image: "/img/banner/hero-banner-one.jpg",
   },
   {
-    title: "Quality You Can Count On",
-    text: "Crafted with care, inspired by purpose.",
+    title: "Built on Trust, Driven by Responsibility",
+    text: "Together, let’s craft a future woven with excellence.",
+    image: "/img/banner/hero-banner-two.jpg",
   },
   {
-    title: "Your Reliable Textile Partner",
-    text: "Sustainability and innovation woven together.",
+    title: "STR Sourcing - Built on Sustainability",
+    text: "Together, let’s craft a future woven with excellence.",
+    image: "/img/banner/hero-banner-three.jpg",
   },
 ];
 
+
 const HeroBanner = () => {
   return (
-    <div className="hero-banner">
-      <Swiper
-        modules={[Autoplay]}
-        autoplay={{ delay: 4000 }}
-        loop
-        speed={800}
-      >
-        {slides.map((slide, index) => (
-          <SwiperSlide key={index}>
+    <Swiper modules={[Autoplay]} autoplay={{ delay: 4000 }} loop speed={800}>
+      {slides.map((slide, index) => (
+        <SwiperSlide key={index}>
+          <div
+            className="hero-banner"
+            style={{
+              backgroundImage: `url(${slide.image})`,
+            }}
+          >
             <div className="hero-container">
               <h1 className="title">{slide.title}</h1>
               <p className="text">{slide.text}</p>
@@ -42,10 +45,10 @@ const HeroBanner = () => {
                 <IoIosArrowForward />
               </button>
             </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
   );
 };
 

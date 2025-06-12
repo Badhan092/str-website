@@ -13,7 +13,7 @@ const AboutUs = () => {
   }, []);
 
   const handleClick = () => {
-    router.push ('/we');
+    router.push("/we");
   };
 
   return (
@@ -22,11 +22,10 @@ const AboutUs = () => {
         <div className="aboutus-content" data-aos="fade-up">
           <h2 className="section-title">About Us</h2>
           <p className="section-description">
-            At STR Textiles, we specialize in delivering premium quality fabrics tailored to global
-            standards. Rooted in Sustainability, built on Trust, and driven by Reliability, we weave
-            integrity into every thread. Our commitment to innovation empowers brands with
-            cutting-edge textile solutions. Partner with us to experience the perfect blend of
-            tradition and technology.
+            At STR Sourcing, we are a global sourcing and export company built on three core values:
+            Sustainability, Trust, and Responsibility. These principles define who we are and how we
+            work—delivering world-class products with integrity, transparency, and a commitment to
+            long-term impact.
           </p>
           <p className="section-description font-extrabold">
             {" "}
