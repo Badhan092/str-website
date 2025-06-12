@@ -21,8 +21,8 @@ const services = [
   },
   {
     number: "4",
-    title: "Operations Support",
-    text: "We provide real-time tracking and updates to keep you informed every step of the way.",
+    title: "Quality",
+    text: "Our assigned quality team is involved from cutting, sewing to finishing, ensuring your products meet the highest standards.",
   },
 ];
 
@@ -34,7 +34,7 @@ const OurService = () => {
   return (
     <div className="container">
       <h2 className="section-title" data-aos="fade-up">
-        Our Service
+        Our Focus
       </h2>
       <p className="section-description" data-aos="fade-up">
         We offer sustainable textile sourcing, reliable production, and transparent delivery
