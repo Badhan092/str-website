@@ -62,10 +62,7 @@ const WhyChooseUs = () => {
         <h2 className="section-title text-center" data-aos="fade-up">
           Why Choose Us?
         </h2>
-        <p className="section-description text-center" data-aos="fade-up">
-          At STR Textiles, we specialize in delivering premium quality fabrics tailored to global
-          standards.
-        </p>
+  
 
         <div className="whychooseus-content">
           {whyChooseUsData.map((item, index) => (

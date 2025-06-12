@@ -141,10 +141,13 @@ textarea {
 .section-description {
   font-size: 1.1rem;
   line-height: 1.7rem;
-  max-width: 800px;
   color: #333;
   font-weight: 400;
   margin-bottom: 20px;
+
+  &.max-width {
+    max-width: 800px;
+  }
 
   @include respond-to(xl) {
     font-size: 0.9rem;

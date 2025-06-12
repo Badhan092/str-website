@@ -17,22 +17,26 @@ const WeContent = () => {
         <div className="we-description" data-aos="fade-up">
           <h2 className="title">About Us</h2>
           <p className="text">
-            At STR Textiles, we pride ourselves on being more than just a fabric supplier — we are
-            your strategic partner in delivering premium-quality textiles crafted to meet and exceed
-            global standards. With decades of expertise and a relentless commitment to excellence,
-            we offer bespoke solutions that cater to the ever-evolving needs of the fashion and
-            textile industry.
+            At STR Sourcing, we are a global sourcing and export company built on three core values:
+            Sustainability, Trust, and Responsibility. These principles define who we are and how we
+            work—delivering world-class products with integrity, transparency, and a commitment to
+            long-term impact.
           </p>
 
           <p className="text">
-            Our foundation is built on three unwavering pillars: <b>Sustainability</b>, <b>Trust</b>
-            , and <b>Reliability</b>.
+            Headquartered in Bangladesh, with regional offices in the USA and Europe, STR Sourcing
+            specializes in a wide range of categories, including fashion apparel, denim, jute
+            products, outerwear, workwear, and home textiles. We connect global brands with
+            high-quality, ethically produced goods by offering complete solutions—from design and
+            material sourcing to production, quality control, and on-time delivery.
           </p>
 
           <p className="text">
-            From eco-conscious sourcing to ethical manufacturing practices, sustainability is woven
-            into the fabric of our operations. Trust is the cornerstone of every partnership we
-            forge, and our consistent reliability ensures peace of mind for every client we serve.
+            We collaborate with a strong network of compliance-certified and green-certified
+            factories across Bangladesh, ensuring every product meets international standards for
+            sustainability, safety, and excellence. Our flexible production model, including no MOQ
+            (Minimum Order Quantity) requirements, gives our clients the ability to explore
+            versatile designs, prints, and colorways without added cost or complexity.
           </p>
 
           <p className="text">
@@ -44,11 +48,30 @@ const WeContent = () => {
           </p>
 
           <p className="text">
-            By integrating traditional craftsmanship with modern technology, we create textiles that
-            tell a story — your story. From local designers to international brands, we empower our
-            partners to push creative boundaries with confidence. Join hands with <b>STR</b>{" "}
-            Sourcing and become a part of a global movement that values quality, integrity, and
-            sustainable growth. Together, let’s craft a future woven with excellence.
+            Our Product Range Includes:
+            <br />
+            <ul>
+              <li>
+                <b>Fashionwear:</b> Woven and jersey tops, bottoms, dresses, and tailoring for men,
+                women, and children
+              </li>
+              <li>
+                <b>Denim:</b> High-quality jeans, jackets, and casualwear Outerwear & Workwear:
+                Durable jackets, coats, and industrial wear
+              </li>
+              <li>
+                <b>Knitwear:</b> Sweaters ranging from 3GG to 12GG Jute Products: Sustainable and
+                stylish bags, accessories, and home items
+              </li>
+              <li>
+                <b>Home Textiles:</b> Soft furnishings, bedding, and lifestyle products At STR
+                Sourcing, we’re powered by a dynamic, experienced team of professionals in design,
+                product development, fabric sourcing, garment technology, compliance, and supply
+                chain management.
+              </li>
+            </ul>
+            Our strength lies in our ability to adapt to market trends, deliver innovative and
+            sustainable solutions, and maintain uncompromising standards across every order.
           </p>
         </div>
       </div>
