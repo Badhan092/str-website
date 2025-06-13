@@ -14,7 +14,7 @@ const Donation = () => {
             <div class="icon">
               <img src="/img/icons/farmer.png" alt="Farmer Fund" />
             </div>
-            <h3>Fund for Jute Farmers</h3>
+            <h3>Fund for Cotton and Jute Farmer</h3>
             <p>
               We have taken the initiative to establish a fund to support cotton and jute farmers
               and their families in cotton-growing areas. <b>1%</b> of the sales value of each
