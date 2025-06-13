@@ -32,6 +32,7 @@ const IndexPage = () => {
       <OurService />
       <OurProducts />
       <Donation />
+      <OurPartner />
       <ContactUs />
     </>
   );

@@ -454,12 +454,17 @@
 
 //Partner section
 .partner-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   margin-top: 2rem;
 
+
   .partner-card {
+    flex:1;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100px;
     padding: 10px;
     background-color: #ffffff9c;
@@ -467,9 +472,8 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   }
   .partner-card img {
-    max-height: 50px;
-    max-width: 100%;
-    object-fit: contain;
+    width: 100%;
+    max-width: 800px;
   }
 }
 
@@ -562,7 +566,7 @@
 
   .donation-card {
     background: #ffffff;
-    padding: 2rem;
+    padding: 2rem 4rem ;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -588,8 +592,8 @@
     }
 
     p {
-      font-size: 1rem;
-      line-height: 1.5rem;
+      font-size: 0.9rem;
+      line-height: 1.4rem;
       color: #333333;
       margin-bottom: 1rem;
     }
