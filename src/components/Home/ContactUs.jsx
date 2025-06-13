@@ -22,14 +22,14 @@ const ContactUs = () => {
 
   const locations = [
     {
-      country: "USA",
-      address: "1234 Street Name, City, State, 12345",
+      country: "Germany",
+      address: "Adam-Opel-Straße 24 ,60386 ,Frankfurt am Main",
       phone: "(123) 456-7890",
       email: "info@strsourcing.com",
     },
     {
       country: "Bangladesh",
-      address: "1234 Street Name, City, State, 12345",
+      address: "House# 1/B, Road# 10, Nikunja 2, Khilket, Dhaka-1229",
       phone: "(123) 456-7890",
       email: "info@strsourcing.com",
     },

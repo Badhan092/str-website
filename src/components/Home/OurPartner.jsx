@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+// Partner logo data
 const partnerLogos = [
   { id: 1, src: "/img/partner/partner1.png", alt: "Partner 1" },
   { id: 2, src: "/img/partner/partner3.png", alt: "Partner 2" },
@@ -10,19 +13,25 @@ const partnerLogos = [
 ];
 
 const OurPartner = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="container">
-      <h2 className="section-title">Our Partner</h2>
-      <p className="section-description">
+      <h2 className="section-title" data-aos="fade-up">
+        Our Partner
+      </h2>
+      <p className="section-description" data-aos="fade-up">
         We are proud to partner with leading brands and organizations in the textile industry,
         working together to create a more sustainable future.
       </p>
 
       <div className="partner-section">
-        {partnerLogos.map(({ id, src, alt }) => (
-          <div key={id}>
+        {partnerLogos.map((logo, index) => (
+          <div key={logo.id} data-aos="fade-up" data-aos-delay={index * 100}>
             <div className="partner-card">
-              <img src={src} alt={alt} />
+              <img src={logo.src} alt={logo.alt} />
             </div>
           </div>
         ))}

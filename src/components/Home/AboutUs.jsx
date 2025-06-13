@@ -1,4 +1,3 @@
-"use client";
 import React, { useEffect } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { useRouter } from "next/router";
