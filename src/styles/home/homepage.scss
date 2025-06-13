@@ -2,7 +2,7 @@
 .hero-banner {
   position: relative;
   width: 100%;
-  height: 97vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -660,9 +660,8 @@
   }
 
   .partner-section {
-
     justify-content: flex-start;
-    gap:4px;
+    gap: 4px;
 
     .partner-card {
       height: 50px;
@@ -671,10 +670,20 @@
     }
   }
 
+  .donation-section {
+    .donation-card {
+      padding: 2rem;
+    }
+  }
+
   .service-section {
     flex-direction: column;
 
     .service-image {
+      .image-overlay {
+        bottom: 0;
+        height: 100%;
+      }
       .image-two {
         top: 30px;
       }
