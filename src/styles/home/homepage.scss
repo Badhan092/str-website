@@ -460,9 +460,8 @@
   width: 100%;
   margin-top: 2rem;
 
-
   .partner-card {
-    flex:1;
+    flex: 1;
     display: flex;
     justify-content: center;
     height: 100px;
@@ -566,7 +565,7 @@
 
   .donation-card {
     background: #ffffff;
-    padding: 2rem 4rem ;
+    padding: 2rem 4rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -660,6 +659,18 @@
     }
   }
 
+  .partner-section {
+
+    justify-content: flex-start;
+    gap:4px;
+
+    .partner-card {
+      height: 50px;
+      margin-top: 0.9rem;
+      padding: 9px;
+    }
+  }
+
   .service-section {
     flex-direction: column;
 
@@ -674,7 +685,7 @@
     .product-cards {
       grid-template-columns: repeat(2, 1fr);
       gap: 4px;
-      padding: 8px;
+
       .product-card {
         padding: 10px;
       }
