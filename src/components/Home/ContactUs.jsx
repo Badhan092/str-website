@@ -15,21 +15,20 @@ const OfficeLocation = ({ country, address, phone, email, showBreak }) => (
 );
 
 const ContactUs = () => {
-
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
 
   const locations = [
     {
-      country: "Germany",
-      address: "Adam-Opel-Straße 24 ,60386 ,Frankfurt am Main",
+      country: "Bangladesh (Head Office)",
+      address: "House# 1/B, Road# 10, Nikunja 2, Khilket, Dhaka-1229",
       phone: "(123) 456-7890",
       email: "info@strsourcing.com",
     },
     {
-      country: "Bangladesh",
-      address: "House# 1/B, Road# 10, Nikunja 2, Khilket, Dhaka-1229",
+      country: "Germany (Contact Office)",
+      address: "Adam-Opel-Straße 24 ,60386 ,Frankfurt am Main",
       phone: "(123) 456-7890",
       email: "info@strsourcing.com",
     },
@@ -37,7 +36,9 @@ const ContactUs = () => {
 
   return (
     <div className="container">
-      <h2 className="section-title" data-aos="fade-up">Contact Us</h2>
+      <h2 className="section-title" data-aos="fade-up">
+        Contact Us
+      </h2>
       <p className="section-description" data-aos="fade-up">
         Have questions or want to collaborate? Reach out — we're here to help you <br /> every step
         of the way.
@@ -52,7 +53,7 @@ const ContactUs = () => {
         </div>
 
         <div className="office-map" data-aos="fade-up">
-          <img src="/img/banner/map-icon.png"/>
+          <img src="/img/banner/map-icon.png" />
           {/* <iframe
             title="Office Location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9022640105146!2d90.39176331536418!3d23.750876794616173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8940f207ed9%3A0x9c5f50fd2758b7a!2sSTR%20Sourcing!5e0!3m2!1sen!2sbd!4v1589876543210!5m2!1sen!2sbd"

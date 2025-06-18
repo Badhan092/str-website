@@ -14,12 +14,12 @@ const slides = [
     image: "/img/banner/hero-banner-one.jpg",
   },
   {
-    title: "Built on Trust, Driven by Responsibility",
+    title: "Quality You Can Trust Values You Can See",
     text: "Together, let’s craft a future woven with excellence.",
     image: "/img/banner/hero-banner-two.jpg",
   },
   {
-    title: "STR Sourcing - Built on Sustainability",
+    title: "Sourcing With Integrity Delivery With Pride",
     text: "Together, let’s craft a future woven with excellence.",
     image: "/img/banner/hero-banner-three.jpg",
   },

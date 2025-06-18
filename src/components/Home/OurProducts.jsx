@@ -61,9 +61,6 @@ const OurProducts = () => {
   return (
     <div className="container">
       <h2 className="section-title">Our Products</h2>
-      <p className="section-description">
-        We offer a wide range of sustainable textile products, including:
-      </p>
 
       <div className="product-section">
         <div className="product-cards">

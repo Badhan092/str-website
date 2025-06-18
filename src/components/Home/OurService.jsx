@@ -7,17 +7,17 @@ const services = [
   {
     number: "1",
     title: "Research & Development",
-    text: "We connect you with suppliers who prioritize eco-friendly practices and materials.",
+    text: "Our dedicated R&D team is always ready to bring your inspiration into your desirable product.",
   },
   {
     number: "2",
-    title: "Product Design",
-    text: "Our vetted manufacturers ensure high-quality production that meets your specifications.",
+    title: "Flexible MOQ",
+    text: "We are flexible on MOQs. We can give you the best price for your desired quantity, whether it's a small batch or a large order.",
   },
   {
     number: "3",
-    title: "Production",
-    text: "We provide real-time tracking and updates to keep you informed every step of the way.",
+    title: "Operation Support",
+    text: "Our dedicated marchdesing team will support you with all the necessary information and updates throughout the production process.",
   },
   {
     number: "4",

@@ -8,7 +8,7 @@ const tabs = [
   {
     id: "tab1",
     title: "Sustainability",
-    image: "/img/banner/sustainable.png",
+    image: "/img/banner/sustainable.jpg",
     content:
       "We are committed to eco-friendly processes that reduce waste and conserve energy. " +
       "Our production prioritizes low-impact dyes and sustainable raw materials. " +
@@ -18,7 +18,7 @@ const tabs = [
   {
     id: "tab2",
     title: "Trustworthy",
-    image: "/img/banner/trustworthy.jpeg",
+    image: "/img/banner/trustworthy.jpg",
     content:
       "Trust is at the heart of every partnership we build and every fabric we deliver. " +
       "We maintain full transparency across sourcing, production, and delivery. " +
@@ -28,7 +28,7 @@ const tabs = [
   {
     id: "tab3",
     title: "Responsibility",
-    image: "/img/banner/reliablity.png",
+    image: "/img/banner/responsibility.jpg",
     content:
       "Responsibility defines our operations — from timely delivery to product excellence. " +
       "We uphold strict quality control measures across every production batch. " +

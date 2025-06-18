@@ -37,7 +37,7 @@ const AboutUs = () => {
         </div>
 
         <div className="aboutus-image" data-aos="fade-up">
-          <img src="/img/banner/about-us.jpg" alt="About Us" className="aboutus-img-one" />
+          <img src="/img/banner/about-us-back.jpg" alt="About Us" className="aboutus-img-one" />
           <div className="image-overlay" />
           <div className="image-txt">
             <p className="text">Begin your</p>
@@ -45,7 +45,7 @@ const AboutUs = () => {
             <p className="text">With Our Company</p>
           </div>
           <img
-            src="/img/banner/about-us.jpg"
+            src="/img/banner/about-us-font.jpg"
             alt="About Us"
             className="aboutus-img-two"
             data-aos="fade-up"
