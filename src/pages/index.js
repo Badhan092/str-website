@@ -4,7 +4,7 @@ import HeroBanner from "@/components/Home/HeroBanner";
 import AboutUs from "@/components/Home/AboutUs";
 import STRTab from "@/components/Home/STRTab";
 import OurService from "@/components/Home/OurService";
-import OurProducts from "@/components/Home/OurProducts";
+import OurProducts from "@/components/Product/OurProducts";
 import ContactUs from "@/components/Home/ContactUs";
 import OurPartner from "@/components/Home/OurPartner";
 import Donation from "@/components/Home/Donation";
