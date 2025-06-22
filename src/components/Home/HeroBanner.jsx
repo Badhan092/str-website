@@ -9,7 +9,7 @@ import "swiper/css/autoplay";
 
 const slides = [
   {
-    title: "Where Sustainability Meets Trust & Responsibility Driven Results", 
+    title: "Sourcing With Integrity Delivery With Pride", 
     text: "Together, let’s craft a future woven with excellence.",
     image: "/img/banner/hero-banner-one.jpg",
   },
@@ -19,7 +19,7 @@ const slides = [
     image: "/img/banner/hero-banner-two.jpg",
   },
   {
-    title: "Sourcing With Integrity Delivery With Pride",
+    title: "Where Sustainability Meets Trust & Responsibility Driven Results",
     text: "Together, let’s craft a future woven with excellence.",
     image: "/img/banner/hero-banner-three.jpg",
   },

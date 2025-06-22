@@ -36,13 +36,6 @@ const WeContent = () => {
             (Minimum Order Quantity) requirements, gives our clients the ability to explore
             versatile designs, prints, and colorways without added cost or complexity.
           </p>
-          <p className="text">
-            At <b>STR</b> Sourcing, innovation is in our DNA. We harness state-of-the-art technology
-            and advanced manufacturing techniques to deliver fabrics that are not only high in
-            quality but also future-ready. Whether you're looking for natural, synthetic, blended,
-            or performance textiles, we provide versatile and customized fabric solutions that align
-            with your brand’s values and vision.
-          </p>
           <p className="text">Our Product Range Includes:</p>
           <ul>
             <li className="text">
@@ -63,9 +56,18 @@ const WeContent = () => {
               product development, fabric sourcing, garment technology, compliance, and supply chain
               management.
             </li>
+            <li className="text">
+              <b>Footwear & Bag:</b> we offer a diverse range of high-quality footwear and bags for
+              every lifestyle. From casual and performance shoes to elegant leather handbags and
+              everyday carryalls, our products are crafted with attention to detail, comfort, and
+              durability.
+            </li>
+            <li className="text">
+              <b>Jute & Craft:</b> Our eco-conscious jute and handcrafted products showcase
+              sustainable materials and traditional artistry with a contemporary, market-ready
+              appeal.
+            </li>
           </ul>
-          Our strength lies in our ability to adapt to market trends, deliver innovative and
-          sustainable solutions, and maintain uncompromising standards across every order.
         </div>
       </div>
     </div>

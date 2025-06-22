@@ -20,7 +20,7 @@ const tabs = [
     title: "Trustworthy",
     image: "/img/banner/trustworthy.jpg",
     content:
-      "Trust is at the heart of every partnership we build and every fabric we deliver. " +
+      "Trust is at the heart of every partnership we build." +
       "We maintain full transparency across sourcing, production, and delivery. " +
       "Our customers rely on us for consistency, honesty, and long-term commitment. " +
       "With STR, you gain a dependable partner you can count on every step of the way.",
