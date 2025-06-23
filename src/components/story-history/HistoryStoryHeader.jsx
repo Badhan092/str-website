@@ -7,7 +7,8 @@ const HistoryStoryHeader = () => {
         <div className="story-history-header-content">
           <h2 className="title">Story & History</h2>
           <p className="text">
-            We specialize in delivering premium quality fabrics tailored to global standards.
+            A Tale of passion from some Textile Engineers that reflect on tradition and
+            history of our country.
           </p>
         </div>
       </div>

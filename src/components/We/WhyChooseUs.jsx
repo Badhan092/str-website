@@ -46,7 +46,7 @@ const whyChooseUsData = [
   {
     id: 7,
     title: "Quality Control",
-    description: <>Each batch is quality-checked and lab-tested to ensure global compliance.</>,
+    description: <>Our quality team oversees every stage—from cutting to final inspection—to ensure top-notch products.</>,
   },
   {
     id: 8,

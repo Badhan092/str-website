@@ -17,7 +17,6 @@ const ResponsibilityCard = ({ title, items }) => (
 );
 
 const ResponsibilitiesList = () => {
-  
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -32,7 +31,10 @@ const ResponsibilitiesList = () => {
     },
     {
       title: "Sample Development",
-      items: ["Manage the sample and approval process across all factories"],
+      items: [
+        "Manage the sample and approval process across all factories",
+        "We provide sample support within two working weeks",
+      ],
     },
     {
       title: "Merchandising",

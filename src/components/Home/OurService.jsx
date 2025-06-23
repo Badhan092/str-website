@@ -7,22 +7,22 @@ const services = [
   {
     number: "1",
     title: "Research & Development",
-    text: "Our dedicated R&D team is always ready to bring your inspiration into your desirable product.",
+    text: "Our dedicated R&D team is committed to turning your vision into reality. With a strong focus on innovation and customization, we work closely with you to transform ideas into high-quality products that meet your exact specifications.",
   },
   {
     number: "2",
-    title: "Flexible MOQ",
-    text: "We are flexible on MOQs. We can give you the best price for your desired quantity, whether it's a small batch or a large order.",
+    title: "Flexible MOQ & Competitive Pricing",
+    text: "We offer flexible minimum order quantities starting from just 500 units, ensuring you get the best value without compromising on quality. Our pricing is competitive, tailored to support your business needs—whether you're starting small or scaling up.",
   },
   {
     number: "3",
     title: "Operation Support",
-    text: "Our dedicated marchdesing team will support you with all the necessary information and updates throughout the production process.",
+    text: "Our dedicated marchdesing team will support you with all the necessary information and updates throughout the production process.From sampling to final shipment, we keep you informed and in control every step of the way.",
   },
   {
     number: "4",
     title: "Quality",
-    text: "Our assigned quality team is involved from cutting, sewing to finishing, ensuring your products meet the highest standards.",
+    text: "Our dedicated quality team is actively involved at every stage—from cutting and sewing to inline, pre-final, and final inspections—to ensure a consistently high-quality end product.",
   },
 ];
 
@@ -59,14 +59,14 @@ const OurService = () => {
         </div>
         <div className="service-image">
           <img
-            src="/img/banner/service.jpg"
+            src="/img/banner/service-two.jpg"
             className="image-one"
             data-aos="fade-up"
             alt="STR Service"
           />
           <div className="image-overlay" />
           <img
-            src="/img/banner/service-two.jpg"
+            src="/img/banner/service.jpg"
             className="image-two"
             data-aos="fade-up"
             alt="STR Service"

@@ -36,8 +36,14 @@ const WeContent = () => {
             (Minimum Order Quantity) requirements, gives our clients the ability to explore
             versatile designs, prints, and colorways without added cost or complexity.
           </p>
-          <p className="text">Our Product Range Includes:</p>
-          <ul>
+          <p className="text" style={{ paddingTop: "20px" }}>
+            <b>
+              Our strength lies in our ability to source multi type of product.Our Product Range
+              Includes:
+            </b>
+          </p>
+
+          <ul style={{ marginTop: "0px" }}>
             <li className="text">
               <b>Fashionwear:</b> Woven and jersey tops, bottoms, dresses, and tailoring for men,
               women, and children
@@ -49,6 +55,10 @@ const WeContent = () => {
             <li className="text">
               <b>Knitwear:</b> Sweaters ranging from 3GG to 12GG Jute Products: Sustainable and
               stylish bags, accessories, and home items
+            </li>
+            <li className="text">
+              <b>Workwear:</b> Functional and durable clothing for various industries, including
+              uniforms, safety gear, and specialized apparel.
             </li>
             <li className="text">
               <b>Home Textiles:</b> Soft furnishings, bedding, and lifestyle products At STR

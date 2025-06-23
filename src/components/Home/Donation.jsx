@@ -23,8 +23,8 @@ const Donation = () => {
             </div>
             <h3>Fund for Cotton & Jute Farmer</h3>
             <p>
-              We have taken the initiative to establish a fund to support cotton and jute farmers
-              and their families in cotton-growing areas. <b>1%</b> of the sales value of each
+              We have taken the initiative to establish a fund to support cotton-jute farmers
+              and their families in cotton-jute growing areas. <b>1%</b> of the sales value of each
               product is paid into this fund, and we ensure that every purchase supports a noble
               cause.
             </p>
