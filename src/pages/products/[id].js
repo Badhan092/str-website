@@ -2,40 +2,38 @@ import { useRouter } from "next/router";
 import products from "@/data/products";
 import Link from "next/link";
 
-const ProductDetail = () => {
+const ProductSubCategoryPage = () => {
   const router = useRouter();
   const { id } = router.query;
 
-  const handleClick = () => {
-    router.push("/contact-us");
-  };
-  const product = products.find((p) => p.id === parseInt(id));
-  const relatedProducts = products.filter((p) => p.id !== parseInt(id)).slice(0, 4); // show 4 related
+  const product = products.find((item) => item.id === parseInt(id));
 
-  if (!product) {
-    return <div className="container top-space">Product not found.</div>;
-  }
+  if (!product) return <p>Loading...</p>;
 
   return (
-    <div className="container top-space product-detail-page">
-      <div className="product-detail-content">
-        <img src={product.image} alt={product.title} className="product-detail-img" />
-        <div className="product-detail-info">
-          <h1 className="product-title">{product.title}</h1>
-          <p className="product-detail-description">{product.details}</p>
-          <button className="section-button" onClick={handleClick}>
-            Contact Us
-          </button>
-        </div>
-      </div>
+    <div className="container top-space">
+      <h2 className="section-title">{product.title} Subcategories</h2>
 
-      <div className="related-products">
-        <h2>Related Products</h2>
-        <div className="related-cards">
-          {relatedProducts.map((item) => (
-            <Link href={`/products/${item.id}`} key={item.id} className="related-card">
-              <img src={item.image} alt={item.title} />
-              <h3>{item.title}</h3>
+      <div className="product-section">
+        <div className="product-cards">
+          {product.categories.map((cat, index) => (
+            <Link
+              href={`/products/${product.id}/${encodeURIComponent(
+                cat.name.toLowerCase().replace(/\s+/g, "-")
+              )}`}
+              key={index}
+            >
+              <div
+                className="product-card"
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+              >
+                <img className="product-img" src={cat.image} alt={cat.name} />
+                <div className="product-content">
+                  <h3 className="product-title">{cat.name}</h3>
+                  <p className="product-text">{product.description}</p>
+                </div>
+              </div>
             </Link>
           ))}
         </div>
@@ -44,4 +42,4 @@ const ProductDetail = () => {
   );
 };
 
-export default ProductDetail;
+export default ProductSubCategoryPage;

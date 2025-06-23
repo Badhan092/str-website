@@ -16,8 +16,16 @@ const OurProducts = () => {
         <div className="product-cards">
           {products.map((product, index) => (
             <Link href={`/products/${product.id}`} key={product.id}>
-              <div className="product-card" data-aos="fade-up" data-aos-delay={index * 100}>
-                <img className="product-img" src={product.image} alt={product.title} />
+              <div
+                className="product-card"
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+              >
+                <img
+                  className="product-img"
+                  src={product.image}
+                  alt={product.title}
+                />
                 <div className="product-content">
                   <h3 className="product-title">{product.title}</h3>
                   <p className="product-text">{product.description}</p>
