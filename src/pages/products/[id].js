@@ -15,28 +15,34 @@ const ProductSubCategoryPage = () => {
       <h2 className="section-title">{product.title} Subcategories</h2>
 
       <div className="product-section">
-        <div className="product-cards">
-          {product.categories.map((cat, index) => (
-            <Link
-              href={`/products/${product.id}/${encodeURIComponent(
-                cat.name.toLowerCase().replace(/\s+/g, "-")
-              )}`}
-              key={index}
-            >
-              <div
-                className="product-card"
-                data-aos="fade-up"
-                data-aos-delay={index * 100}
+        {product.categories && product.categories.length > 0 ? (
+          <div className="product-cards">
+            {product.categories.map((cat, index) => (
+              <Link
+                href={`/products/${product.id}/${encodeURIComponent(
+                  cat.name.toLowerCase().replace(/\s+/g, "-")
+                )}`}
+                key={index}
               >
-                <img className="product-img" src={cat.image} alt={cat.name} />
-                <div className="product-content">
-                  <h3 className="product-title">{cat.name}</h3>
-                  <p className="product-text">{product.description}</p>
+                <div
+                  className="product-card"
+                  data-aos="fade-up"
+                  data-aos-delay={index * 100}
+                >
+                  <img className="product-img" src={cat.image} alt={cat.name} />
+                  <div className="product-content">
+                    <h3 className="product-title">{cat.name}</h3>
+                    <p className="product-text">{product.description}</p>
+                  </div>
                 </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+              </Link>
+            ))}
+          </div>
+        ) : (
+          <div className="coming-soon">
+            <div className="comingsoon-txt">Coming Soon...</div>
+          </div>
+        )}
       </div>
     </div>
   );

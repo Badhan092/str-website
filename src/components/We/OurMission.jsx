@@ -28,7 +28,7 @@ const OurMission = () => {
               </p>
             </div>
             <div className="ourmission-image" data-aos="fade-up">
-              <img src="/img/banner/mission.jpg" />
+              <img src="/img/banner/mission-vision.jpg" />
             </div>
           </div>
         </div>

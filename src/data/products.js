@@ -9,7 +9,7 @@ const products = [
     categories: [
       {
         name: "Jacket",
-        image: "/img/products/sub-cat/jacket.png",
+        image: "/img/products/sub-cat/fashion/jacket.png",
         description: "Stylish jackets for all seasons.",
       },
       {
@@ -19,12 +19,12 @@ const products = [
       },
       {
         name: "Knit Tops",
-        image: "/img/products/sub-cat/tops.png",
+        image: "/img/products/sub-cat/fashion/knit-top.png",
         description: "Soft knit tops for everyday style.",
       },
       {
         name: "Knitwear",
-        image: "/img/products/sub-cat/knitwear.png",
+        image: "/img/products/sub-cat/fashion/knitwear.png",
         description: "Warm knitwear for chilly days.",
       },
       {
@@ -34,7 +34,7 @@ const products = [
       },
       {
         name: "Woven Tops",
-        image: "/img/products/sub-cat/woven-tops.png",
+        image: "/img/products/sub-cat/fashion/woven-top.png",
         description: "Elegant woven tops for formal occasions.",
       },
       {
@@ -44,7 +44,7 @@ const products = [
       },
       {
         name: "Denim",
-        image: "/img/products/sub-cat/denim.png",
+        image: "/img/products/sub-cat/fashion/denim.png",
         description: "Classic denim for timeless fashion.",
       },
     ],
@@ -57,48 +57,7 @@ const products = [
     description: "Tough, long-lasting fabric for daily use.",
     details:
       "Our workwear fabrics are engineered for environments where durability, safety, and resilience are essential. These fabrics are ideal for uniforms in industries like construction, manufacturing, automotive, and logistics. They offer resistance to tearing, abrasions, and high temperatures, all while remaining breathable and comfortable for extended shifts. Reinforced weaves, strong fibers, and anti-static properties make these fabrics compliant with industrial safety norms. With a range of textures and finishes, our workwear textiles meet both functional and branding requirements for your workforce.",
-    categories: [
-      {
-        name: "Jacket",
-        image: "/img/products/sub-cat/jacket.png",
-        description: "Stylish jackets for all seasons.",
-      },
-      {
-        name: "Knit Bottoms",
-        image: "/img/products/sub-cat/bottom.png",
-        description: "Comfortable knit bottoms for casual wear.",
-      },
-      {
-        name: "Knit Tops",
-        image: "/img/products/sub-cat/tops.png",
-        description: "Soft knit tops for everyday style.",
-      },
-      {
-        name: "Knitwear",
-        image: "/img/products/sub-cat/knitwear.png",
-        description: "Warm knitwear for chilly days.",
-      },
-      {
-        name: "Swimwear",
-        image: "/img/products/sub-cat/swimwear.png",
-        description: "Trendy swimwear for beach lovers.",
-      },
-      {
-        name: "Woven Tops",
-        image: "/img/products/sub-cat/woven-tops.png",
-        description: "Elegant woven tops for formal occasions.",
-      },
-      {
-        name: "Woven Bottoms",
-        image: "/img/products/sub-cat/woven-bottoms.png",
-        description: "Stylish woven bottoms for versatile outfits.",
-      },
-      {
-        name: "Denim",
-        image: "/img/products/sub-cat/denim.png",
-        description: "Classic denim for timeless fashion.",
-      },
-    ],
+    categories: [],
   },
   {
     id: 3,
@@ -107,48 +66,7 @@ const products = [
     description: "Comfortable fabric for cozy living spaces.",
     details:
       "Our home textile collection brings comfort, color, and quality to your interiors. Designed for applications ranging from bedding and cushions to curtains and upholstery, these fabrics create a cozy and stylish home environment. They are available in a variety of textures—soft cottons, plush velvets, and breathable linens—to match both aesthetic and functional needs. Treated for fade resistance and ease of washing, they remain fresh and beautiful even with regular use. Whether you're decorating a hotel suite or a cozy family living room, our fabrics deliver timeless warmth and elegance.",
-    categories: [
-      {
-        name: "Jacket",
-        image: "/img/products/sub-cat/jacket.png",
-        description: "Stylish jackets for all seasons.",
-      },
-      {
-        name: "Knit Bottoms",
-        image: "/img/products/sub-cat/bottom.png",
-        description: "Comfortable knit bottoms for casual wear.",
-      },
-      {
-        name: "Knit Tops",
-        image: "/img/products/sub-cat/tops.png",
-        description: "Soft knit tops for everyday style.",
-      },
-      {
-        name: "Knitwear",
-        image: "/img/products/sub-cat/knitwear.png",
-        description: "Warm knitwear for chilly days.",
-      },
-      {
-        name: "Swimwear",
-        image: "/img/products/sub-cat/swimwear.png",
-        description: "Trendy swimwear for beach lovers.",
-      },
-      {
-        name: "Woven Tops",
-        image: "/img/products/sub-cat/woven-tops.png",
-        description: "Elegant woven tops for formal occasions.",
-      },
-      {
-        name: "Woven Bottoms",
-        image: "/img/products/sub-cat/woven-bottoms.png",
-        description: "Stylish woven bottoms for versatile outfits.",
-      },
-      {
-        name: "Denim",
-        image: "/img/products/sub-cat/denim.png",
-        description: "Classic denim for timeless fashion.",
-      },
-    ],
+    categories: [],
   },
   {
     id: 4,
@@ -157,48 +75,7 @@ const products = [
     description: "Hygienic fabric for medical environments.",
     details:
       "The healthcare industry demands textiles that are not only comfortable but also hygienic and safe. Our medical-grade fabrics are developed with antimicrobial finishes, fluid resistance, and easy sanitization in mind. Ideal for hospital uniforms, surgical drapes, bedsheets, and privacy curtains, these fabrics support infection control while offering softness and durability. Designed to meet strict healthcare standards, they are tested for hypoallergenic properties, colorfastness after repeated washes, and resistance to harsh cleaning agents.",
-    categories: [
-      {
-        name: "Jacket",
-        image: "/img/products/sub-cat/jacket.png",
-        description: "Stylish jackets for all seasons.",
-      },
-      {
-        name: "Knit Bottoms",
-        image: "/img/products/sub-cat/bottom.png",
-        description: "Comfortable knit bottoms for casual wear.",
-      },
-      {
-        name: "Knit Tops",
-        image: "/img/products/sub-cat/tops.png",
-        description: "Soft knit tops for everyday style.",
-      },
-      {
-        name: "Knitwear",
-        image: "/img/products/sub-cat/knitwear.png",
-        description: "Warm knitwear for chilly days.",
-      },
-      {
-        name: "Swimwear",
-        image: "/img/products/sub-cat/swimwear.png",
-        description: "Trendy swimwear for beach lovers.",
-      },
-      {
-        name: "Woven Tops",
-        image: "/img/products/sub-cat/woven-tops.png",
-        description: "Elegant woven tops for formal occasions.",
-      },
-      {
-        name: "Woven Bottoms",
-        image: "/img/products/sub-cat/woven-bottoms.png",
-        description: "Stylish woven bottoms for versatile outfits.",
-      },
-      {
-        name: "Denim",
-        image: "/img/products/sub-cat/denim.png",
-        description: "Classic denim for timeless fashion.",
-      },
-    ],
+    categories: [],
   },
   {
     id: 5,
@@ -207,48 +84,7 @@ const products = [
     description: "Lightweight fabric for athletes.",
     details:
       "Performance matters—and our sportswear fabrics deliver. Crafted for athletes and active lifestyles, these textiles feature moisture-wicking, odor control, and stretch recovery technologies. Whether used for gym wear, yoga gear, or professional sports uniforms, our fabrics ensure unrestricted movement and thermoregulation. Available in lightweight, breathable constructions with mesh or compression structures, they help athletes stay cool, dry, and focused. Our eco-line also includes sustainable athletic fabrics made from recycled polyester and organic cotton blends.",
- categories: [
-      {
-        name: "Jacket",
-        image: "/img/products/sub-cat/jacket.png",
-        description: "Stylish jackets for all seasons.",
-      },
-      {
-        name: "Knit Bottoms",
-        image: "/img/products/sub-cat/bottom.png",
-        description: "Comfortable knit bottoms for casual wear.",
-      },
-      {
-        name: "Knit Tops",
-        image: "/img/products/sub-cat/tops.png",
-        description: "Soft knit tops for everyday style.",
-      },
-      {
-        name: "Knitwear",
-        image: "/img/products/sub-cat/knitwear.png",
-        description: "Warm knitwear for chilly days.",
-      },
-      {
-        name: "Swimwear",
-        image: "/img/products/sub-cat/swimwear.png",
-        description: "Trendy swimwear for beach lovers.",
-      },
-      {
-        name: "Woven Tops",
-        image: "/img/products/sub-cat/woven-tops.png",
-        description: "Elegant woven tops for formal occasions.",
-      },
-      {
-        name: "Woven Bottoms",
-        image: "/img/products/sub-cat/woven-bottoms.png",
-        description: "Stylish woven bottoms for versatile outfits.",
-      },
-      {
-        name: "Denim",
-        image: "/img/products/sub-cat/denim.png",
-        description: "Classic denim for timeless fashion.",
-      },
-    ],
+ categories: [],
   },
   {
     id: 6,
@@ -257,48 +93,7 @@ const products = [
     description: "Professional, breathable fabric for office wear.",
     details:
       "Our corporatewear textiles are designed to reflect professionalism, comfort, and brand identity. These fabrics are perfect for business suits, shirts, blouses, skirts, and uniforms. They offer wrinkle resistance, moisture management, and long-lasting color retention—ideal for employees working long hours in dynamic environments. Blended for ease of tailoring, our corporate fabrics are compatible with modern and classic officewear designs. They help companies create a cohesive visual identity while ensuring their staff look sharp and feel comfortable throughout the day.",
- categories: [
-      {
-        name: "Jacket",
-        image: "/img/products/sub-cat/jacket.png",
-        description: "Stylish jackets for all seasons.",
-      },
-      {
-        name: "Knit Bottoms",
-        image: "/img/products/sub-cat/bottom.png",
-        description: "Comfortable knit bottoms for casual wear.",
-      },
-      {
-        name: "Knit Tops",
-        image: "/img/products/sub-cat/tops.png",
-        description: "Soft knit tops for everyday style.",
-      },
-      {
-        name: "Knitwear",
-        image: "/img/products/sub-cat/knitwear.png",
-        description: "Warm knitwear for chilly days.",
-      },
-      {
-        name: "Swimwear",
-        image: "/img/products/sub-cat/swimwear.png",
-        description: "Trendy swimwear for beach lovers.",
-      },
-      {
-        name: "Woven Tops",
-        image: "/img/products/sub-cat/woven-tops.png",
-        description: "Elegant woven tops for formal occasions.",
-      },
-      {
-        name: "Woven Bottoms",
-        image: "/img/products/sub-cat/woven-bottoms.png",
-        description: "Stylish woven bottoms for versatile outfits.",
-      },
-      {
-        name: "Denim",
-        image: "/img/products/sub-cat/denim.png",
-        description: "Classic denim for timeless fashion.",
-      },
-    ],
+ categories: [],
   },
   {
     id: 7,
@@ -307,48 +102,7 @@ const products = [
     description: "Flexible, breathable fabric crafted for comfort.",
     details:
       "Footwear requires materials that are strong yet soft, breathable yet protective. Our specialized footwear fabrics are tailored for linings, uppers, insoles, and reinforcement areas in casual and performance shoes. They offer flexibility, abrasion resistance, and moisture control—making them ideal for both lifestyle and athletic use. Anti-microbial treatments ensure freshness, while thermoregulation technology helps maintain foot comfort. Whether for sports brands or luxury shoes, our materials meet the highest demands of quality, comfort, and innovation.",
-  categories: [
-      {
-        name: "Jacket",
-        image: "/img/products/sub-cat/jacket.png",
-        description: "Stylish jackets for all seasons.",
-      },
-      {
-        name: "Knit Bottoms",
-        image: "/img/products/sub-cat/bottom.png",
-        description: "Comfortable knit bottoms for casual wear.",
-      },
-      {
-        name: "Knit Tops",
-        image: "/img/products/sub-cat/tops.png",
-        description: "Soft knit tops for everyday style.",
-      },
-      {
-        name: "Knitwear",
-        image: "/img/products/sub-cat/knitwear.png",
-        description: "Warm knitwear for chilly days.",
-      },
-      {
-        name: "Swimwear",
-        image: "/img/products/sub-cat/swimwear.png",
-        description: "Trendy swimwear for beach lovers.",
-      },
-      {
-        name: "Woven Tops",
-        image: "/img/products/sub-cat/woven-tops.png",
-        description: "Elegant woven tops for formal occasions.",
-      },
-      {
-        name: "Woven Bottoms",
-        image: "/img/products/sub-cat/woven-bottoms.png",
-        description: "Stylish woven bottoms for versatile outfits.",
-      },
-      {
-        name: "Denim",
-        image: "/img/products/sub-cat/denim.png",
-        description: "Classic denim for timeless fashion.",
-      },
-    ],
+  categories: [],
   },
   {
     id: 8,
@@ -359,45 +113,41 @@ const products = [
       "Our jute and craft fabrics celebrate tradition, sustainability, and creativity. These natural fibers are biodegradable, sturdy, and rich in texture—ideal for handcrafted bags, decor, packaging, and promotional items. We work closely with artisans and eco-conscious brands to develop jute-based fabrics that blend rustic charm with modern applications. Available in plain, printed, or dyed forms, our jute collection supports environmental responsibility while empowering local craftsmanship. It's the perfect choice for businesses that value authenticity and green production.",
      categories: [
       {
-        name: "Jacket",
-        image: "/img/products/sub-cat/jacket.png",
+        name: "Jute",
+        image: "/img/products/sub-cat/jute/jute.jpg",
         description: "Stylish jackets for all seasons.",
       },
       {
-        name: "Knit Bottoms",
-        image: "/img/products/sub-cat/bottom.png",
+        name: "Bag",
+        image: "/img/products/sub-cat/jute/bag.jpg",
         description: "Comfortable knit bottoms for casual wear.",
       },
       {
-        name: "Knit Tops",
-        image: "/img/products/sub-cat/tops.png",
+        name: "Baskets",
+        image: "/img/products/sub-cat/jute/basket.jpg",
         description: "Soft knit tops for everyday style.",
       },
       {
-        name: "Knitwear",
-        image: "/img/products/sub-cat/knitwear.png",
+        name: "Jute Placemat",
+        image: "/img/products/sub-cat/jute/jute-placement.jpg",
         description: "Warm knitwear for chilly days.",
       },
       {
-        name: "Swimwear",
-        image: "/img/products/sub-cat/swimwear.png",
+        name: "Crafts",
+        image: "/img/products/sub-cat/jute/crafts.jpg",
         description: "Trendy swimwear for beach lovers.",
       },
       {
-        name: "Woven Tops",
-        image: "/img/products/sub-cat/woven-tops.png",
+        name: "Crafts Basket",
+        image: "/img/products/sub-cat/jute/crafts-basket.jpg",
         description: "Elegant woven tops for formal occasions.",
       },
       {
-        name: "Woven Bottoms",
-        image: "/img/products/sub-cat/woven-bottoms.png",
+        name: "Crafts Placemat",
+        image: "/img/products/sub-cat/jute/crafts-placemate.jpg",
         description: "Stylish woven bottoms for versatile outfits.",
       },
-      {
-        name: "Denim",
-        image: "/img/products/sub-cat/denim.png",
-        description: "Classic denim for timeless fashion.",
-      },
+    
     ],
   },
 ];

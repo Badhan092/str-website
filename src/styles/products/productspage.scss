@@ -75,3 +75,28 @@
     }
   }
 }
+
+.coming-soon {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+
+  .comingsoon-txt {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+  }
+}
