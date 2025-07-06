@@ -68,7 +68,7 @@
 
 .detail-content {
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 10px 0;
   }
 
@@ -85,5 +85,62 @@
   p {
     font-size: 1rem;
     line-height: 1.6;
+  }
+}
+
+.related-section {
+  margin-top: 60px;
+
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    @media (max-width: 992px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .event-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    padding: 12px;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    .detail-content {
+      .date {
+        max-width: 100px;
+        background: rgba(217, 226, 243, 0.63);
+        padding: 8px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        color: #052eee;
+        font-weight: 600;
+      }
+      h2 {
+        font-size: 1.2rem;
+        margin: 10px 0;
+      }
+
+      p {
+        font-size: 0.9rem;
+        color: #666;
+        margin: 5px 0 10px;
+      }
+    }
   }
 }

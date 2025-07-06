@@ -611,8 +611,9 @@
 @media (min-width: 300px) and (max-width: 1024px) {
   .hero-banner {
     height: 80vh;
+    margin-top: -29px;
     .hero-container {
-      max-width: 500px;
+      max-width: 100%;
       .title {
         font-size: 2rem;
       }
