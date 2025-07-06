@@ -1,15 +1,8 @@
 import React from "react";
+import NewsEventCard from "@/components/Events/NewsEventCard";
 
+const Index = () => {
+  return <NewsEventCard />;
+};
 
-
-
-const index = () =>{
-
-     return(
-          <>
-      
-          </>
-     )
-}
-
-export default index;
+export default Index;
