@@ -429,17 +429,17 @@
       }
 
       .product-content {
-        position: absolute;
-        bottom: 15px;
-        left: 4.5%;
-        right: 0;
-        width: 91.3%;
         background-color: rgb(2 40 206 / 66%);
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
         padding: 12px;
+        margin-top: -80px;
+
+        &.no-description {
+          margin-top: -60px;
+        }
 
         .product-title {
           font-size: 1.2rem;
@@ -708,8 +708,8 @@
         padding: 10px;
       }
       .product-content {
-        width: 85%;
-        margin-top: -27% !important;
+    
+        margin-top: -52px !important;
 
         .product-title {
           font-size: 0.8rem !important;

@@ -10,17 +10,14 @@ const products = [
       {
         name: "Jacket",
         image: "/img/products/sub-cat/fashion/jacket.png",
-        description: "Stylish jackets for all seasons.",
       },
       {
         name: "Knit Bottoms",
         image: "/img/products/sub-cat/bottom.png",
-        description: "Comfortable knit bottoms for casual wear.",
       },
       {
         name: "Knit Tops",
         image: "/img/products/sub-cat/fashion/knit-top.png",
-        description: "Soft knit tops for everyday style.",
       },
       {
         name: "Knitwear",
@@ -30,22 +27,18 @@ const products = [
       {
         name: "Swimwear",
         image: "/img/products/sub-cat/swimwear.png",
-        description: "Trendy swimwear for beach lovers.",
       },
       {
         name: "Woven Tops",
         image: "/img/products/sub-cat/fashion/woven-top.png",
-        description: "Elegant woven tops for formal occasions.",
       },
       {
         name: "Woven Bottoms",
         image: "/img/products/sub-cat/woven-bottoms.png",
-        description: "Stylish woven bottoms for versatile outfits.",
       },
       {
         name: "Denim",
         image: "/img/products/sub-cat/fashion/denim.png",
-        description: "Classic denim for timeless fashion.",
       },
     ],
   },
@@ -115,12 +108,10 @@ const products = [
       {
         name: "Jute",
         image: "/img/products/sub-cat/jute/jute.jpg",
-        description: "Stylish jackets for all seasons.",
       },
       {
         name: "Bag",
         image: "/img/products/sub-cat/jute/bag.jpg",
-        description: "Comfortable knit bottoms for casual wear.",
       },
       {
         name: "Baskets",
@@ -130,22 +121,18 @@ const products = [
       {
         name: "Jute Placemat",
         image: "/img/products/sub-cat/jute/jute-placement.jpg",
-        description: "Warm knitwear for chilly days.",
       },
       {
         name: "Crafts",
         image: "/img/products/sub-cat/jute/crafts.jpg",
-        description: "Trendy swimwear for beach lovers.",
       },
       {
         name: "Crafts Basket",
         image: "/img/products/sub-cat/jute/crafts-basket.jpg",
-        description: "Elegant woven tops for formal occasions.",
       },
       {
         name: "Crafts Placemat",
         image: "/img/products/sub-cat/jute/crafts-placemate.jpg",
-        description: "Stylish woven bottoms for versatile outfits.",
       },
     
     ],

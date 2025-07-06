@@ -24,15 +24,10 @@ const ProductSubCategoryPage = () => {
                 )}`}
                 key={index}
               >
-                <div
-                  className="product-card"
-                  data-aos="fade-up"
-                  data-aos-delay={index * 100}
-                >
+                <div className="product-card" data-aos="fade-up" data-aos-delay={index * 100}>
                   <img className="product-img" src={cat.image} alt={cat.name} />
-                  <div className="product-content">
+                  <div className="product-content no-description">
                     <h3 className="product-title">{cat.name}</h3>
-        
                   </div>
                 </div>
               </Link>
