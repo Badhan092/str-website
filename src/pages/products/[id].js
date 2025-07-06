@@ -32,7 +32,7 @@ const ProductSubCategoryPage = () => {
                   <img className="product-img" src={cat.image} alt={cat.name} />
                   <div className="product-content">
                     <h3 className="product-title">{cat.name}</h3>
-                    <p className="product-text">{product.description}</p>
+        
                   </div>
                 </div>
               </Link>
