@@ -61,10 +61,8 @@ const WeContent = () => {
               uniforms, safety gear, and specialized apparel.
             </li>
             <li className="text">
-              <b>Home Textiles:</b> Soft furnishings, bedding, and lifestyle products At STR
-              Sourcing, we’re powered by a dynamic, experienced team of professionals in design,
-              product development, fabric sourcing, garment technology, compliance, and supply chain
-              management.
+              <b>Home Textiles:</b> Soft furnishings, bedding, Towels and lifestyle products designed
+              to enhance comfort, style, and functionality.
             </li>
             <li className="text">
               <b>Footwear & Bag:</b> we offer a diverse range of high-quality footwear and bags for

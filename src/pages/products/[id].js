@@ -12,7 +12,7 @@ const ProductSubCategoryPage = () => {
 
   return (
     <div className="container top-space">
-      <h2 className="section-title">{product.title} Subcategories</h2>
+      <h2 className="section-title">{product.title}</h2>
 
       <div className="product-section">
         {product.categories && product.categories.length > 0 ? (
@@ -24,9 +24,13 @@ const ProductSubCategoryPage = () => {
                 )}`}
                 key={index}
               >
-                <div className="product-card" data-aos="fade-up" data-aos-delay={index * 100}>
+                <div
+                  className={`product-card ${!cat.description ? "no-description" : ""}`}
+                  data-aos="fade-up"
+                  data-aos-delay={index * 100}
+                >
                   <img className="product-img" src={cat.image} alt={cat.name} />
-                  <div className="product-content no-description">
+                  <div className="product-content">
                     <h3 className="product-title">{cat.name}</h3>
                     <p className="product-text">{cat.description}</p>
                   </div>

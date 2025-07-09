@@ -11,7 +11,7 @@ const slides = [
   {
     title: "Sourcing With Integrity Delivery With Pride", 
     text: "Together, let’s craft a future woven with excellence.",
-    image: "/img/banner/hero-banner-one.jpg",
+    image: "/img/banner/hero-banner-one-q.jpg",
   },
   {
     title: "Quality You Can Trust Values You Can See",

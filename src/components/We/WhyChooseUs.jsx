@@ -7,14 +7,20 @@ const whyChooseUsData = [
     id: 1,
     title: "Research & Development",
     description: (
-      <>We connect you with suppliers who prioritize eco-friendly practices and materials.</>
+      <>
+        We involves exploring innovative materials, sustainable practices, and advanced
+        manufacturing techniques.
+      </>
     ),
   },
   {
     id: 2,
     title: "Global Sourcing",
     description: (
-      <>Gain access to top-tier suppliers worldwide through our trusted network of manufacturers.</>
+      <>
+        Our focus on Reducing Costs Without Compromising Performance. Gain access to top-tier
+        Customer worldwide through our trusted network of manufacturers.
+      </>
     ),
   },
   {
@@ -46,7 +52,12 @@ const whyChooseUsData = [
   {
     id: 7,
     title: "Quality Control",
-    description: <>Our quality team oversees every stage—from cutting to final inspection—to ensure top-notch products.</>,
+    description: (
+      <>
+        Our quality team oversees every stage—from cutting to final inspection—to ensure top-notch
+        products.
+      </>
+    ),
   },
   {
     id: 8,
@@ -62,7 +73,6 @@ const WhyChooseUs = () => {
         <h2 className="section-title text-center" data-aos="fade-up">
           Why Choose Us?
         </h2>
-  
 
         <div className="whychooseus-content">
           {whyChooseUsData.map((item, index) => (

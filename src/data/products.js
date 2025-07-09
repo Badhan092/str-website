@@ -54,6 +54,24 @@ const products = [
   },
   {
     id: 3,
+    image: "/img/products/6.png",
+    title: "Corporatewear",
+    description: "Professional, breathable fabric for office wear.",
+    details:
+      "Our corporatewear textiles are designed to reflect professionalism, comfort, and brand identity. These fabrics are perfect for business suits, shirts, blouses, skirts, and uniforms. They offer wrinkle resistance, moisture management, and long-lasting color retention—ideal for employees working long hours in dynamic environments. Blended for ease of tailoring, our corporate fabrics are compatible with modern and classic officewear designs. They help companies create a cohesive visual identity while ensuring their staff look sharp and feel comfortable throughout the day.",
+    categories: [],
+  },
+  {
+    id: 4,
+    image: "/img/products/5.png",
+    title: "Sportswear",
+    description: "Lightweight fabric for athletes.",
+    details:
+      "Performance matters—and our sportswear fabrics deliver. Crafted for athletes and active lifestyles, these textiles feature moisture-wicking, odor control, and stretch recovery technologies. Whether used for gym wear, yoga gear, or professional sports uniforms, our fabrics ensure unrestricted movement and thermoregulation. Available in lightweight, breathable constructions with mesh or compression structures, they help athletes stay cool, dry, and focused. Our eco-line also includes sustainable athletic fabrics made from recycled polyester and organic cotton blends.",
+    categories: [],
+  },
+  {
+    id: 5,
     image: "/img/products/3.png",
     title: "Home textiles",
     description: "Comfortable fabric for cozy living spaces.",
@@ -62,23 +80,13 @@ const products = [
     categories: [],
   },
   {
-    id: 4,
+    id: 6,
     image: "/img/products/4.png",
     title: "Healthcare",
     description: "Hygienic fabric for medical environments.",
     details:
       "The healthcare industry demands textiles that are not only comfortable but also hygienic and safe. Our medical-grade fabrics are developed with antimicrobial finishes, fluid resistance, and easy sanitization in mind. Ideal for hospital uniforms, surgical drapes, bedsheets, and privacy curtains, these fabrics support infection control while offering softness and durability. Designed to meet strict healthcare standards, they are tested for hypoallergenic properties, colorfastness after repeated washes, and resistance to harsh cleaning agents.",
     categories: [
-      {
-        name: "Shoe Cover",
-        image: "/img/products/sub-cat/medical/1.jpg",
-        description: "Non woven Anti slip fabricMedical & General Hygienic purpose",
-      },
-      {
-        name: "Balaclava",
-        image: "/img/products/sub-cat/medical/4.jpg",
-        description: "Polypropylene FabricsLaboratory & Industrial Purpose",
-      },
       {
         name: "Medical Apron",
         image: "/img/products/sub-cat/medical/3.jpg",
@@ -90,6 +98,27 @@ const products = [
         description: "Non woven latex-free fabricMedical, General & Cosmetology",
       },
       {
+        name: "Beard Cover",
+        image: "/img/products/sub-cat/medical/8.jpg",
+        description: "Non woven latex-free fabric Clinical, Fishery & Food service",
+      },
+      {
+        name: "Surgical Apron",
+        image: "/img/products/sub-cat/medical/6.jpg",
+        description: "Non woven latex-free fabric Clinical, Fishery & Food service",
+      },
+      {
+        name: "Balaclava",
+        image: "/img/products/sub-cat/medical/4.jpg",
+        description: "Polypropylene FabricsLaboratory & Industrial Purpose",
+      },
+      {
+        name: "Shoe Cover",
+        image: "/img/products/sub-cat/medical/1.jpg",
+        description: "Non woven Anti slip fabric  Medical & General Hygienic purpose",
+      },
+
+      {
         name: "Coverall",
         image: "/img/products/sub-cat/medical/2.jpg",
         description: "Polypropylene / Microporous Fabrics Medical & Laboratory purpose",
@@ -99,35 +128,13 @@ const products = [
         image: "/img/products/sub-cat/medical/7.jpg",
         description: "Polypropylene Fabrics Laboratory, Food & General Trade",
       },
-      {
-        name: "Beard Cover",
-        image: "/img/products/sub-cat/medical/8.jpg",
-        description: "Non woven latex-free fabric Clinical, Fishery & Food service",
-      },
     ],
   },
-  {
-    id: 5,
-    image: "/img/products/5.png",
-    title: "Sportswear",
-    description: "Lightweight fabric for athletes.",
-    details:
-      "Performance matters—and our sportswear fabrics deliver. Crafted for athletes and active lifestyles, these textiles feature moisture-wicking, odor control, and stretch recovery technologies. Whether used for gym wear, yoga gear, or professional sports uniforms, our fabrics ensure unrestricted movement and thermoregulation. Available in lightweight, breathable constructions with mesh or compression structures, they help athletes stay cool, dry, and focused. Our eco-line also includes sustainable athletic fabrics made from recycled polyester and organic cotton blends.",
-    categories: [],
-  },
-  {
-    id: 6,
-    image: "/img/products/6.png",
-    title: "Corporatewear",
-    description: "Professional, breathable fabric for office wear.",
-    details:
-      "Our corporatewear textiles are designed to reflect professionalism, comfort, and brand identity. These fabrics are perfect for business suits, shirts, blouses, skirts, and uniforms. They offer wrinkle resistance, moisture management, and long-lasting color retention—ideal for employees working long hours in dynamic environments. Blended for ease of tailoring, our corporate fabrics are compatible with modern and classic officewear designs. They help companies create a cohesive visual identity while ensuring their staff look sharp and feel comfortable throughout the day.",
-    categories: [],
-  },
+
   {
     id: 7,
     image: "/img/products/8.png",
-    title: "Footwear",
+    title: "Footwear & Bag",
     description: "Flexible, breathable fabric crafted for comfort.",
     details:
       "Footwear requires materials that are strong yet soft, breathable yet protective. Our specialized footwear fabrics are tailored for linings, uppers, insoles, and reinforcement areas in casual and performance shoes. They offer flexibility, abrasion resistance, and moisture control—making them ideal for both lifestyle and athletic use. Anti-microbial treatments ensure freshness, while thermoregulation technology helps maintain foot comfort. Whether for sports brands or luxury shoes, our materials meet the highest demands of quality, comfort, and innovation.",
