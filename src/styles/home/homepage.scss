@@ -435,10 +435,14 @@
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
         padding: 12px;
-        margin-top: -80px;
+        margin-top: -60px;
 
-        &.no-description {
-          margin-top: -60px;
+        &.description {
+          margin-top: -78px;
+        }
+
+        &.has-star {
+          margin-top: -95px;
         }
 
         .product-title {
@@ -709,7 +713,6 @@
         padding: 10px;
       }
       .product-content {
-    
         margin-top: -52px !important;
 
         .product-title {

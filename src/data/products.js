@@ -22,7 +22,6 @@ const products = [
       {
         name: "Knitwear",
         image: "/img/products/sub-cat/fashion/knitwear.png",
-        description: "Warm knitwear for chilly days.",
       },
       {
         name: "Swimwear",
@@ -90,43 +89,43 @@ const products = [
       {
         name: "Medical Apron",
         image: "/img/products/sub-cat/medical/3.jpg",
-        description: "Polypropylene FabricsMedical & General Hygienic purpose",
+        description: "Polypropylene Fabrics * Medical & General Hygienic purpose",
       },
       {
         name: "Bouffant Cap",
         image: "/img/products/sub-cat/medical/5.jpg",
-        description: "Non woven latex-free fabricMedical, General & Cosmetology",
+        description: "Non woven latex-free fabric * Medical, General & Cosmetology",
       },
       {
         name: "Beard Cover",
         image: "/img/products/sub-cat/medical/8.jpg",
-        description: "Non woven latex-free fabric Clinical, Fishery & Food service",
+        description: "Non woven latex-free fabric * Clinical, Fishery & Food service",
       },
       {
         name: "Surgical Apron",
         image: "/img/products/sub-cat/medical/6.jpg",
-        description: "Non woven latex-free fabric Clinical, Fishery & Food service",
+        description: "Non woven latex-free fabric * Clinical, Fishery & Food service",
       },
       {
         name: "Balaclava",
         image: "/img/products/sub-cat/medical/4.jpg",
-        description: "Polypropylene FabricsLaboratory & Industrial Purpose",
+        description: "Polypropylene Fabrics * Laboratory & Industrial Purpose",
       },
       {
         name: "Shoe Cover",
         image: "/img/products/sub-cat/medical/1.jpg",
-        description: "Non woven Anti slip fabric  Medical & General Hygienic purpose",
+        description: "Non woven Anti slip fabric * Medical & General Hygienic purpose",
       },
 
       {
         name: "Coverall",
         image: "/img/products/sub-cat/medical/2.jpg",
-        description: "Polypropylene / Microporous Fabrics Medical & Laboratory purpose",
+        description: "Polypropylene / Microporous Fabrics * Medical & Laboratory purpose",
       },
       {
         name: "Labcoat",
         image: "/img/products/sub-cat/medical/7.jpg",
-        description: "Polypropylene Fabrics Laboratory, Food & General Trade",
+        description: "Polypropylene Fabrics * Laboratory, Food & General Trade",
       },
     ],
   },

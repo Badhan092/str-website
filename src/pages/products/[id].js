@@ -30,9 +30,22 @@ const ProductSubCategoryPage = () => {
                   data-aos-delay={index * 100}
                 >
                   <img className="product-img" src={cat.image} alt={cat.name} />
-                  <div className="product-content">
+                  <div
+                    className={`product-content ${cat.description ? "description" : ""} ${
+                      cat.description && cat.description.includes("*") ? "has-star" : ""
+                    }`}
+                  >
                     <h3 className="product-title">{cat.name}</h3>
-                    <p className="product-text">{cat.description}</p>
+                    <p className="product-text">
+                      {cat.description
+                        ? cat.description.split(/\s*\*\s*/).map((part, idx) => (
+                            <span key={idx}>
+                              {idx > 0 && <br />}
+                              {part}
+                            </span>
+                          ))
+                        : ""}
+                    </p>
                   </div>
                 </div>
               </Link>

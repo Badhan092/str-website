@@ -35,7 +35,7 @@ const SubcategoryDetail = () => {
     <div className="container top-space product-detail-page">
       {/* Subcategory Detail */}
       <div className="product-detail-content">
-        <img
+        <img m
           src={category.image}
           alt={category.name}
           className="product-detail-img"
