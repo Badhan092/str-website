@@ -129,7 +129,6 @@ const products = [
       },
     ],
   },
-
   {
     id: 7,
     image: "/img/products/8.png",
@@ -142,39 +141,99 @@ const products = [
   {
     id: 8,
     image: "/img/products/7.png",
-    title: "Jute & crafts",
+    title: "Jute & Crafts",
     description: "Natural, textured fabric for handmade goods.",
     details:
       "Our jute and craft fabrics celebrate tradition, sustainability, and creativity. These natural fibers are biodegradable, sturdy, and rich in texture—ideal for handcrafted bags, decor, packaging, and promotional items. We work closely with artisans and eco-conscious brands to develop jute-based fabrics that blend rustic charm with modern applications. Available in plain, printed, or dyed forms, our jute collection supports environmental responsibility while empowering local craftsmanship. It's the perfect choice for businesses that value authenticity and green production.",
     categories: [
       {
-        name: "Jute",
-        image: "/img/products/sub-cat/jute/jute.jpg",
+        name: "Jute Bag",
+        image: "/img/products/sub-cat/jute/1.jpg",
+
+        subCategories: [
+          {
+            name: "Market Bag",
+            image: "/img/products/sub-cat/jute/cat/1.jpg",
+            description:
+              "Material: 18x18 laminated jute & vegetable tanned leather * Size: 44x34x20cm, Handle-33x2cm",
+          },
+          {
+            name: "Lunch Bag",
+            image: "/img/products/sub-cat/jute/cat/2.jpg",
+            description:
+              "Material: 18x18 laminated jute & vegetable tanned leather * Size: 24x32x14cm, handle-33x2cm",
+          },
+          {
+            name: "Standard Market Bag",
+            image: "/img/products/sub-cat/jute/cat/3.jpg",
+            description:
+              "Material: 18x18 yarn dyed laminated jute & vegetable tanned leather * Size: 38x33x14cm, handle-75x2cm",
+          },
+          {
+            name: "Market Bag",
+            image: "/img/products/sub-cat/jute/cat/4.jpg",
+            description:
+              "Material: 18x18 laminated jute with embo and vegetable tanned leather * Size: 44x34x20cm, Handle-33x2cm",
+          },
+          {
+            name: "Market Bag",
+            image: "/img/products/sub-cat/jute/cat/5.jpg",
+            description:
+              "Material: 18x18 laminated jute with leopard print and vegetable tanned leather * Size: 44x34x20cm, Handle-33x2cm",
+          },
+          {
+            name: "Market Bag",
+            image: "/img/products/sub-cat/jute/cat/6.jpg",
+            description:
+              "Material: 18x18 yarn dyed laminated jute and vegetable tanned leather * Size: 44x34x20cm, Handle-33x2cm",
+          },
+          {
+            name: "Shopping Bag",
+            image: "/img/products/sub-cat/jute/cat/11.jpg",
+            description:
+              "Material: 12x12 natural jute fabric, without lamination, 4% starch coating * Size: 35x40x20cm",
+          },
+          {
+            name: "Shopping Bag",
+            image: "/img/products/sub-cat/jute/cat/12.jpg",
+            description:
+              "Material: 15x15 jute fabric, without lamination, 4% starch coating * Size: 38x45x20cm",
+          },
+          {
+            name: "Wine Tote",
+            image: "/img/products/sub-cat/jute/cat/10.jpg",
+            description:
+              "Material: 12x12 natural jute fabric, without lamination, 4% starch coating * Size: 35x16cm",
+          },
+          {
+            name: "Wine Bag",
+            image: "/img/products/sub-cat/jute/cat/9.jpg",
+            description: "Material: 15x15 jute fabric with lamination * Size: 35x34x12cm",
+          },
+
+          {
+            name: "Ladies Fashion Bag",
+            image: "/img/products/sub-cat/jute/cat/7.jpg",
+            description: "Material: hand braided jute * Size: 31x50x29cm",
+          },
+          {
+            name: "Woman Basket Bag",
+            image: "/img/products/sub-cat/jute/cat/8.jpg",
+            description: "Material: hand braided jute * Size: 35x50x31cm",
+          },
+        ],
       },
       {
-        name: "Bag",
-        image: "/img/products/sub-cat/jute/bag.jpg",
+        name: "Cotton bag",
+        image: "/img/products/sub-cat/jute/2.jpg",
       },
       {
-        name: "Baskets",
-        image: "/img/products/sub-cat/jute/basket.jpg",
-        description: "Soft knit tops for everyday style.",
+        name: "Placemat",
+        image: "/img/products/sub-cat/jute/3.jpg",
       },
       {
-        name: "Jute Placemat",
-        image: "/img/products/sub-cat/jute/jute-placement.jpg",
-      },
-      {
-        name: "Crafts",
-        image: "/img/products/sub-cat/jute/crafts.jpg",
-      },
-      {
-        name: "Crafts Basket",
-        image: "/img/products/sub-cat/jute/crafts-basket.jpg",
-      },
-      {
-        name: "Crafts Placemat",
-        image: "/img/products/sub-cat/jute/crafts-placemate.jpg",
+        name: "Basket",
+        image: "/img/products/sub-cat/jute/4.jpg",
       },
     ],
   },
