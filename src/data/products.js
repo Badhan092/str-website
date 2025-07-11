@@ -226,14 +226,169 @@ const products = [
       {
         name: "Cotton bag",
         image: "/img/products/sub-cat/jute/2.jpg",
+
+        subCategories: [
+          {
+            name: "Canvas Tote",
+            image: "/img/products/sub-cat/jute/cat/13.jpg",
+            description: "Material: 380 GSM cotton canvas * Size: 38x32x10cm",
+          },
+          {
+            name: "Canvas Tote",
+            image: "/img/products/sub-cat/jute/cat/14.jpg",
+            description: "Material: 380 GSM cotton canvas * Size: 42x38x14cm",
+          },
+          {
+            name: "Shoulder Bag",
+            image: "/img/products/sub-cat/jute/cat/15.jpg",
+            description:
+              "Material: 260 GSM cotton canvas, peach finish * Size: 36x44cm, bottom 10cm",
+          },
+          {
+            name: "Shopping Bag",
+            image: "/img/products/sub-cat/jute/cat/16.jpg",
+            description: "Material: 380 GSM cotton canvas * Size: 40x37x14cm",
+          },
+          {
+            name: "Girls Tote Bag",
+            image: "/img/products/sub-cat/jute/cat/17.jpg",
+            description: "Material: 180 GSM cotton * Size: 40x35x5cm",
+          },
+          {
+            name: "Tote Bag",
+            image: "/img/products/sub-cat/jute/cat/18.jpg",
+            description: "Material: 140 GSM cotton * Size: 40x38cm",
+          },
+          {
+            name: "Shopping Bag",
+            image: "/img/products/sub-cat/jute/cat/19.jpg",
+            description: "Material:130 GSM cotton * Size: 42x38cm",
+          },
+          {
+            name: "Shopping Bag",
+            image: "/img/products/sub-cat/jute/cat/20.jpg",
+            description: "Material: Material:140 GSM BCI cotton * Size: 42x38cm",
+          },
+        ],
       },
       {
         name: "Placemat",
         image: "/img/products/sub-cat/jute/3.jpg",
+        subCategories: [
+          {
+            name: "Placemat",
+            image: "/img/products/sub-cat/jute/cat/35.jpg",
+            description: "Material: Kaisa Grass & plastic * Size: 45cm-15cm",
+          },
+          {
+            name: "Placemat",
+            image: "/img/products/sub-cat/jute/cat/36.jpg",
+            description: "Material:  Sea Grass & Jute * Size: 38cm X 29cm",
+          },
+          {
+            name: "Placemat",
+            image: "/img/products/sub-cat/jute/cat/37.jpg",
+            description: "Material: Jute Rope * Size: 45cm-15cm",
+          },
+          {
+            name: "Placemat",
+            image: "/img/products/sub-cat/jute/cat/38.jpg",
+            description: "Material: Sea Grass & Jute * Size: 40cm X 35cm - 15cmX10cm",
+          },
+          {
+            name: "Placemat",
+            image: "/img/products/sub-cat/jute/cat/39.jpg",
+            description: "Material: Hand braided Sea Grass * Size: 45cm-15cm",
+          },
+          {
+            name: "Placemat",
+            image: "/img/products/sub-cat/jute/cat/40.jpg",
+            description: "Material: Sea Grass & Jute * Size: 45cm-15cm",
+          },
+          {
+            name: "Placemat",
+            image: "/img/products/sub-cat/jute/cat/41.jpg",
+            description: "Material: Jute RopeMulti Colored Jute  * Size: 45cm-15cm",
+          },
+          {
+            name: "Placemat",
+            image: "/img/products/sub-cat/jute/cat/34.jpg",
+            description: "Material: Jute Rope * Size: 35cm-15cm",
+          },
+        ],
       },
       {
         name: "Basket",
         image: "/img/products/sub-cat/jute/4.jpg",
+
+        subCategories: [
+          {
+            name: "Cosmetic Storage Box",
+            image: "/img/products/sub-cat/jute/cat/21.jpg",
+            description: "Material: Jute * Size: L: 20x25cm, M: 15x20cm",
+          },
+          {
+            name: "Jute & Cotton Dorri Basket",
+            image: "/img/products/sub-cat/jute/cat/22.jpg",
+            description: "Material: Jute * Size: L: 16x16 cm, M: 13x13cm",
+          },
+          {
+            name: "Jute & Cotton Storage Basket",
+            image: "/img/products/sub-cat/jute/cat/24.jpg",
+            description: "Material: Jute * Size: L: 20x20cm, M:16x16cm, S: 12x12cm",
+          },
+          {
+            name: "Decorative Basket",
+            image: "/img/products/sub-cat/jute/cat/27.jpg",
+            description: "Material: Jute and Seagrass * Size: L: 20x20cm, M:18x18cm, S: 16x16cm",
+          },
+          {
+            name: "Women Kaisa Grass Basket",
+            image: "/img/products/sub-cat/jute/cat/28.jpg",
+            description: "Material: Kaisa * Size: L: 35x7cm, M:30x7cm, S: 26x6cm",
+          },
+          {
+            name: "Braided Handmade Basket",
+            image: "/img/products/sub-cat/jute/cat/29.jpg",
+            description: "Material: Seagrass * Size: 35x35x28cm",
+          },
+          {
+            name: "Decorative Stitich  Basket",
+            image: "/img/products/sub-cat/jute/cat/30.jpg",
+            description: "Material: Seagrass * Size: L: 20x20cm, M:16x16cm, S: 12x12cm",
+          },
+          {
+            name: "Seagrass  Basket",
+            image: "/img/products/sub-cat/jute/cat/31.jpg",
+            description: "Material: Seagrass * Size: L: 16x16x8cm, M:12x12x7cm, S: 10x10x7cm",
+          },
+          {
+            name: "Leather Handle  Basket",
+            image: "/img/products/sub-cat/jute/cat/32.jpg",
+            description: "Material: Seagrass * Size: L: 19x12cm, M:15x12cm, S: 13x10cm",
+          },
+          {
+            name: "Seagrass Circular  Basket",
+            image: "/img/products/sub-cat/jute/cat/33.jpg",
+            description: "Material: Seagrass * Size: L: 25x7cm, M:20x7cm, S: 15x5cm",
+          },
+
+          {
+            name: "Storage Basket Set",
+            image: "/img/products/sub-cat/jute/cat/23.jpg",
+            description: "Material: Jute",
+          },
+          {
+            name: "jute Basket",
+            image: "/img/products/sub-cat/jute/cat/26.jpg",
+            description: "Material: Jute * Size- 20X20cm, 16X16cm, 13X13cm",
+          },
+          {
+            name: "Plant Basket",
+            image: "/img/products/sub-cat/jute/cat/25.jpg",
+            description: "Material: Jute Rope",
+          },
+        ],
       },
     ],
   },
