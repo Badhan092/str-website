@@ -41,7 +41,6 @@ const products = [
       },
     ],
   },
-
   {
     id: 2,
     image: "/img/products/2.png",
@@ -49,7 +48,68 @@ const products = [
     description: "Tough, long-lasting fabric for daily use.",
     details:
       "Our workwear fabrics are engineered for environments where durability, safety, and resilience are essential. These fabrics are ideal for uniforms in industries like construction, manufacturing, automotive, and logistics. They offer resistance to tearing, abrasions, and high temperatures, all while remaining breathable and comfortable for extended shifts. Reinforced weaves, strong fibers, and anti-static properties make these fabrics compliant with industrial safety norms. With a range of textures and finishes, our workwear textiles meet both functional and branding requirements for your workforce.",
-    categories: [],
+    categories: [
+      {
+        name: "Workwear Hi Vis T shirts",
+        image: "/img/products/sub-cat/workwear/1.jpg",
+      },
+      {
+        name: "Workwear Jacket",
+        image: "/img/products/sub-cat/workwear/2.jpg",
+      },
+      {
+        name: "Workshop Uniform-Top",
+        image: "/img/products/sub-cat/workwear/3.jpg",
+      },
+      {
+        name: "Workshop Uniform-Bottom",
+        image: "/img/products/sub-cat/workwear/4.jpg",
+      },
+      {
+        name: "Softshell Outdoor Uniform",
+        image: "/img/products/sub-cat/workwear/5.jpg",
+      },
+      {
+        name: "Softshell Vest Workwear",
+        image: "/img/products/sub-cat/workwear/6.jpg",
+      },
+      {
+        name: "Unisex Softshell Uniform",
+        image: "/img/products/sub-cat/workwear/7.jpg",
+      },
+      {
+        name: "Workwear Uniform Shirts",
+        image: "/img/products/sub-cat/workwear/8.jpg",
+      },
+      {
+        name: "Workwear Hi Vis Polo shirts",
+        image: "/img/products/sub-cat/workwear/9.jpg",
+      },
+      {
+        name: "Hospital Wear Tunic",
+        image: "/img/products/sub-cat/workwear/10.jpg",
+      },
+      {
+        name: "Healthcare Workwear",
+        image: "/img/products/sub-cat/workwear/12.jpg",
+      },
+      {
+        name: "Medical Apron",
+        image: "/img/products/sub-cat/workwear/11.jpg",
+      },
+      {
+        name: "Medical Uniform",
+        image: "/img/products/sub-cat/workwear/13.jpg",
+      },
+      {
+        name: "Medical Scrub Set - Women",
+        image: "/img/products/sub-cat/workwear/14.jpg",
+      },
+      {
+        name: "Medical Scrub Set - Woman",
+        image: "/img/products/sub-cat/workwear/15.jpg",
+      },
+    ],
   },
   {
     id: 3,
