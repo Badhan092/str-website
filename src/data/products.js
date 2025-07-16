@@ -89,9 +89,13 @@ const products = [
         name: "Hospital Wear Tunic",
         image: "/img/products/sub-cat/workwear/10.jpg",
       },
-      {
-        name: "Healthcare Workwear",
-        image: "/img/products/sub-cat/workwear/12.jpg",
+      // {
+      //   name: "Healthcare Workwear",
+      //   image: "/img/products/sub-cat/workwear/12.jpg",
+      // },
+         {
+        name: "Medical Scrub Set - Woman",
+        image: "/img/products/sub-cat/workwear/15.jpg",
       },
       {
         name: "Medical Apron",
@@ -105,10 +109,7 @@ const products = [
         name: "Medical Scrub Set - Women",
         image: "/img/products/sub-cat/workwear/14.jpg",
       },
-      {
-        name: "Medical Scrub Set - Woman",
-        image: "/img/products/sub-cat/workwear/15.jpg",
-      },
+   
     ],
   },
   {
@@ -403,12 +404,12 @@ const products = [
             description: "Material: Jute and Seagrass * Size: L: 20x20cm, M:18x18cm, S: 16x16cm",
           },
           {
-            name: "Women Kaisa Grass Basket",
+            name: "Woven Kaisa Grass Basket",
             image: "/img/products/sub-cat/jute/cat/28.jpg",
             description: "Material: Kaisa * Size: L: 35x7cm, M:30x7cm, S: 26x6cm",
           },
           {
-            name: "Braided Handmade Basket",
+            name: "Braided Handy Basket",
             image: "/img/products/sub-cat/jute/cat/29.jpg",
             description: "Material: Seagrass * Size: 35x35x28cm",
           },
