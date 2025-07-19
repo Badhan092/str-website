@@ -93,7 +93,7 @@ const products = [
       //   name: "Healthcare Workwear",
       //   image: "/img/products/sub-cat/workwear/12.jpg",
       // },
-         {
+      {
         name: "Medical Scrub Set - Woman",
         image: "/img/products/sub-cat/workwear/15.jpg",
       },
@@ -109,7 +109,6 @@ const products = [
         name: "Medical Scrub Set - Women",
         image: "/img/products/sub-cat/workwear/14.jpg",
       },
-   
     ],
   },
   {
@@ -137,7 +136,55 @@ const products = [
     description: "Comfortable fabric for cozy living spaces.",
     details:
       "Our home textile collection brings comfort, color, and quality to your interiors. Designed for applications ranging from bedding and cushions to curtains and upholstery, these fabrics create a cozy and stylish home environment. They are available in a variety of textures—soft cottons, plush velvets, and breathable linens—to match both aesthetic and functional needs. Treated for fade resistance and ease of washing, they remain fresh and beautiful even with regular use. Whether you're decorating a hotel suite or a cozy family living room, our fabrics deliver timeless warmth and elegance.",
-    categories: [],
+    categories: [
+      {
+        name: "Bedsheet",
+        image: "/img/products/sub-cat/home-textile/bed/1.jpg",
+
+        subCategories: [
+          {
+            name: "Bedsheet",
+            image: "/img/products/sub-cat/home-textile/bed/1.jpg",
+            description: "Description: 300 TC Satin, Jacquard, Percale, Digital print",
+          },
+          {
+            name: "Bedsheet",
+            image: "/img/products/sub-cat/home-textile/bed/2.jpg",
+            description: "Description: 200 TC Cotton Percale with Printed Floral Design",
+          },
+          {
+            name: "Bedsheet",
+            image: "/img/products/sub-cat/home-textile/bed/3.jpg",
+            description: "Description: 200 TC Cotton Percale with Printed Floral Design",
+          },
+          {
+            name: "Bedsheet",
+            image: "/img/products/sub-cat/home-textile/bed/4.jpg",
+            description: "Description: 230 TC Egyptian Ctn. Non iron finish",
+          },
+          {
+            name: "Bedsheet",
+            image: "/img/products/sub-cat/home-textile/bed/5.jpg",
+            description: "Description: 200 TC Percale, Satin, Jacquard, print",
+          },
+          {
+            name: "Bedsheet",
+            image: "/img/products/sub-cat/home-textile/bed/6.jpg",
+            description: "Description: Jacquard, Dobby, Satin, Digital Print, Tufting",
+          },
+          {
+            name: "Bedsheet",
+            image: "/img/products/sub-cat/home-textile/bed/7.jpg",
+            description: "Description: Jacquard, Dobby, Satin, Digital Print, Tufting",
+          },
+          {
+            name: "Bedsheet",
+            image: "/img/products/sub-cat/home-textile/bed/8.jpg",
+            description: "Description: Jacquard, Egyptian, Garment dyed, Digital print",
+          },
+        ],
+      },
+    ],
   },
   {
     id: 6,
