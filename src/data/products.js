@@ -127,7 +127,72 @@ const products = [
     description: "Lightweight fabric for athletes.",
     details:
       "Performance matters—and our sportswear fabrics deliver. Crafted for athletes and active lifestyles, these textiles feature moisture-wicking, odor control, and stretch recovery technologies. Whether used for gym wear, yoga gear, or professional sports uniforms, our fabrics ensure unrestricted movement and thermoregulation. Available in lightweight, breathable constructions with mesh or compression structures, they help athletes stay cool, dry, and focused. Our eco-line also includes sustainable athletic fabrics made from recycled polyester and organic cotton blends.",
-    categories: [],
+    categories: [
+      {
+        name: "Mens Lightweight Hybrid Jacket",
+        image: "/img/products/sub-cat/sportswear/1.jpg",
+        description:
+          "Fabric: Nylon striped 15d dope down 43 (91% polyamide 9% polyester), polarlite plain microgrid silver 215 (92% polyester 8% elastane) * Weight:299g",
+      },
+      {
+        name: "Men’s Hybrid Softshell",
+        image: "/img/products/sub-cat/sportswear/2.jpg",
+        description:
+          "Fabric: Nylon flexlite eco dwr 155 (88% polyamide 12% elastane), stormwall 3l 10k/35k recycled knit 120 (100% polyester) * Weight: 327g",
+      },
+      {
+        name: "Full-Zip Men’s Wool Hoody",
+        image: "/img/products/sub-cat/sportswear/3.jpg",
+        description:
+          "Fabric: Sarner pure 2L bonded 500 (50% Virgin Wool 20% polyamide * 28% viscose 2% elastane) * Weight: 900g",
+      },
+      {
+        name: "Men’s Insulating Jacket",
+        image: "/img/products/sub-cat/sportswear/4.jpg",
+        description:
+          "Fabric: Durastretch active 4-way eco dwr 123 bs (84% polyamide 16% elastane) / nylon windbreaker light 20d eco 48 bs (100% polyamide) * Weight: 315g",
+      },
+      {
+        name: "Mens Cycling Jersey",
+        image: "/img/products/sub-cat/sportswear/5.jpg",
+        description: "Fabric: 100% Polyester",
+      },
+      {
+        name: "Mens Cycling Jersey",
+        image: "/img/products/sub-cat/sportswear/6.jpg",
+        description: "Fabric: 100% Polyester",
+      },
+      {
+        name: "Ladies Cycling Jersey",
+        image: "/img/products/sub-cat/sportswear/7.jpg",
+        description: "Fabric: 100% Polyester",
+      },
+      {
+        name: "Ladies Cycling Jersey",
+        image: "/img/products/sub-cat/sportswear/8.jpg",
+        description: "Fabric: 100% Polyester",
+      },
+      {
+        name: "Mens Cycling bibshorts",
+        image: "/img/products/sub-cat/sportswear/9.jpg",
+        description: "Fabric: 83% Polyamide 17% Elastane",
+      },
+      {
+        name: "Cycling Shorts",
+        image: "/img/products/sub-cat/sportswear/10.jpg",
+        description: "Fabric: 87% Polyester 13% Elastane",
+      },
+      {
+        name: "Women’s Over Shorts",
+        image: "/img/products/sub-cat/sportswear/12.jpg",
+        description: "Fabric: 90% Polyester, 10% Elastane",
+      },
+      {
+        name: "Cycling Leggings",
+        image: "/img/products/sub-cat/sportswear/11.jpg",
+        description: "Fabric: 87% Polyester 13% Elatane",
+      },
+    ],
   },
   {
     id: 5,
