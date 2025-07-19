@@ -145,42 +145,121 @@ const products = [
           {
             name: "Bedsheet",
             image: "/img/products/sub-cat/home-textile/bed/1.jpg",
-            description: "Description: 300 TC Satin, Jacquard, Percale, Digital print",
+            description: "Description: 300 TC Satin, Jacquard, Percale, * Digital print",
           },
           {
             name: "Bedsheet",
             image: "/img/products/sub-cat/home-textile/bed/2.jpg",
-            description: "Description: 200 TC Cotton Percale with Printed Floral Design",
+            description: "Description: 200 TC Cotton Percale with Printed * Floral Design",
           },
           {
             name: "Bedsheet",
             image: "/img/products/sub-cat/home-textile/bed/3.jpg",
-            description: "Description: 200 TC Cotton Percale with Printed Floral Design",
+            description: "Description: 200 TC Cotton Percale with Printed * Floral Design",
           },
           {
             name: "Bedsheet",
             image: "/img/products/sub-cat/home-textile/bed/4.jpg",
-            description: "Description: 230 TC Egyptian Ctn. Non iron finish",
+            description: "Description: 230 TC Egyptian Ctn. Non * iron finish",
           },
           {
             name: "Bedsheet",
             image: "/img/products/sub-cat/home-textile/bed/5.jpg",
-            description: "Description: 200 TC Percale, Satin, Jacquard, print",
+            description: "Description: 200 TC Percale, Satin, * Jacquard, print",
           },
           {
             name: "Bedsheet",
             image: "/img/products/sub-cat/home-textile/bed/6.jpg",
-            description: "Description: Jacquard, Dobby, Satin, Digital Print, Tufting",
+            description: "Description: Jacquard, Dobby, Satin, Digital * Print, Tufting",
           },
           {
             name: "Bedsheet",
             image: "/img/products/sub-cat/home-textile/bed/7.jpg",
-            description: "Description: Jacquard, Dobby, Satin, Digital Print, Tufting",
+            description: "Description: Jacquard, Dobby, Satin, Digital * Print, Tufting",
           },
           {
             name: "Bedsheet",
             image: "/img/products/sub-cat/home-textile/bed/8.jpg",
-            description: "Description: Jacquard, Egyptian, Garment dyed, Digital print",
+            description: "Description: Jacquard, Egyptian, Garment dyed, * Digital print",
+          },
+        ],
+      },
+      {
+        name: "Bathtowel",
+        image: "/img/products/sub-cat/home-textile/towel/1.jpg",
+        subCategories: [
+          {
+            name: "BATHTOWEL",
+            image: "/img/products/sub-cat/home-textile/towel/1.jpg",
+            description: "Description: 100% Cotton 650-800 GSM",
+          },
+          {
+            name: "BATHTOWEL",
+            image: "/img/products/sub-cat/home-textile/towel/2.jpg",
+            description: "Description: 100% Cotton 500-600 GSM",
+          },
+          {
+            name: "BATHTOWEL",
+            image: "/img/products/sub-cat/home-textile/towel/3.jpg",
+            description: "Description: 100% Cotton 600-700 GSM",
+          },
+          {
+            name: "BATHTOWEL",
+            image: "/img/products/sub-cat/home-textile/towel/4.jpg",
+            description: "Description: 100% Cotton 400-600 GSM",
+          },
+          {
+            name: "BATHTOWEL",
+            image: "/img/products/sub-cat/home-textile/towel/5.jpg",
+            description: "Description: 100% Cotton Jacquard 400-600 GSM",
+          },
+          {
+            name: "BATHTOWEL",
+            image: "/img/products/sub-cat/home-textile/towel/6.jpg",
+            description: "Description: 100% Cotton Printed 300-500 GSM",
+          },
+          {
+            name: "HOSPITALITY TOWEL",
+            image: "/img/products/sub-cat/home-textile/towel/7.jpg",
+            description: "Des: 100% Cotton washing durable 300-600 GSM",
+          },
+          {
+            name: "KITCHEN TEA TOWEL",
+            image: "/img/products/sub-cat/home-textile/towel/8.jpg",
+            description: "Description: 100% Cotton 165 GSM (45x60 CM)",
+          },
+        ],
+      },
+      {
+        name: "Kitchen Apron",
+        image: "/img/products/sub-cat/home-textile/apron.jpg",
+        subCategories: [
+          {
+            name: "KITCHEN APRON",
+            image: "/img/products/sub-cat/home-textile/apron.jpg",
+            description: "Description: 100% Cotton 220 GSM (63x84 cm)",
+          },
+        ],
+      },
+      {
+        name: "Table Cloth",
+        image: "/img/products/sub-cat/home-textile/tablecloth.jpg",
+        subCategories: [
+          {
+            name: "TABLE CLOTH",
+            image: "/img/products/sub-cat/home-textile/tablecloth.jpg",
+            description: "Description: 90% Cotton 10% Jute 210 GSM (145X250 CM)",
+          },
+        ],
+      },
+      {
+        name: "Runner",
+        image: "/img/products/sub-cat/home-textile/runner.jpg",
+        subCategories: [
+          {
+            name: "RUNNER",
+            image: "/img/products/sub-cat/home-textile/runner.jpg",
+            description: "Description: 85% Cotton 15% Jute 290 GSM (35X150 CM)",
           },
         ],
       },
