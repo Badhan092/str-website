@@ -192,9 +192,44 @@ const products = [
 
         subCategories: [
           {
-            name: "Bedsheet",
-            image: "/img/products/sub-cat/corporateware/women/1.jpg",
-            description: "Description: 300 TC Satin, Jacquard, Percale, * Digital print",
+            name: "Single Breasted Suit",
+            image: "/img/products/sub-cat/corporateware/man/13.jpg",
+            description: "Fabric: 73% Polyester / 22% Viscose / 5% Elastane",
+          },
+          {
+            name: "Single Breasted Suit",
+            image: "/img/products/sub-cat/corporateware/man/14.jpg",
+            description: "Fabric: 73% Polyester / 22% Viscose / 5% Elastane",
+          },
+          {
+            name: "Single Breasted Suit",
+            image: "/img/products/sub-cat/corporateware/man/15.jpg",
+            description: "Fabric: 81% Polyester / 17% Viscose / 2% Elastane",
+          },
+          {
+            name: "Single Breasted Suit",
+            image: "/img/products/sub-cat/corporateware/man/16.jpg",
+            description: "Fabric: 78% Polyester / 20% Viscose / 2% Elastane",
+          },
+          {
+            name: "Single Breasted Suit",
+            image: "/img/products/sub-cat/corporateware/man/17.jpg",
+            description: "Fabric: 73% Polyester / 22% Viscose / 5% Elastane",
+          },
+          {
+            name: "Single Breasted Suit",
+            image: "/img/products/sub-cat/corporateware/man/18.jpg",
+            description: "Fabric: 65% Polyester 35% Viscose",
+          },
+          {
+            name: "Single Breasted Suit",
+            image: "/img/products/sub-cat/corporateware/man/19.jpg",
+            description: "Fabric: 65% Polyester 35% Viscose",
+          },
+          {
+            name: "Single Breasted 5 Button Front waistcoat/Formal Shirt",
+            image: "/img/products/sub-cat/corporateware/man/20.jpg",
+            description: "Fabric: 65% Polyester 35% Viscose/100% Cotton",
           },
         ],
       },
