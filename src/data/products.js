@@ -503,7 +503,125 @@ const products = [
     description: "Flexible, breathable fabric crafted for comfort.",
     details:
       "Footwear requires materials that are strong yet soft, breathable yet protective. Our specialized footwear fabrics are tailored for linings, uppers, insoles, and reinforcement areas in casual and performance shoes. They offer flexibility, abrasion resistance, and moisture control—making them ideal for both lifestyle and athletic use. Anti-microbial treatments ensure freshness, while thermoregulation technology helps maintain foot comfort. Whether for sports brands or luxury shoes, our materials meet the highest demands of quality, comfort, and innovation.",
-    categories: [],
+    categories: [
+      {
+        name: "Footwear",
+        image: "/img/products/sub-cat/shoe&bag/shoe/1.jpg",
+
+        subCategories: [
+          {
+            name: "Derby Shoe",
+            image: "/img/products/sub-cat/shoe&bag/shoe/1.jpg",
+            description:
+              "Details: Cow Leather for Upper & Insole. Cow Lining Leather & Fabric for Lining * Outsole: Pre-fabricated Rubber",
+          },
+          {
+            name: "Derby Casual Shoe",
+            image: "/img/products/sub-cat/shoe&bag/shoe/2.jpg",
+            description:
+              "Details: Cow Tan Leather for Upper & Insole. Cow Lining Leather & Fabric for Lining * Outsole: Pre-fabricated Rubber",
+          },
+          {
+            name: "Hybrid Derby Sneakers",
+            image: "/img/products/sub-cat/shoe&bag/shoe/3.jpg",
+            description:
+              "Details: Cow Tan Leather for Upper & Insole. Cow Lining Leather & Fabric for Lining * Outsole: Moulded Rubber",
+          },
+          {
+            name: "Chukka Boots (Ankle length)",
+            image: "/img/products/sub-cat/shoe&bag/shoe/4.jpg",
+            description:
+              "Details: Cow Leather for Upper & Insole. Cow Lining Leather & Fabric for Lining * Outsole: Pre-fabricated Moulded Rubber",
+          },
+          {
+            name: "Ladies Zip up Ankle Boot",
+            image: "/img/products/sub-cat/shoe&bag/shoe/5.jpg",
+            description: "Details: Upper Cow Leather, Synthetic Lining & TPR Outsole",
+          },
+          {
+            name: "Ladies Ankle Boot",
+            image: "/img/products/sub-cat/shoe&bag/shoe/6.jpg",
+            description: "Details: Upper Cow Leather, Synthetic & Leather Lining, TPR Outsole",
+          },
+          {
+            name: "Ladies Mid High Boot",
+            image: "/img/products/sub-cat/shoe&bag/shoe/7.jpg",
+            description: "Details: Upper Cow Leather, Synthetic Lining & Buffalo Outsole",
+          },
+          {
+            name: "Ladies Knee High Boot",
+            image: "/img/products/sub-cat/shoe&bag/shoe/8.jpg",
+            description: "Details: Upper Cow Leather, Synthetic Lining & TPR Outsole",
+          },
+          {
+            name: "Slip on Sneakers",
+            image: "/img/products/sub-cat/shoe&bag/shoe/9.jpg",
+            description: "Details: Upper Fly Knit, Mesh Lining & Phylon Outsole",
+          },
+          {
+            name: "Retro Runner Sneaker",
+            image: "/img/products/sub-cat/shoe&bag/shoe/10.jpg",
+            description: "Details: Upper PU & Nylon Cloth, Mesh Lining, EVA & TPR Outsole",
+          },
+          {
+            name: "Low-Top Lifestyle Sneaker",
+            image: "/img/products/sub-cat/shoe&bag/shoe/11.jpg",
+            description: "DUpper PU & Mesh, Mesh Lining &  * TPR Outsole",
+          },
+          {
+            name: "Combat Boot",
+            image: "/img/products/sub-cat/shoe&bag/shoe/12.jpg",
+            description: "Details: Upper Leather & Mesh, Mesh Lining, EVA & Rubber Outsole",
+          },
+        ],
+      },
+      {
+        name: "Bag",
+        image: "/img/products/sub-cat/shoe&bag/bag/9.jpg",
+        subCategories: [
+          {
+            name: "Luxury Backpack",
+            image: "/img/products/sub-cat/shoe&bag/bag/1.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "City Backpack",
+            image: "/img/products/sub-cat/shoe&bag/bag/2.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "Hybrid Leather Laptop Bag",
+            image: "/img/products/sub-cat/shoe&bag/bag/3.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "Satchel Leather bag",
+            image: "/img/products/sub-cat/shoe&bag/bag/4.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "Ladies Barrel Bag",
+            image: "/img/products/sub-cat/shoe&bag/bag/5.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "Ladies Structured Satchel",
+            image: "/img/products/sub-cat/shoe&bag/bag/6.jpg",
+            description: "Material: Pebbled Leather",
+          },
+          {
+            name: "Ladies Leather Tote",
+            image: "/img/products/sub-cat/shoe&bag/bag/7.jpg",
+            description: "Material: Pebbled Leather",
+          },
+          {
+            name: "Ladies Crossbody Bag",
+            image: "/img/products/sub-cat/shoe&bag/bag/8.jpg",
+            description: "Materials: Suede & leather",
+          },
+        ],
+      },
+    ],
   },
   {
     id: 8,
