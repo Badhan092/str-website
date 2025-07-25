@@ -9,7 +9,89 @@ const products = [
     categories: [
       {
         name: "Jacket",
-        image: "/img/products/sub-cat/fashion/jacket.png",
+        image: "/img/products/sub-cat/fashion/jacket.jpg",
+        subCategories: [
+          {
+            name: "Men's Denim Jacket",
+            image: "/img/products/sub-cat/fashion/jacket/1.jpg",
+            description: "Details: 100% Cotton Denim, Light Washed",
+          },
+          {
+            name: "Men's Denim Jacket",
+            image: "/img/products/sub-cat/fashion/jacket/2.jpg",
+            description: "Details: 100% Cotton Denim, Rinse Washed",
+          },
+          {
+            name: "Men's Denim Sherpa Jacket",
+            image: "/img/products/sub-cat/fashion/jacket/3.jpg",
+            description: "Details: 100% Cotton Denim, Tinted washed",
+          },
+          {
+            name: "Men's Twill Sherpa Jacket",
+            image: "/img/products/sub-cat/fashion/jacket/4.jpg",
+            description: "Details: 100% Cotton heavy weight Twill",
+          },
+          {
+            name: "Men's quilted puffer jacket",
+            image: "/img/products/sub-cat/fashion/jacket/5.jpg",
+            description: "Details: 100% Polyester shell and lining",
+          },
+          {
+            name: "Men's quilted puffer jacket",
+            image: "/img/products/sub-cat/fashion/jacket/6.jpg",
+            description: "Details: 100% Polyester shell and lining",
+          },
+          {
+            name: "Men's Bomber jacket",
+            image: "/img/products/sub-cat/fashion/jacket/8.jpg",
+            description: "Details: 100% Polyester shell and lining",
+          },
+          {
+            name: "Men's Utility jacket",
+            image: "/img/products/sub-cat/fashion/jacket/7.jpg",
+            description: "Details: Cotton/Polyester shell and Polyester lining",
+          },
+          {
+            name: "Ladies Sherpa Jacket",
+            image: "/img/products/sub-cat/fashion/jacket/13.jpg",
+            description: "Details: 98% Cotton 2% Elastane 21W Corduroy",
+          },
+          {
+            name: "Ladies Washed Denim Jacket",
+            image: "/img/products/sub-cat/fashion/jacket/14.jpg",
+            description: "Details: 98% Cotton 2% Elastane Tinted ",
+          },
+          {
+            name: "Ladies Denim Vest",
+            image: "/img/products/sub-cat/fashion/jacket/15.jpg",
+            description: "Details: 100% Cotton Dark Washed Denim",
+          },
+          {
+            name: "Ladies Cropped Denim Jacket",
+            image: "/img/products/sub-cat/fashion/jacket/16.jpg",
+            description: "Details: 100% Cotton Mid washed loose fit Denim",
+          },
+          {
+            name: "Ladies Quilted Puffed Jacket",
+            image: "/img/products/sub-cat/fashion/jacket/9.jpg",
+            description: "Details: 100% Polyester shell and Lining",
+          },
+          {
+            name: "Girls Matt Finish Puffed Jacket",
+            image: "/img/products/sub-cat/fashion/jacket/10.jpg",
+            description: "Details: 100% Polyester shell and Lining ",
+          },
+          {
+            name: "Girls Quilted Puffed Vest",
+            image: "/img/products/sub-cat/fashion/jacket/11.jpg",
+            description: "Details: 100% Polyester Shell and Lining",
+          },
+          {
+            name: "Girls Overdyed Jacket",
+          image: "/img/products/sub-cat/fashion/jacket/12.jpg",
+            description: "Details: 100% Cotton Twill and CVC Lining",
+          },
+        ],
       },
       {
         name: "Knit Bottoms",
