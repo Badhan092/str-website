@@ -88,14 +88,76 @@ const products = [
           },
           {
             name: "Girls Overdyed Jacket",
-          image: "/img/products/sub-cat/fashion/jacket/12.jpg",
+            image: "/img/products/sub-cat/fashion/jacket/12.jpg",
             description: "Details: 100% Cotton Twill and CVC Lining",
           },
         ],
       },
       {
-        name: "Knit Bottoms",
-        image: "/img/products/sub-cat/bottom.png",
+        name: "Sweater",
+        image: "/img/products/sub-cat/fashion/sweater.jpg",
+        subCategories: [
+          {
+            name: "FINE GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/1.jpg",
+            description: "Gauge: 12-14",
+          },
+          {
+            name: "FINE GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/2.jpg",
+            description: "Gauge: 12-14",
+          },
+          {
+            name: "FINE GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/3.jpg",
+            description: "Gauge: 12-14",
+          },
+          {
+            name: "FINE GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/4.jpg",
+            description: "Gauge: 14-16",
+          },
+          {
+            name: "LOW GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/5.jpg",
+            description: "Gauge: 3-5",
+          },
+          {
+            name: "LOW GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/6.jpg",
+            description: "Gauge: 3-5",
+          },
+          {
+            name: "LOW GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/7.jpg",
+            description: "Gauge: 4-5",
+          },
+          {
+            name: "LOW GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/8.jpg",
+            description: "Gauge: 5-7",
+          },
+          {
+            name: "LOW GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/9.jpg",
+            description: "Gauge: 5-7",
+          },
+          {
+            name: "LOW GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/10.jpg",
+            description: "Gauge: 5-7",
+          },
+          {
+            name: "MEDIUM GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/11.jpg",
+            description: "Gauge: 7-9",
+          },
+          {
+            name: "MEDIUM GAUGE SWEATER",
+            image: "/img/products/sub-cat/fashion/sweater/12.jpg",
+            description: "Gauge: 8-10",
+          },
+        ],
       },
       {
         name: "Knit Tops",
