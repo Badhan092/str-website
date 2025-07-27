@@ -4,12 +4,13 @@ import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import { useRouter } from "next/navigation";
 import "swiper/css";
 import "swiper/css/autoplay";
 
 const slides = [
   {
-    title: "Sourcing With Integrity Delivery With Pride", 
+    title: "Sourcing With Integrity Delivery With Pride",
     text: "Together, let’s craft a future woven with excellence.",
     image: "/img/banner/hero-banner-one.jpg",
   },
@@ -25,8 +26,14 @@ const slides = [
   },
 ];
 
-
 const HeroBanner = () => {
+
+  const router = useRouter();
+
+  const handleButtonClick = () => {
+    router.push("/contact-us");
+  };
+
   return (
     <Swiper modules={[Autoplay]} autoplay={{ delay: 4000 }} loop speed={800}>
       {slides.map((slide, index) => (
@@ -40,7 +47,7 @@ const HeroBanner = () => {
             <div className="hero-container">
               <h1 className="title">{slide.title}</h1>
               <p className="text">{slide.text}</p>
-              <button className="button">
+              <button className="button" onClick={handleButtonClick}>
                 <p>Get Started</p>
                 <IoIosArrowForward />
               </button>

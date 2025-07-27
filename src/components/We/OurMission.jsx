@@ -16,11 +16,12 @@ const OurMission = () => {
                 Mission:
               </span>
               <br />
-              At STR Sourcing, our mission is to empower fashion and textile brands by delivering
-              premium, sustainable, and innovative fabric solutions that set new industry standards.
-              We are committed to building lasting partnerships grounded in trust, reliability, and
-              ethical practices — ensuring every thread we produce supports a better future for
-              people and the planet.
+              At STR Sourcing, our mission is to empower fashion and lifestyle brands by providing
+              comprehensive, sustainable, and innovative sourcing solutions. As a trusted sourcing
+              office, we are committed to delivering quality, efficiency, and ethical practices
+              across the supply chain. We build lasting partnerships grounded in reliability and
+              transparency—ensuring every product we help create supports a better future for
+              people, brands, and the planet.
             </p>
 
             <p className="section-description" data-aos="fade-up">

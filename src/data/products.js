@@ -315,12 +315,12 @@ const products = [
             description: "Fabric: 98% Cotton 2% Elastane/65% Polyester 35% Viscose",
           },
           {
-            name: "Pleated Slim Shirt/Fit Bottom",
+            name: "Pleated Shirt/Slim Fit Bottom",
             image: "/img/products/sub-cat/corporateware/women/10.jpg",
             description: "Fabric: 98% Cotton 2% Elastane/81% Polyester 17% Viscose 2% Elastane",
           },
           {
-            name: "Pleated Semi Sleeve/Fit Bottom",
+            name: "Semi Sleeve/Skinny Fit Bottom",
             image: "/img/products/sub-cat/corporateware/women/11.jpg",
             description: "Fabric: 98% Cotton 2% Elastane/98% Cotton 2% Elastane",
           },
