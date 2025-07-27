@@ -332,7 +332,7 @@ const products = [
         ],
       },
       {
-        name: "Man",
+        name: "Men",
         image: "/img/products/sub-cat/corporateware/man/13.jpg",
 
         subCategories: [
