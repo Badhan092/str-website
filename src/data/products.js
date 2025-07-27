@@ -8,6 +8,23 @@ const products = [
       "Our fashion fabrics combine elegance and functionality to meet the demands of modern clothing brands and designers. Made from breathable and skin-friendly materials, they ensure all-day comfort while delivering a polished appearance. From casual t-shirts to high-end formal wear, these fabrics maintain color vibrancy, drape beautifully, and respond well to customization like dyeing and printing. Whether you're designing runway pieces or mass-market retail lines, our fashion textiles adapt seamlessly to every creative vision while upholding quality and sustainability standards.",
     categories: [
       {
+        name: "Denim",
+        image: "/img/products/sub-cat/fashion/denim/denim.jpg",
+      },
+      {
+        name: "Knitwear",
+        image: "/img/products/sub-cat/fashion/knitwear-tops/knitware-tops.jpg",
+      },
+      {
+        name: "Woven Bottoms",
+        image: "/img/products/sub-cat/fashion/woven-bottoms/woven-bottoms.jpg",
+      },
+      {
+        name: "Woven Tops",
+        image: "/img/products/sub-cat/fashion/woven-tops/woven-tops.jpg",
+      },
+
+      {
         name: "Jacket",
         image: "/img/products/sub-cat/fashion/jacket.jpg",
         subCategories: [
@@ -160,28 +177,12 @@ const products = [
         ],
       },
       {
-        name: "Knit Tops",
-        image: "/img/products/sub-cat/fashion/knit-top.png",
-      },
-      {
-        name: "Knitwear",
-        image: "/img/products/sub-cat/fashion/knitwear.png",
-      },
-      {
         name: "Swimwear",
-        image: "/img/products/sub-cat/swimwear.png",
+        image: "/img/products/sub-cat/fashion/swimwear.jpg",
       },
       {
-        name: "Woven Tops",
-        image: "/img/products/sub-cat/fashion/woven-top.png",
-      },
-      {
-        name: "Woven Bottoms",
-        image: "/img/products/sub-cat/woven-bottoms.png",
-      },
-      {
-        name: "Denim",
-        image: "/img/products/sub-cat/fashion/denim.png",
+        name: "Lingarie",
+        image: "/img/products/sub-cat/fashion/lingarie.jpg",
       },
     ],
   },
@@ -576,17 +577,6 @@ const products = [
           },
         ],
       },
-      {
-        name: "Runner",
-        image: "/img/products/sub-cat/home-textile/runner.jpg",
-        subCategories: [
-          {
-            name: "RUNNER",
-            image: "/img/products/sub-cat/home-textile/runner.jpg",
-            description: "Description: 85% Cotton 15% Jute 290 GSM (35X150 CM)",
-          },
-        ],
-      },
     ],
   },
   {
@@ -906,12 +896,12 @@ const products = [
         subCategories: [
           {
             name: "Placemat",
-            image: "/img/products/sub-cat/jute/cat/35.jpg",
+            image: "/img/products/sub-cat/jute/cat/36.jpg",
             description: "Material: Kaisa Grass & plastic * Size: 45cm-15cm",
           },
           {
             name: "Placemat",
-            image: "/img/products/sub-cat/jute/cat/36.jpg",
+            image: "/img/products/sub-cat/jute/cat/35.jpg",
             description: "Material:  Sea Grass & Jute * Size: 38cm X 29cm",
           },
           {
