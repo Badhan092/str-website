@@ -36,11 +36,11 @@ const OurService = () => {
       <h2 className="section-title" data-aos="fade-up">
         Our Focus
       </h2>
-      <p className="section-description" data-aos="fade-up">
+      {/* <p className="section-description" data-aos="fade-up">
         We offer sustainable textile sourcing, reliable production, and transparent delivery
         solutions — <br />
         tailored to meet your quality and timeline needs.
-      </p>
+      </p> */}
 
       <div className="service-section">
         <div className="service-cards">

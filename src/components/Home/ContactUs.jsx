@@ -27,7 +27,7 @@ const ContactUs = () => {
       email: "info@strsourcing.com",
     },
     {
-      country: "Germany (Contact Office)",
+      country: "Germany (Contact Address)",
       address: "Adam-Opel-Straße 24 ,60386 ,Frankfurt am Main",
       phone: "(123) 456-7890",
       email: "info@strsourcing.com",

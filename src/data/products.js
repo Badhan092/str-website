@@ -10,6 +10,129 @@ const products = [
       {
         name: "Denim",
         image: "/img/products/sub-cat/fashion/denim/denim.jpg",
+
+        subCategories: [
+          {
+            name: "Men's Denim Casual Pant",
+            image: "/img/products/sub-cat/fashion/denim/1.jpg",
+            description: "Fabric: 99%Cotton 1%Elastane 11.50 OZ Denim",
+          },
+          {
+            name: "Men's Denim Casual Pant",
+            image: "/img/products/sub-cat/fashion/denim/2.jpg",
+            description: "Fabric: 99%Cotton 1%Elastane 11.50 OZ Denim",
+          },
+          {
+            name: "Men's Denim Casual Pant",
+            image: "/img/products/sub-cat/fashion/denim/3.jpg",
+            description: "Fabric: 98%Cotton 2%Elastane 11.00 OZ Denim",
+          },
+          {
+            name: "Men's Overdye Casual Pant",
+            image: "/img/products/sub-cat/fashion/denim/4.jpg",
+            description: "Fabric: 100%Cotton 12.0 OZ Denim",
+          },
+          {
+            name: "Mens Bermuda Denim Short",
+            image: "/img/products/sub-cat/fashion/denim/9.jpg",
+            description: "Fabric: 100% Cotton 11.0 OZ Denim",
+          },
+          {
+            name: "Mens Bermuda Denim Short",
+            image: "/img/products/sub-cat/fashion/denim/10.jpg",
+            description: "Fabric: 99% Cotton 1% Elastane 11.0 OZ Denim",
+          },
+          {
+            name: "Men's Denim Short",
+            image: "/img/products/sub-cat/fashion/denim/11.jpg",
+            description: "Fabric: 98% Cotton 2% Elastane 11 OZ Denim",
+          },
+          {
+            name: "Mens Bermuda Denim Short",
+            image: "/img/products/sub-cat/fashion/denim/12.jpg",
+            description: "Fabric: 100% Cotton 10.5 OZ Denim",
+          },
+          {
+            name: "Ladies High Rise Relaxed Denim",
+            image: "/img/products/sub-cat/fashion/denim/5.jpg",
+            description: "Fabric: 99%Cotton 1%Elastane 11.50 OZ Denim",
+          },
+          {
+            name: "Ladies Slim Fit Denim",
+            image: "/img/products/sub-cat/fashion/denim/6.jpg",
+            description: "Fabric: 78%Cotton 20%Polyester * 2% Elastane 9.25 OZ Denim",
+          },
+          {
+            name: "Ladies Mid Rise Bootcut Jeans",
+            image: "/img/products/sub-cat/fashion/denim/7.jpg",
+            description: "Fabric: 99% Cotton 1% Elastane 10 OZ Denim",
+          },
+          {
+            name: "Ladies High Rise Skinny Jeans",
+            image: "/img/products/sub-cat/fashion/denim/8.jpg",
+            description: "Fabric: 80% Cotton 18% * Elastane 2% Elastane 8.75 OZ Denim",
+          },
+          {
+            name: "Ladies High Rise Short",
+            image: "/img/products/sub-cat/fashion/denim/13.jpg",
+            description: "Fabric: 80% Cotton 18% Polyester 2% * Elastane 9.50 OZ Denim",
+          },
+          {
+            name: "Ladies Low Rise Short",
+            image: "/img/products/sub-cat/fashion/denim/14.jpg",
+            description: "Fabric: 98% Cotton 2% Elastane 9.50 OZ Denim",
+          },
+          {
+            name: "Ladies Low Rise Short",
+            image: "/img/products/sub-cat/fashion/denim/15.jpg",
+            description: "Fabric: 98% Cotton 2% Elastane 9.50 OZ Denim",
+          },
+          {
+            name: "Ladies High Rise Skirt",
+            image: "/img/products/sub-cat/fashion/denim/16.jpg",
+            description: "Fabric: 100% Cotton 11 OZ Denim",
+          },
+          {
+            name: "Ladies High Rise Balloon Skirt",
+            image: "/img/products/sub-cat/fashion/denim/17.jpg",
+            description: "Fabric: 100% Cotton 8.50 OZ denim",
+          },
+          {
+            name: "MLadies High Rise Front Slit Skirt",
+            image: "/img/products/sub-cat/fashion/denim/18.jpg",
+            description: "Fabric: 100% Cotton 11 OZ Denim",
+          },
+          {
+            name: "Ladies Mini Skirt",
+            image: "/img/products/sub-cat/fashion/denim/19.jpg",
+            description: "Fabric: 99% Cotton 1% Elastane 10 OZ Denim",
+          },
+          {
+            name: "Ladies Pleated Overdyed Skirt",
+            image: "/img/products/sub-cat/fashion/denim/20.jpg",
+            description: "Fabric: 100% Cotton 11 OZ Denim",
+          },
+          {
+            name: "Girls Basic Flare Jeans",
+            image: "/img/products/sub-cat/fashion/denim/21.jpg",
+            description: "Fabric: 98% Cotton 2% Elastane 9.5 OZ Denim",
+          },
+          {
+            name: "Boys Cargo Long Pant",
+            image: "/img/products/sub-cat/fashion/denim/22.jpg",
+            description: "Fabric: 100% Cotton 10.0 OZ Denim",
+          },
+          {
+            name: "Girls Slim Long Pant",
+            image: "/img/products/sub-cat/fashion/denim/23.jpg",
+            description: "Fabric: 98% Cotton 2% Elastane 9.75 OZ Denim",
+          },
+          {
+            name: "Boys Long Straight Denim",
+            image: "/img/products/sub-cat/fashion/denim/24.jpg",
+            description: "Fabric: 100% Cotton 10.0 OZ Denim",
+          },
+        ],
       },
       {
         name: "Knitwear",
@@ -23,7 +146,6 @@ const products = [
         name: "Woven Tops",
         image: "/img/products/sub-cat/fashion/woven-tops/woven-tops.jpg",
       },
-
       {
         name: "Jacket",
         image: "/img/products/sub-cat/fashion/jacket.jpg",
@@ -183,6 +305,88 @@ const products = [
       {
         name: "Lingarie",
         image: "/img/products/sub-cat/fashion/lingarie.jpg",
+        subCategories: [
+          {
+            name: "Underware Top",
+            image: "/img/products/sub-cat/fashion/lingarie/1.jpg",
+            description: "Composition: 88% Nylon, 12% Elastane",
+          },
+          {
+            name: "Underware Top & Bottoms",
+            image: "/img/products/sub-cat/fashion/lingarie/2.jpg",
+            description: "Composition: 90% Polyester, 10% Spandex",
+          },
+          {
+            name: "Underware Top",
+            image: "/img/products/sub-cat/fashion/lingarie/3.jpg",
+            description: "Composition: 88% Nylon, 12% Elastane",
+          },
+          {
+            name: "Underware Top",
+            image: "/img/products/sub-cat/fashion/lingarie/4.jpg",
+            description: "Composition: 90% Polyster,10% Spandex",
+          },
+          {
+            name: "Ladies Hipster",
+            image: "/img/products/sub-cat/fashion/lingarie/5.jpg",
+            description: "Fabric: 95% Cotton, 5% Elastane S/J, 160 GSM",
+          },
+          {
+            name: "Ladies Brief",
+            image: "/img/products/sub-cat/fashion/lingarie/6.jpg",
+            description: "Fabric: 95% Cotton, 5% Elastane S/J, 160 GSM",
+          },
+          {
+            name: "Ladies Brief",
+            image: "/img/products/sub-cat/fashion/lingarie/7.jpg",
+            description: "Fabric: 95% Cotton, 5% Elastane S/J, 160 GSM",
+          },
+          {
+            name: "Kids Underware Bottoms",
+            image: "/img/products/sub-cat/fashion/lingarie/11.jpg",
+            description: "Composition: 95% Cotton, 5% Elastane S/J, 150 GSM",
+          },
+          {
+            name: "Underware Bottoms",
+            image: "/img/products/sub-cat/fashion/lingarie/8.jpg",
+            description: "Composition: 100% Cotton S/J, 160 GSM",
+          },
+          {
+            name: "Underware Bottoms",
+            image: "/img/products/sub-cat/fashion/lingarie/9.jpg",
+            description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
+          },
+          {
+            name: "Kids Underware Bottoms",
+            image: "/img/products/sub-cat/fashion/lingarie/10.jpg",
+            description: "Composition: 100% Cotton, S/J, 140 GSM",
+          },
+          {
+            name: "Kids Underware Bottoms",
+            image: "/img/products/sub-cat/fashion/lingarie/12.jpg",
+            description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
+          },
+          {
+            name: "Girls Underware Top",
+            image: "/img/products/sub-cat/fashion/lingarie/13.jpg",
+            description: "Composition: 80% Cotton, 15% Polyster, 5% Elastnae, S/J, 160 GSM",
+          },
+          {
+            name: " Girls BRA",
+            image: "/img/products/sub-cat/fashion/lingarie/14.jpg",
+            description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
+          },
+          {
+            name: "Girls BRA",
+            image: "/img/products/sub-cat/fashion/lingarie/15.jpg",
+            description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
+          },
+          {
+            name: "Underware Top",
+            image: "/img/products/sub-cat/fashion/lingarie/16.jpg",
+            description: "Composition: 67% Cotton, 28% Polyster, 5% Elastnae, S/J, 180 GSM",
+          },
+        ],
       },
     ],
   },
