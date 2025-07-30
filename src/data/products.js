@@ -388,6 +388,63 @@ const products = [
       {
         name: "Swimwear",
         image: "/img/products/sub-cat/fashion/swimwear.jpg",
+        subCategories: [
+          {
+            name: "Mens Swim Short",
+            image: "/img/products/sub-cat/fashion/swimwear/1.jpg",
+            description: "Fabric: 100% Polyster",
+          },
+          {
+            name: "Mens Swim Short",
+            image: "/img/products/sub-cat/fashion/swimwear/2.jpg",
+            description: "Fabric: 100% Polyster",
+          },
+          {
+            name: "Mens Swim Short",
+            image: "/img/products/sub-cat/fashion/swimwear/3.jpg",
+            description: "Fabric: 100% Polyster",
+          },
+          {
+            name: "Mens Swim Short",
+            image: "/img/products/sub-cat/fashion/swimwear/4.jpg",
+            description: "Fabric: 100% Polyster",
+          },
+          {
+            name: "Kids Swim Short",
+            image: "/img/products/sub-cat/fashion/swimwear/5.jpg",
+            description: "Fabric: 100% Polyster",
+          },
+          {
+            name: "Kids Swim Short",
+            image: "/img/products/sub-cat/fashion/swimwear/6.jpg",
+            description: "Fabric: 100% Polyster",
+          },
+          {
+            name: "Kids Swim Short",
+            image: "/img/products/sub-cat/fashion/swimwear/7.jpg",
+            description: "Fabric: 100% Polyster",
+          },
+          {
+            name: "Kids Swim Short",
+            image: "/img/products/sub-cat/fashion/swimwear/8.jpg",
+            description: "Fabric: 100% Polyster",
+          },
+          {
+            name: "Ladies Swimwear",
+            image: "/img/products/sub-cat/fashion/swimwear/9.jpg",
+            description: "Fabric: Polyester/Polyamide/Elastane",
+          },
+          {
+            name: "Ladies Swimwear",
+            image: "/img/products/sub-cat/fashion/swimwear/10.jpg",
+            description: "Fabric: Polyester/Polyamide/Elastane",
+          },
+          {
+            name: "Ladies Swimwear",
+            image: "/img/products/sub-cat/fashion/swimwear/11.jpg",
+            description: "Fabric: Polyester/Polyamide/Elastane",
+          },
+        ],
       },
       {
         name: "Lingarie",
