@@ -137,6 +137,93 @@ const products = [
       {
         name: "Knitwear",
         image: "/img/products/sub-cat/fashion/knitwear-tops/knitware-tops.jpg",
+        subCategories: [
+          {
+            name: "Ladies Printed Tops",
+            image: "/img/products/sub-cat/fashion/knitwear/1.jpg",
+            description: "Details- 100% Cotton S/J fabric",
+          },
+          {
+            name: "Ladies Sleeveless Tee",
+            image: "/img/products/sub-cat/fashion/knitwear/2.jpg",
+            description: "Details: Cotton/Viscose Blend Knit fabric",
+          },
+          {
+            name: "Ladies Y/Dyed Polo Shirt",
+            image: "/img/products/sub-cat/fashion/knitwear/3.jpg",
+            description: "Details: 100% Cotton Knit Fabric",
+          },
+          {
+            name: "Ladies Dress",
+            image: "/img/products/sub-cat/fashion/knitwear/4.jpg",
+            description: "Details: 100% Cotton S/J Knit fabric",
+          },
+          {
+            name: "Ladies V- neck Tank Top",
+            image: "/img/products/sub-cat/fashion/knitwear/5.jpg",
+            description: "Details: 100% Cotton S/J Knit Fabric",
+          },
+          {
+            name: "Ladies SS Round Bottom",
+            image: "/img/products/sub-cat/fashion/knitwear/6.jpg",
+            description: "Details: 100% Cotton S/J Knit fabric",
+          },
+          {
+            name: "Girls Casual Knit Dress",
+            image: "/img/products/sub-cat/fashion/knitwear/7.jpg",
+            description: "Details: 100% Cotton S/J Printed knit Fabric",
+          },
+          {
+            name: "Ladies Sleeveless Asymmetrical Tops",
+            image: "/img/products/sub-cat/fashion/knitwear/8.jpg",
+            description: "Details: Cotton/Viscose Blend Knit Fabric",
+          },
+          {
+            name: "Ladies Round Neck T- Shirt",
+            image: "/img/products/sub-cat/fashion/knitwear/9.jpg",
+            description: "Details: 100% Cotton S/J Knit Fabric",
+          },
+          {
+            name: "Ladies Tank Top",
+            image: "/img/products/sub-cat/fashion/knitwear/10.jpg",
+            description: "Fabric: 100% Cotton Y/Dyed Rib",
+          },
+          {
+            name: "Ladies Tank Top",
+            image: "/img/products/sub-cat/fashion/knitwear/11.jpg",
+            description: "Details: 100% Cotton S/J Knit Fabric",
+          },
+          {
+            name: "Ladies Hood Long Dress",
+            image: "/img/products/sub-cat/fashion/knitwear/12.jpg",
+            description: "Details: 100% Cotton Terry Fabric",
+          },
+          {
+            name: "Ladies Tank Top",
+            image: "/img/products/sub-cat/fashion/knitwear/13.jpg",
+            description: "Details: 100% Cotton Printed S/J Fabric",
+          },
+          {
+            name: "Ladies Cargo Jogger Pant",
+            image: "/img/products/sub-cat/fashion/knitwear/14.jpg",
+            description: "Details: 100% Cotton Brushed Terry",
+          },
+          {
+            name: "Girls Capri Pant",
+            image: "/img/products/sub-cat/fashion/knitwear/15.jpg",
+            description: "Details: 100% Cotton S/J Printed Knit Fabric",
+          },
+          {
+            name: "Girls Long Pant",
+            image: "/img/products/sub-cat/fashion/knitwear/16.jpg",
+            description: "Fabric: 100% Cotton S/J Fabric",
+          },
+          {
+            name: "Ladies Short Pant",
+            image: "/img/products/sub-cat/fashion/knitwear/17.jpg",
+            description: "Details: Cotton/Polyester Blend Knit Fabric",
+          },
+        ],
       },
       {
         name: "Woven Bottoms",
