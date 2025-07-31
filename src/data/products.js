@@ -231,9 +231,85 @@ const products = [
 
         subCategories: [
           {
-            name: "",
+            name: "Mens Chino Long Pant",
             image: "/img/products/sub-cat/fashion/woven-bottoms/1.jpg",
-            description: "Fabric: 100% Cotton Twill",
+            description: "Details: 100% Cotton Twill, * Heavy Enzyme Wash",
+          },
+          {
+            name: "Mens Cargo Long Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/2.jpg",
+            description: "Details: 98% Cotton 2% Elastane Twill, Enzyme Wash",
+          },
+          {
+            name: "Mens Cargo Jogger Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/3.jpg",
+            description: "Details: 98% Cotton 2% Elastane Twill, Enzyme wash",
+          },
+          {
+            name: "Mens Cargo staraight fit Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/4.jpg",
+            description: "Details: 100% Cotton Twill, Enzyme wash",
+          },
+          {
+            name: "Mens Cargo Short Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/5.jpg",
+            description: "Details: 100% Cotton Twill, * Enzyme wash",
+          },
+          {
+            name: "Mens Chino Short Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/6.jpg",
+            description: "Details: 100% Cotton Twill, * Heavy Enzyme wash",
+          },
+          {
+            name: "Boys Cargo Short Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/7.jpg",
+            description: "Details: 100% Cotton Poplin Checked Print, Normal Wash",
+          },
+          {
+            name: "Boys Chino Short Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/8.jpg",
+            description: "Details: 98% Cotton 2% Elastane Checked Print, Enzyme wash",
+          },
+
+          {
+            name: "Ladies High Waist Paperbag Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/9.jpg",
+            description: "Details: 73% Polyester / 22% * Viscose / 5% Elastane, Normal Wash",
+          },
+          {
+            name: "Ladies Chino Long Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/10.jpg",
+            description: "Details: 98% Cotton 2% Elastane Fine Twill, Enzyme wash",
+          },
+          {
+            name: "Ladies Straight Relaxed Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/11.jpg",
+            description: "Details: 78% Polyester / 20%  * Viscose / 2% Elastane",
+          },
+          {
+            name: "Ladies Casual Elastic waist band Trousers",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/12.jpg",
+            description: "Details: 65% Polyester / 35% Viscose, Normal wash",
+          },
+          {
+            name: "Girls Pleated Skirt",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/13.jpg",
+            description: "Details: 100% Cotton 14 W Corduroy Fabric",
+          },
+          {
+            name: "Kids Long Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/14.jpg",
+            description: "Details: 98% Cotton 2% Elastane 21W Corduroy Fabric",
+          },
+          {
+            name: "Boys Long Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/15.jpg",
+            description: "Details: 100% Cotton Twill, Enzyme Wash",
+          },
+          {
+            name: "Boys Chino Long Pant",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/16.jpg",
+            description: "Details: 100% Cotton Twill, Enzyme Wash",
           },
         ],
       },
