@@ -227,11 +227,101 @@ const products = [
       },
       {
         name: "Woven Bottoms",
-        image: "/img/products/sub-cat/fashion/woven-bottoms/woven-bottoms.jpg",
+        image: "/img/products/sub-cat/fashion/woven-bottoms/wovenbottoms.jpg",
+
+        subCategories: [
+          {
+            name: "",
+            image: "/img/products/sub-cat/fashion/woven-bottoms/1.jpg",
+            description: "Fabric: 100% Cotton Twill",
+          },
+        ],
       },
       {
         name: "Woven Tops",
-        image: "/img/products/sub-cat/fashion/woven-tops/woven-tops.jpg",
+        image: "/img/products/sub-cat/fashion/woven-tops/woventops.jpg",
+        subCategories: [
+          {
+            name: "Men's Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/1.jpg",
+            description: "Fabric: 100% Cotton or Cotton/Polyester Oxford Weave",
+          },
+          {
+            name: "Men's Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/2.jpg",
+            description: "Fabric: 100% Cotton or Cotton/Polyester Plain Weave",
+          },
+          {
+            name: "Men's Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/3.jpg",
+            description: "Fabric: 100% Cotton or Cotton/Polyester, Chambray Plain Weave",
+          },
+          {
+            name: "Men's Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/4.jpg",
+            description: "Fabric: 100% Cotton or Cotton/Polyester, checked Plain Weave",
+          },
+          {
+            name: "Men's Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/5.jpg",
+            description: "Fabric: 100% Cotton Poplin, checked * Plain weave",
+          },
+          {
+            name: "Men's Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/6.jpg",
+            description: "Fabric: 100% Cotton Flannel Brushed checked shirts",
+          },
+          {
+            name: "Men's Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/7.jpg",
+            description: "Fabric: 100% Cotton Medium * wash denim",
+          },
+          {
+            name: "Men's Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/8.jpg",
+            description: "Fabric: 100% Cotton tinted * wash denim",
+          },
+          {
+            name: "Men's Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/9.jpg",
+            description: "Fabric: 100% Cotton Poplin, * checked Plain weave",
+          },
+          {
+            name: "Ladies Vent Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/10.jpg",
+            description: "Fabric: 98% Cotton 2% Elastane Poplin, Plain weave",
+          },
+          {
+            name: "Ladies denim Tunic Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/11.jpg",
+            description: "Fabric: Cotton/Tencel Light wash denim",
+          },
+          {
+            name: "Ladies Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/12.jpg",
+            description: "Fabric: 98% Cotton 2% Elastane Dark wash denim",
+          },
+          {
+            name: "Ladies V-neck Pleated Blouse",
+            image: "/img/products/sub-cat/fashion/woven-tops/13.jpg",
+            description: "Description: Cotton/Polyester Curved hem sleeveless blouse",
+          },
+          {
+            name: "Ladies Oversized Button-up Shirt",
+            image: "/img/products/sub-cat/fashion/woven-tops/14.jpg",
+            description: "Description: 80% Polyester 20% Silk satin dropped shoulder shirt",
+          },
+          {
+            name: "Ladies Button-Front Shirt Dress ",
+            image: "/img/products/sub-cat/fashion/woven-tops/15.jpg",
+            description: "Description: 100% Cotton V-neck Empire waist office wear",
+          },
+          {
+            name: "Ladies Striped Short-Sleeve Shirt Dress",
+            image: "/img/products/sub-cat/fashion/woven-tops/16.jpg",
+            description: "Description: Cotton/Linen Shirt Dress with Belt",
+          },
+        ],
       },
       {
         name: "Jacket",
@@ -428,21 +518,6 @@ const products = [
             name: "Kids Swim Short",
             image: "/img/products/sub-cat/fashion/swimwear/8.jpg",
             description: "Fabric: 100% Polyster",
-          },
-          {
-            name: "Ladies Swimwear",
-            image: "/img/products/sub-cat/fashion/swimwear/9.jpg",
-            description: "Fabric: Polyester/Polyamide/Elastane",
-          },
-          {
-            name: "Ladies Swimwear",
-            image: "/img/products/sub-cat/fashion/swimwear/10.jpg",
-            description: "Fabric: Polyester/Polyamide/Elastane",
-          },
-          {
-            name: "Ladies Swimwear",
-            image: "/img/products/sub-cat/fashion/swimwear/11.jpg",
-            description: "Fabric: Polyester/Polyamide/Elastane",
           },
         ],
       },
