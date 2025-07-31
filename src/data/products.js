@@ -1210,7 +1210,7 @@ const products = [
       },
       {
         name: "Bag",
-        image: "/img/products/sub-cat/shoe&bag/bag/9.jpg",
+        image: "/img/products/sub-cat/shoe&bag/bag/bag.jpg",
         subCategories: [
           {
             name: "Luxury Backpack",
@@ -1251,6 +1251,92 @@ const products = [
             name: "Ladies Crossbody Bag",
             image: "/img/products/sub-cat/shoe&bag/bag/8.jpg",
             description: "Materials: Suede & leather",
+          },
+          {
+            name: "Ladies Baguette Bag",
+            image: "/img/products/sub-cat/shoe&bag/bag/10.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "Ladies crescent bag",
+            image: "/img/products/sub-cat/shoe&bag/bag/11.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "Ladies Satchel handbag",
+            image: "/img/products/sub-cat/shoe&bag/bag/12.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "Ladies Bucket bag",
+            image: "/img/products/sub-cat/shoe&bag/bag/13.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "Leather clutch wallet",
+            image: "/img/products/sub-cat/shoe&bag/bag/14.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "Wristlet clutch",
+            image: "/img/products/sub-cat/shoe&bag/bag/15.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "Zip-Around Wallet",
+            image: "/img/products/sub-cat/shoe&bag/bag/16.jpg",
+            description: "Material: Leather",
+          },
+          {
+            name: "Leather Mini Wallet",
+            image: "/img/products/sub-cat/shoe&bag/bag/17.jpg",
+            description: "Materials: Suede & leather",
+          },
+        ],
+      },
+      {
+        name: "Waist Belt",
+        image: "/img/products/sub-cat/shoe&bag/belt/belt.jpg",
+        subCategories: [
+          {
+            name: "Waist belt",
+            image: "/img/products/sub-cat/shoe&bag/belt/1.jpg",
+            description: "Material- Cow Leather",
+          },
+          {
+            name: "Waist belt",
+            image: "/img/products/sub-cat/shoe&bag/belt/2.jpg",
+            description: "Material- Cow Leather",
+          },
+          {
+            name: "Waist belt",
+            image: "/img/products/sub-cat/shoe&bag/belt/3.jpg",
+            description: "Material- Cow Leather",
+          },
+          {
+            name: "Waist belt",
+            image: "/img/products/sub-cat/shoe&bag/belt/4.jpg",
+            description: "Material- Cow Leather",
+          },
+          {
+            name: "Waist belt",
+            image: "/img/products/sub-cat/shoe&bag/belt/5.jpg",
+            description: "Material- Cow Leather",
+          },
+          {
+            name: "Waist belt",
+            image: "/img/products/sub-cat/shoe&bag/belt/6.jpg",
+            description: "Material- Cow Leather",
+          },
+          {
+            name: "Waist belt",
+            image: "/img/products/sub-cat/shoe&bag/belt/7.jpg",
+            description: "Material- Cow Leather",
+          },
+          {
+            name: "Waist belt",
+            image: "/img/products/sub-cat/shoe&bag/belt/8.jpg",
+            description: "Material- Cow Leather",
           },
         ],
       },
