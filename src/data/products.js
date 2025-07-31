@@ -1056,22 +1056,37 @@ const products = [
       },
       {
         name: "Kitchen Apron",
-        image: "/img/products/sub-cat/home-textile/apron.jpg",
+        image: "/img/products/sub-cat/home-textile/apron/3.jpg",
         subCategories: [
           {
-            name: "KITCHEN APRON",
-            image: "/img/products/sub-cat/home-textile/apron.jpg",
+            name: "Kitchen Apron",
+            image: "/img/products/sub-cat/home-textile/apron/1.jpg",
+            description: "Description: 100% Cotton 220 GSM (63x84 cm)",
+          },
+          {
+            name: "Kitchen Apron",
+            image: "/img/products/sub-cat/home-textile/apron/2.jpg",
+            description: "Description: 100% Cotton 220 GSM (63x84 cm)",
+          },
+          {
+            name: "Kitchen Apron",
+            image: "/img/products/sub-cat/home-textile/apron/3.jpg",
             description: "Description: 100% Cotton 220 GSM (63x84 cm)",
           },
         ],
       },
       {
         name: "Table Cloth",
-        image: "/img/products/sub-cat/home-textile/tablecloth.jpg",
+        image: "/img/products/sub-cat/home-textile/tablecloth/1.jpg",
         subCategories: [
           {
-            name: "TABLE CLOTH",
-            image: "/img/products/sub-cat/home-textile/tablecloth.jpg",
+            name: "Table Cloth",
+            image: "/img/products/sub-cat/home-textile/tablecloth/1.jpg",
+            description: "Description: 90% Cotton 10% Jute 210 GSM (145X250 CM)",
+          },
+          {
+            name: "Table Cloth",
+            image: "/img/products/sub-cat/home-textile/tablecloth/2.jpg",
             description: "Description: 90% Cotton 10% Jute 210 GSM (145X250 CM)",
           },
         ],
