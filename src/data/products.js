@@ -937,9 +937,19 @@ const products = [
         description: "Fabric: 83% Polyamide 17% Elastane",
       },
       {
-        name: "Cycling Shorts",
+        name: "Men’s Cycling Leggings",
         image: "/img/products/sub-cat/sportswear/10.jpg",
-        description: "Fabric: 87% Polyester 13% Elastane",
+        description: "Fabric: 87% Polyester 13% Elastane, 240 gsm",
+      },
+      {
+        name: "Women Cycling Leggings",
+        image: "/img/products/sub-cat/sportswear/11.jpg",
+        description: "Fabric: 87% Polyester 13% Elatane",
+      },
+      {
+        name: "Women’s Cycling Capri",
+        image: "/img/products/sub-cat/sportswear/13.jpg",
+        description: "Fabric: 87% Polyester 13% Elastane, 240 gsm",
       },
       {
         name: "Women’s Over Shorts",
@@ -947,9 +957,19 @@ const products = [
         description: "Fabric: 90% Polyester, 10% Elastane",
       },
       {
-        name: "Cycling Leggings",
-        image: "/img/products/sub-cat/sportswear/11.jpg",
-        description: "Fabric: 87% Polyester 13% Elatane",
+        name: "Women’s Cycling  Shorts",
+        image: "/img/products/sub-cat/sportswear/14.jpg",
+        description: "Fabric: 87% Polyester 13% Elastane, 240 gsm",
+      },
+      {
+        name: "Women’s Cycling  Shorts",
+        image: "/img/products/sub-cat/sportswear/15.jpg",
+        description: "Fabric: 87% Polyester 13% Elastane, 240 gsm",
+      },
+      {
+        name: "Women’s Cycling  Shorts",
+        image: "/img/products/sub-cat/sportswear/16.jpg",
+        description: "Fabric: 83% Polyester 17% Elastane, 240 gsm",
       },
     ],
   },
