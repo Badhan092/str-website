@@ -1,6 +1,5 @@
 import { useRouter } from "next/router";
 import products from "@/data/products";
-import Link from "next/link";
 
 const SubcategoryDetailPage = () => {
   const router = useRouter();
@@ -16,15 +15,8 @@ const SubcategoryDetailPage = () => {
   }
 
   if (!category) {
-    return (
-      <div className="container top-space">
-        <h2>Subcategory not found.</h2>
-        <p>Please go back and select a valid subcategory.</p>
-      </div>
-    );
+    return null;
   }
-
-  // 🧩 Check if this category has subCategories:
 
   if (category.subCategories && category.subCategories.length > 0) {
     return (
@@ -39,7 +31,7 @@ const SubcategoryDetailPage = () => {
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
               >
-                    <img className="product-img" src={`${sub.image}?v=${Date.now()}`} alt={sub.name} />
+                <img className="product-img" src={`${sub.image}?v=${Date.now()}`} alt={sub.name} />
                 <div
                   className={`product-content ${sub.description ? "description" : ""} ${
                     sub.description && sub.description.includes("*") ? "has-star" : ""
@@ -65,41 +57,7 @@ const SubcategoryDetailPage = () => {
     );
   }
 
-  // 🪄 If no subCategories, show detail page:
-  return (
-    <div className="container top-space product-detail-page">
-      <div className="product-detail-content">
-        <img
-          src={`${category.image}?v=${Date.now()}`}
-          alt={category.name}
-          className="product-detail-img"
-        />
-        <div className="product-detail-info">
-          <h1 className="product-title">{category.name}</h1>
-          <p className="product-detail-description">{product.details}</p>
-          <button className="section-button" onClick={() => router.push("/contact-us")}>
-            Contact Us
-          </button>
-        </div>
-      </div>
-
-      {/* Related Products */}
-      <div className="related-products">
-        <h2>Related Products</h2>
-        <div className="related-cards">
-          {products
-            .filter((p) => p.id !== product.id)
-            .slice(0, 4)
-            .map((item) => (
-              <Link href={`/products/${item.id}`} key={item.id} className="related-card">
-                 <img src={`${item.image}?v=${Date.now()}`} alt={item.title} />
-                <h3>{item.title}</h3>
-              </Link>
-            ))}
-        </div>
-      </div>
-    </div>
-  );
+  return null;
 };
 
 export default SubcategoryDetailPage;

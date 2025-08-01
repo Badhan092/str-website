@@ -602,22 +602,22 @@ const products = [
         image: "/img/products/sub-cat/fashion/lingarie.jpg",
         subCategories: [
           {
-            name: "Underware Top",
+            name: "Underwear Top",
             image: "/img/products/sub-cat/fashion/lingarie/1.jpg",
             description: "Composition: 88% Nylon, 12% Elastane",
           },
           {
-            name: "Underware Top & Bottoms",
+            name: "Underwear Top & Bottoms",
             image: "/img/products/sub-cat/fashion/lingarie/2.jpg",
             description: "Composition: 90% Polyester, 10% Spandex",
           },
           {
-            name: "Underware Top",
+            name: "Underwear Top",
             image: "/img/products/sub-cat/fashion/lingarie/3.jpg",
             description: "Composition: 88% Nylon, 12% Elastane",
           },
           {
-            name: "Underware Top",
+            name: "Underwear Top",
             image: "/img/products/sub-cat/fashion/lingarie/4.jpg",
             description: "Composition: 90% Polyster,10% Spandex",
           },
@@ -627,7 +627,7 @@ const products = [
             description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
           },
           {
-            name: "Girls Underware Top",
+            name: "Girls Underwear Top",
             image: "/img/products/sub-cat/fashion/lingarie/13.jpg",
             description: "Composition: 80% Cotton, 15% Polyster, 5% Elastnae, S/J, 160 GSM",
           },
@@ -637,7 +637,7 @@ const products = [
             description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
           },
           {
-            name: "Underware Top",
+            name: "Underwear Top",
             image: "/img/products/sub-cat/fashion/lingarie/16.jpg",
             description: "Composition: 67% Cotton, 28% Polyster, 5% Elastnae, S/J, 180 GSM",
           },
@@ -657,27 +657,27 @@ const products = [
             description: "Fabric: 95% Cotton, 5% Elastane S/J, 160 GSM",
           },
           {
-            name: "Kids Underware Bottoms",
+            name: "Kids Underwear Bottoms",
             image: "/img/products/sub-cat/fashion/lingarie/11.jpg",
             description: "Composition: 95% Cotton, 5% Elastane S/J, 150 GSM",
           },
           {
-            name: "Mens Underware Bottoms",
+            name: "Mens Underwear Bottoms",
             image: "/img/products/sub-cat/fashion/lingarie/8.jpg",
             description: "Composition: 100% Cotton S/J, 160 GSM",
           },
           {
-            name: "Mens Underware Bottoms",
+            name: "Mens Underwear Bottoms",
             image: "/img/products/sub-cat/fashion/lingarie/9.jpg",
             description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
           },
           {
-            name: "Kids Underware Bottoms",
+            name: "Kids Underwear Bottoms",
             image: "/img/products/sub-cat/fashion/lingarie/10.jpg",
             description: "Composition: 100% Cotton, S/J, 140 GSM",
           },
           {
-            name: "Kids Underware Bottoms",
+            name: "Kids Underwear Bottoms",
             image: "/img/products/sub-cat/fashion/lingarie/12.jpg",
             description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
           },
@@ -850,8 +850,13 @@ const products = [
             image: "/img/products/sub-cat/corporateware/man/15.jpg",
             description: "Fabric: 81% Polyester / 17% Viscose / 2% Elastane",
           },
-          {
+               {
             name: "Single Breasted Suit",
+            image: "/img/products/sub-cat/corporateware/man/21.jpg",
+            description: "Fabric: 81% Polyester / 17% Viscose / 2% Elastane",
+          },
+          {
+            name: "Single Breasted Suit, 5 Btn Waistcoat",
             image: "/img/products/sub-cat/corporateware/man/16.jpg",
             description: "Fabric: 78% Polyester / 20% Viscose / 2% Elastane",
           },
@@ -870,11 +875,11 @@ const products = [
             image: "/img/products/sub-cat/corporateware/man/19.jpg",
             description: "Fabric: 65% Polyester 35% Viscose",
           },
-          {
-            name: "Single Breasted 5 Button Front waistcoat/Formal Shirt",
-            image: "/img/products/sub-cat/corporateware/man/20.jpg",
-            description: "Fabric: 65% Polyester 35% Viscose/100% Cotton",
-          },
+          // {
+          //   name: "Single Breasted 5 Button Front waistcoat/Formal Shirt",
+          //   image: "/img/products/sub-cat/corporateware/man/20.jpg",
+          //   description: "Fabric: 65% Polyester 35% Viscose/100% Cotton",
+          // },
         ],
       },
     ],
@@ -962,12 +967,12 @@ const products = [
         description: "Fabric: 87% Polyester 13% Elastane, 240 gsm",
       },
       {
-        name: "Women’s Cycling  Shorts",
+        name: "Men’s Cycling  Shorts",
         image: "/img/products/sub-cat/sportswear/15.jpg",
         description: "Fabric: 87% Polyester 13% Elastane, 240 gsm",
       },
       {
-        name: "Women’s Cycling  Shorts",
+        name: "Men’s Cycling  Shorts",
         image: "/img/products/sub-cat/sportswear/16.jpg",
         description: "Fabric: 83% Polyester 17% Elastane, 240 gsm",
       },
