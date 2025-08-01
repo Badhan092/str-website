@@ -49,7 +49,7 @@ const WeContent = () => {
               women, and children
             </li>
             <li className="text">
-              <b>Denim:</b> High-quality jeans, jackets, and casualwear for Mens, Ladies, Woman & Kids.
+              <b>Denim:</b> High-quality jeans, jackets, and casualwear for Mens, Ladies, & Kids.
             </li>
             <li className="text">
               <b>"Knitwear & Sweater: </b> A variety range of knitwear product as t-shirts, polo shirts, sweatshirts, sportswear, swimwear, sweaters, and undergarments.
