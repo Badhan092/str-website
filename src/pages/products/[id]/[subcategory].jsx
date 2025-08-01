@@ -39,7 +39,7 @@ const SubcategoryDetailPage = () => {
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
               >
-                <img className="product-img" src={sub.image} alt={sub.name} />
+                    <img className="product-img" src={`${sub.image}?v=${Date.now()}`} alt={sub.name} />
                 <div
                   className={`product-content ${sub.description ? "description" : ""} ${
                     sub.description && sub.description.includes("*") ? "has-star" : ""
@@ -69,7 +69,11 @@ const SubcategoryDetailPage = () => {
   return (
     <div className="container top-space product-detail-page">
       <div className="product-detail-content">
-        <img src={category.image} alt={category.name} className="product-detail-img" />
+        <img
+          src={`${category.image}?v=${Date.now()}`}
+          alt={category.name}
+          className="product-detail-img"
+        />
         <div className="product-detail-info">
           <h1 className="product-title">{category.name}</h1>
           <p className="product-detail-description">{product.details}</p>
@@ -88,7 +92,7 @@ const SubcategoryDetailPage = () => {
             .slice(0, 4)
             .map((item) => (
               <Link href={`/products/${item.id}`} key={item.id} className="related-card">
-                <img src={item.image} alt={item.title} />
+                 <img src={`${item.image}?v=${Date.now()}`} alt={item.title} />
                 <h3>{item.title}</h3>
               </Link>
             ))}
