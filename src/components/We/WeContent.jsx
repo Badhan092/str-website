@@ -49,12 +49,10 @@ const WeContent = () => {
               women, and children
             </li>
             <li className="text">
-              <b>Denim:</b> High-quality jeans, jackets, and casualwear Outerwear & Workwear:
-              Durable jackets, coats, and industrial wear
+              <b>Denim:</b> High-quality jeans, jackets, and casualwear for Mens, Ladies, Woman & Kids.
             </li>
             <li className="text">
-              <b>Knitwear:</b> Sweaters ranging from 3GG to 12GG Jute Products: Sustainable and
-              stylish bags, accessories, and home items
+              <b>"Knitwear & Sweater: </b> A variety range of knitwear product as t-shirts, polo shirts, sweatshirts, sportswear, swimwear, sweaters, and undergarments.
             </li>
             <li className="text">
               <b>Workwear:</b> Functional and durable clothing for various industries, including
@@ -65,10 +63,7 @@ const WeContent = () => {
               to enhance comfort, style, and functionality.
             </li>
             <li className="text">
-              <b>Footwear & Bag:</b> we offer a diverse range of high-quality footwear and bags for
-              every lifestyle. From casual and performance shoes to elegant leather handbags and
-              everyday carryalls, our products are crafted with attention to detail, comfort, and
-              durability.
+              <b>Footwear & Bag:</b> A diverse range of high-quality footwear and bags for every lifestyle From casual and performance shoes to elegant leather handbags.
             </li>
             <li className="text">
               <b>Jute & Craft:</b> Our eco-conscious jute and handcrafted products showcase

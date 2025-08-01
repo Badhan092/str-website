@@ -23,11 +23,10 @@ const OurPartner = () => {
   return (
     <div className="container">
       <h2 className="section-title" data-aos="fade-up">
-       Our Working Partner
+        Our Partner:
       </h2>
       <p className="section-description" data-aos="fade-up">
-        We are proud to partner with leading brands and organizations in the textile industry,
-        working together to create a more sustainable future.
+        Our Manufacturing partners are compliant with international standards and code of conduct
       </p>
 
       <div className="partner-section">

@@ -358,7 +358,7 @@ const products = [
             description: "Fabric: 100% Cotton tinted * wash denim",
           },
           {
-            name: "Men's Shirt",
+            name: "Ladies Shirt",
             image: "/img/products/sub-cat/fashion/woven-tops/9.jpg",
             description: "Fabric: 100% Cotton Poplin, * checked Plain weave",
           },
@@ -642,12 +642,12 @@ const products = [
             description: "Composition: 95% Cotton, 5% Elastane S/J, 150 GSM",
           },
           {
-            name: "Underware Bottoms",
+            name: "Mens Underware Bottoms",
             image: "/img/products/sub-cat/fashion/lingarie/8.jpg",
             description: "Composition: 100% Cotton S/J, 160 GSM",
           },
           {
-            name: "Underware Bottoms",
+            name: "Mens Underware Bottoms",
             image: "/img/products/sub-cat/fashion/lingarie/9.jpg",
             description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
           },
@@ -1009,7 +1009,7 @@ const products = [
         ],
       },
       {
-        name: "Bathtowel",
+        name: "Towel",
         image: "/img/products/sub-cat/home-textile/towel/1.jpg",
         subCategories: [
           {
@@ -1148,7 +1148,7 @@ const products = [
     id: 7,
     image: "/img/products/8.png",
     title: "Footwear & Bag",
-    description: "Flexible, breathable fabric crafted for comfort.",
+    description: "Style with dignity and crafted for comfort",
     details:
       "Footwear requires materials that are strong yet soft, breathable yet protective. Our specialized footwear fabrics are tailored for linings, uppers, insoles, and reinforcement areas in casual and performance shoes. They offer flexibility, abrasion resistance, and moisture control—making them ideal for both lifestyle and athletic use. Anti-microbial treatments ensure freshness, while thermoregulation technology helps maintain foot comfort. Whether for sports brands or luxury shoes, our materials meet the highest demands of quality, comfort, and innovation.",
     categories: [
@@ -1346,12 +1346,12 @@ const products = [
           {
             name: "Waist belt",
             image: "/img/products/sub-cat/shoe&bag/belt/7.jpg",
-            description: "Material- Cow Leather",
+            description: "Material- Buffalo Leather",
           },
           {
             name: "Waist belt",
             image: "/img/products/sub-cat/shoe&bag/belt/8.jpg",
-            description: "Material- Cow Leather",
+            description: "Material- Buffalo Leather",
           },
         ],
       },
@@ -1361,7 +1361,7 @@ const products = [
     id: 8,
     image: "/img/products/7.png",
     title: "Jute & Crafts",
-    description: "Natural, textured fabric for handmade goods.",
+    description: "Naturally crafted for daily and decorative uses",
     details:
       "Our jute and craft fabrics celebrate tradition, sustainability, and creativity. These natural fibers are biodegradable, sturdy, and rich in texture—ideal for handcrafted bags, decor, packaging, and promotional items. We work closely with artisans and eco-conscious brands to develop jute-based fabrics that blend rustic charm with modern applications. Available in plain, printed, or dyed forms, our jute collection supports environmental responsibility while empowering local craftsmanship. It's the perfect choice for businesses that value authenticity and green production.",
     categories: [
