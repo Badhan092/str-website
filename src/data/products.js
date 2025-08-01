@@ -622,6 +622,26 @@ const products = [
             description: "Composition: 90% Polyster,10% Spandex",
           },
           {
+            name: " Girls BRA",
+            image: "/img/products/sub-cat/fashion/lingarie/14.jpg",
+            description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
+          },
+          {
+            name: "Girls Underware Top",
+            image: "/img/products/sub-cat/fashion/lingarie/13.jpg",
+            description: "Composition: 80% Cotton, 15% Polyster, 5% Elastnae, S/J, 160 GSM",
+          },
+          {
+            name: "Girls BRA",
+            image: "/img/products/sub-cat/fashion/lingarie/15.jpg",
+            description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
+          },
+          {
+            name: "Underware Top",
+            image: "/img/products/sub-cat/fashion/lingarie/16.jpg",
+            description: "Composition: 67% Cotton, 28% Polyster, 5% Elastnae, S/J, 180 GSM",
+          },
+          {
             name: "Ladies Hipster",
             image: "/img/products/sub-cat/fashion/lingarie/5.jpg",
             description: "Fabric: 95% Cotton, 5% Elastane S/J, 160 GSM",
@@ -660,26 +680,6 @@ const products = [
             name: "Kids Underware Bottoms",
             image: "/img/products/sub-cat/fashion/lingarie/12.jpg",
             description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
-          },
-          {
-            name: "Girls Underware Top",
-            image: "/img/products/sub-cat/fashion/lingarie/13.jpg",
-            description: "Composition: 80% Cotton, 15% Polyster, 5% Elastnae, S/J, 160 GSM",
-          },
-          {
-            name: " Girls BRA",
-            image: "/img/products/sub-cat/fashion/lingarie/14.jpg",
-            description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
-          },
-          {
-            name: "Girls BRA",
-            image: "/img/products/sub-cat/fashion/lingarie/15.jpg",
-            description: "Composition: 95% Cotton, 5% Elastane S/J, 160 GSM",
-          },
-          {
-            name: "Underware Top",
-            image: "/img/products/sub-cat/fashion/lingarie/16.jpg",
-            description: "Composition: 67% Cotton, 28% Polyster, 5% Elastnae, S/J, 180 GSM",
           },
         ],
       },
