@@ -136,8 +136,51 @@ const products = [
       },
       {
         name: "Knitwear",
-        image: "/img/products/sub-cat/fashion/knitwear-tops/knitware-tops.jpg",
+        image: "/img/products/sub-cat/fashion/knitwear/knitware-tops.jpg",
         subCategories: [
+          {
+            name: "Men's T-Shirt",
+            image: "/img/products/sub-cat/fashion/knitwear/18.jpg",
+            description: "Details: 100% Cotton SJ 160 GSM, with 1x1 Elastane rib",
+          },
+          {
+            name: "Men's T-Shirt",
+            image: "/img/products/sub-cat/fashion/knitwear/19.jpg",
+            description: "Details: 100% Cotton SJ 160/180 GSM, shell fabric neck binding.",
+          },
+          {
+            name: "Men's Polo Shirt",
+            image: "/img/products/sub-cat/fashion/knitwear/20.jpg",
+            description: "Details: 100% Cotton Pique 200 GSM, Flat bed collar & cuff.",
+          },
+          {
+            name: "Men's Polo Shirt",
+            image: "/img/products/sub-cat/fashion/knitwear/21.jpg",
+            description:
+              "Details: 100% Cotton SJ 160-180 GSM, Flatbed collar & shell fabric collar band.",
+          },
+          {
+            name: "Men's Polo Stripe Shirt",
+            image: "/img/products/sub-cat/fashion/knitwear/22.jpg",
+            description: "Details:100% Cotton Pique 200 GSM (Y/D), Flat bed collar & cuff",
+          },
+          {
+            name: "Men's Stripe T-Shirt",
+            image: "/img/products/sub-cat/fashion/knitwear/23.jpg",
+            description:
+              "Details: 100% Cotton SJ 160/180 GSM, with placket, Pocket & shell fabric collar band.",
+          },
+          {
+            name: "Men's Stripe V-Neck T-Shirt",
+            image: "/img/products/sub-cat/fashion/knitwear/24.jpg",
+            description: "Details: 100% Cotton SJ 160 GSM, with 1x1 Elastane rib",
+          },
+          {
+            name: "Men's V-Neck T-Shirt",
+            image: "/img/products/sub-cat/fashion/knitwear/25.jpg",
+            description: "Details: 100% Cotton SJ 160 GSM, with 1x1 Elastane rib",
+          },
+
           {
             name: "Ladies Printed Tops",
             image: "/img/products/sub-cat/fashion/knitwear/1.jpg",
@@ -154,8 +197,8 @@ const products = [
             description: "Details: 100% Cotton Knit Fabric",
           },
           {
-            name: "Ladies Dress",
-            image: "/img/products/sub-cat/fashion/knitwear/4.jpg",
+            name: "Ladies SS Round Bottom",
+            image: "/img/products/sub-cat/fashion/knitwear/6.jpg",
             description: "Details: 100% Cotton S/J Knit fabric",
           },
           {
@@ -164,9 +207,24 @@ const products = [
             description: "Details: 100% Cotton S/J Knit Fabric",
           },
           {
-            name: "Ladies SS Round Bottom",
-            image: "/img/products/sub-cat/fashion/knitwear/6.jpg",
-            description: "Details: 100% Cotton S/J Knit fabric",
+            name: "Ladies Tank Top",
+            image: "/img/products/sub-cat/fashion/knitwear/10.jpg",
+            description: "Fabric: 100% Cotton Y/Dyed Rib",
+          },
+          {
+            name: "Ladies Tank Top",
+            image: "/img/products/sub-cat/fashion/knitwear/13.jpg",
+            description: "Details: 100% Cotton Printed S/J Fabric",
+          },
+          {
+            name: "Ladies Tank Top",
+            image: "/img/products/sub-cat/fashion/knitwear/11.jpg",
+            description: "Details: 100% Cotton S/J Knit Fabric",
+          },
+          {
+            name: "Ladies Hood Long Dress",
+            image: "/img/products/sub-cat/fashion/knitwear/12.jpg",
+            description: "Details: 100% Cotton Terry Fabric",
           },
           {
             name: "Girls Casual Knit Dress",
@@ -182,26 +240,6 @@ const products = [
             name: "Ladies Round Neck T- Shirt",
             image: "/img/products/sub-cat/fashion/knitwear/9.jpg",
             description: "Details: 100% Cotton S/J Knit Fabric",
-          },
-          {
-            name: "Ladies Tank Top",
-            image: "/img/products/sub-cat/fashion/knitwear/10.jpg",
-            description: "Fabric: 100% Cotton Y/Dyed Rib",
-          },
-          {
-            name: "Ladies Tank Top",
-            image: "/img/products/sub-cat/fashion/knitwear/11.jpg",
-            description: "Details: 100% Cotton S/J Knit Fabric",
-          },
-          {
-            name: "Ladies Hood Long Dress",
-            image: "/img/products/sub-cat/fashion/knitwear/12.jpg",
-            description: "Details: 100% Cotton Terry Fabric",
-          },
-          {
-            name: "Ladies Tank Top",
-            image: "/img/products/sub-cat/fashion/knitwear/13.jpg",
-            description: "Details: 100% Cotton Printed S/J Fabric",
           },
           {
             name: "Ladies Cargo Jogger Pant",
