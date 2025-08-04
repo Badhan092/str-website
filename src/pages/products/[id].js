@@ -2,6 +2,8 @@ import { useRouter } from "next/router";
 import products from "@/data/products";
 import Link from "next/link";
 
+const slugify = (str) => str.toLowerCase().replace(/\s+/g, "-");
+
 const ProductSubCategoryPage = () => {
   const router = useRouter();
   const { id } = router.query;
@@ -17,13 +19,11 @@ const ProductSubCategoryPage = () => {
       <div className="product-section">
         {product.categories && product.categories.length > 0 ? (
           <div className="product-cards">
-            {product.categories.map((cat, index) => (
-              <Link
-                href={`/products/${product.id}/${encodeURIComponent(
-                  cat.name.toLowerCase().replace(/\s+/g, "-")
-                )}`}
-                key={index}
-              >
+            {product.categories.map((cat, index) => {
+              const hasSubCategories = Array.isArray(cat.subCategories) && cat.subCategories.length > 0;
+              const subcategorySlug = slugify(cat.name);
+
+              const content = (
                 <div
                   className={`product-card ${!cat.description ? "no-description" : ""}`}
                   data-aos="fade-up"
@@ -32,7 +32,7 @@ const ProductSubCategoryPage = () => {
                   <img className="product-img" src={cat.image} alt={cat.name} />
                   <div
                     className={`product-content ${cat.description ? "description" : ""} ${
-                      cat.description && cat.description.includes("*") ? "has-star" : ""
+                      cat.description?.includes("*") ? "has-star" : ""
                     }`}
                   >
                     <h3 className="product-title">{cat.name}</h3>
@@ -48,8 +48,19 @@ const ProductSubCategoryPage = () => {
                     </p>
                   </div>
                 </div>
-              </Link>
-            ))}
+              );
+
+              return hasSubCategories ? (
+                <Link
+                  href={`/products/${product.id}/${encodeURIComponent(subcategorySlug)}`}
+                  key={index}
+                >
+                  {content}
+                </Link>
+              ) : (
+                <div key={index}>{content}</div>
+              );
+            })}
           </div>
         ) : (
           <div className="coming-soon">
