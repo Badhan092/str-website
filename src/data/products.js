@@ -439,7 +439,7 @@ const products = [
       },
       {
         name: "Jacket",
-        image: "/img/products/sub-cat/fashion/jacket.jpg",
+        image: "/img/products/sub-cat/fashion/jacket/jacket.jpg",
         subCategories: [
           {
             name: "Men's Denim Jacket",
@@ -525,7 +525,7 @@ const products = [
       },
       {
         name: "Sweater",
-        image: "/img/products/sub-cat/fashion/sweater.jpg",
+        image: "/img/products/sub-cat/fashion/sweater/sweater.jpg",
         subCategories: [
           {
             name: "FINE GAUGE SWEATER",
@@ -591,7 +591,7 @@ const products = [
       },
       {
         name: "Swimwear",
-        image: "/img/products/sub-cat/fashion/swimwear.jpg",
+        image: "/img/products/sub-cat/fashion/swimwear/swimwear.jpg",
         subCategories: [
           {
             name: "Mens Swim Short",
@@ -637,7 +637,7 @@ const products = [
       },
       {
         name: "Lingarie",
-        image: "/img/products/sub-cat/fashion/lingarie.jpg",
+        image: "/img/products/sub-cat/fashion/lingarie/lingarie.jpg",
         subCategories: [
           {
             name: "Underwear Top",
@@ -803,104 +803,104 @@ const products = [
     categories: [
       {
         name: "Single Breasted Suit",
-        image: "/img/products/sub-cat/corporateware/man/17.jpg",
+        image: "/img/products/sub-cat/corporateware/17.jpg",
         description: "Fabric: 73% Polyester / 22% Viscose / 5% Elastane",
       },
       {
         name: "Single Breasted Suit",
-        image: "/img/products/sub-cat/corporateware/man/21.jpg",
+        image: "/img/products/sub-cat/corporateware/21.jpg",
         description: "Fabric: 81% Polyester / 17% Viscose / 2% Elastane",
       },
       {
         name: "Single Breasted Suit",
-        image: "/img/products/sub-cat/corporateware/man/15.jpg",
+        image: "/img/products/sub-cat/corporateware/15.jpg",
         description: "Fabric: 81% Polyester / 17% Viscose / 2% Elastane",
       },
       {
         name: "Single Breasted Suit",
-        image: "/img/products/sub-cat/corporateware/man/18.jpg",
+        image: "/img/products/sub-cat/corporateware/18.jpg",
         description: "Fabric: 65% Polyester 35% Viscose",
       },
       {
         name: "Single Breasted Suit",
-        image: "/img/products/sub-cat/corporateware/man/14.jpg",
+        image: "/img/products/sub-cat/corporateware/14.jpg",
         description: "Fabric: 73% Polyester / 22% Viscose / 5% Elastane",
       },
       {
         name: "Single Breasted Suit, 5 Btn Waistcoat",
-        image: "/img/products/sub-cat/corporateware/man/16.jpg",
+        image: "/img/products/sub-cat/corporateware/16.jpg",
         description: "Fabric: 78% Polyester / 20% Viscose / 2% Elastane",
       },
       {
         name: "Single Breasted Suit",
-        image: "/img/products/sub-cat/corporateware/man/13.jpg",
+        image: "/img/products/sub-cat/corporateware/13.jpg",
         description: "Fabric: 73% Polyester / 22% Viscose / 5% Elastane",
       },
 
       {
         name: "Single Breasted Suit",
-        image: "/img/products/sub-cat/corporateware/man/19.jpg",
+        image: "/img/products/sub-cat/corporateware/19.jpg",
         description: "Fabric: 65% Polyester 35% Viscose",
       },
 
       {
         name: "Single Breasted Coat/ Slim Fit Bottom",
-        image: "/img/products/sub-cat/corporateware/women/1.jpg",
+        image: "/img/products/sub-cat/corporateware/1.jpg",
         description: "Fabric: 73% Polyester / 22% Viscose / 5% Elastane",
       },
       {
         name: "Single Breasted 4 Button Coat/Slim Fit Bottom",
-        image: "/img/products/sub-cat/corporateware/women/2.jpg",
+        image: "/img/products/sub-cat/corporateware/2.jpg",
         description: "Fabric: 73% Polyester / 22% Viscose / 5% Elastane",
       },
       {
         name: "Pleated Slim Shirt/Straight Fit Bottom",
-        image: "/img/products/sub-cat/corporateware/women/7.jpg",
+        image: "/img/products/sub-cat/corporateware/7.jpg",
         description: "Fabric: 3% Elastane/65% Polyester 35% Viscose",
       },
       {
         name: "Single Breasted Coat/ Flare bottom",
-        image: "/img/products/sub-cat/corporateware/women/8.jpg",
+        image: "/img/products/sub-cat/corporateware/8.jpg",
         description: "Fabric: 65% Polyester 33% Viscose 2% Elastane",
       },
       {
         name: "Single Breasted Coat/skirt",
-        image: "/img/products/sub-cat/corporateware/women/3.jpg",
+        image: "/img/products/sub-cat/corporateware/3.jpg",
         description: "Fabric: Polyester/Cotton/Elastane",
       },
       {
         name: "Single Breasted Coat/Skirt",
-        image: "/img/products/sub-cat/corporateware/women/4.jpg",
+        image: "/img/products/sub-cat/corporateware/4.jpg",
         description: "Fabric: 73% Polyester / 22% Viscose / 5% Elastane",
       },
       {
         name: "Single Breasted Coat/Skirt",
-        image: "/img/products/sub-cat/corporateware/women/5.jpg",
+        image: "/img/products/sub-cat/corporateware/5.jpg",
         description: "Fabric: 78% Polyester / 20% Viscose / 2% Elastane",
       },
       {
         name: "Stripe Shirt/Chino Pant",
-        image: "/img/products/sub-cat/corporateware/women/6.jpg",
+        image: "/img/products/sub-cat/corporateware/6.jpg",
         description: "Fabric: 100% Cotton/97% Cotton 3% Elastane",
       },
       {
         name: "Pleated Slim Shirt/Skirt",
-        image: "/img/products/sub-cat/corporateware/women/9.jpg",
+        image: "/img/products/sub-cat/corporateware/9.jpg",
         description: "Fabric: 98% Cotton 2% Elastane/65% Polyester 35% Viscose",
       },
       {
         name: "Pleated Shirt/Slim Fit Bottom",
-        image: "/img/products/sub-cat/corporateware/women/10.jpg",
+        image: "/img/products/sub-cat/corporateware/10.jpg",
         description: "Fabric: 98% Cotton 2% Elastane/81% Polyester 17% Viscose 2% Elastane",
       },
       {
         name: "Semi Sleeve/Skinny Fit Bottom",
-        image: "/img/products/sub-cat/corporateware/women/11.jpg",
+        image: "/img/products/sub-cat/corporateware/11.jpg",
         description: "Fabric: 98% Cotton 2% Elastane/98% Cotton 2% Elastane",
       },
       {
         name: "Side Binding Coat/Skirt",
-        image: "/img/products/sub-cat/corporateware/women/12.jpg",
+        image: "/img/products/sub-cat/corporateware/12.jpg",
         description: "Fabric: 81% Polyester / 17% Viscose / * 2% Elastane",
       },
     ],

@@ -5,12 +5,20 @@ import Link from "next/link";
 const slugify = (str) => str.toLowerCase().replace(/\s+/g, "-");
 
 const ProductSubCategoryPage = () => {
+  
   const router = useRouter();
   const { id } = router.query;
 
   const product = products.find((item) => item.id === parseInt(id));
 
-  if (!product) return <p>Loading...</p>;
+  if (!product)
+    return (
+      <div className="container top-space">
+        <div className="loaderWrapper">
+          <div className="loader" />
+        </div>
+      </div>
+    );
 
   return (
     <div className="container top-space">
@@ -20,7 +28,8 @@ const ProductSubCategoryPage = () => {
         {product.categories && product.categories.length > 0 ? (
           <div className="product-cards">
             {product.categories.map((cat, index) => {
-              const hasSubCategories = Array.isArray(cat.subCategories) && cat.subCategories.length > 0;
+              const hasSubCategories =
+                Array.isArray(cat.subCategories) && cat.subCategories.length > 0;
               const subcategorySlug = slugify(cat.name);
 
               const content = (
