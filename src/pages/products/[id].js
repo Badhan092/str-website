@@ -1,24 +1,41 @@
-import { useRouter } from "next/router";
-import products from "@/data/products";
+import React from "react";
 import Link from "next/link";
+import products from "@/data/products";
 
 const slugify = (str) => str.toLowerCase().replace(/\s+/g, "-");
 
-const ProductSubCategoryPage = () => {
-  
-  const router = useRouter();
-  const { id } = router.query;
+// Pre-render paths
+export async function getStaticPaths() {
+  const paths = products.map((product) => ({
+    params: { id: product.id.toString() },
+  }));
 
-  const product = products.find((item) => item.id === parseInt(id));
+  return {
+    paths,
+    fallback: false,
+  };
+}
 
-  if (!product)
+// Fetch props for each path
+export async function getStaticProps({ params }) {
+  const product = products.find((p) => p.id.toString() === params.id) || null;
+
+  return {
+    props: {
+      product,
+    },
+  };
+}
+
+// Component
+const ProductSubCategoryPage = ({ product }) => {
+  if (!product) {
     return (
       <div className="container top-space">
-        <div className="loaderWrapper">
-          <div className="loader" />
-        </div>
+        <p>Product not found</p>
       </div>
     );
+  }
 
   return (
     <div className="container top-space">
