@@ -30,9 +30,9 @@ const Events = [
 
 const NewsEventCard = () => {
   return (
-    <div className="container top-space">
-      <h2 className="section-title">News & Events</h2>
-      <div className="grid">
+    <>
+      <h2 className="section-title">Events</h2>
+      <div className="event-container">
         {Events.map((event) => (
           <Link href={`/events/${event.id}`}>
             <div key={event.id} className="event-card">
@@ -46,7 +46,7 @@ const NewsEventCard = () => {
           </Link>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

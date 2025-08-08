@@ -15,8 +15,7 @@ const Header = () => {
     { name: "Story & History", path: "/story-history" },
     { name: "Responsibilities", path: "/responsibilities" },
     { name: "Products", path: "/products" },
-    { name: "Events", path: "/news" },
-    { name: "News", path: "/blog" },
+    { name: "News & Events", path: "/news" },
     { name: "Find Us", path: "/contact-us" },
   ];
 
