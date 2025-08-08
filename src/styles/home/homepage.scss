@@ -613,6 +613,7 @@
 }
 
 @media (min-width: 300px) and (max-width: 1024px) {
+
   .hero-banner {
     height: 80vh;
     margin-top: -29px;
@@ -630,11 +631,15 @@
 
   .aboutus-section {
     flex-direction: column;
+
     .aboutus-image {
       .aboutus-img-two {
         left: 0px;
         z-index: -1;
       }
+
+      
+
     }
   }
 
@@ -713,7 +718,7 @@
         padding: 10px;
       }
       .product-content {
-        margin-top: -52px !important;
+        margin-top: -70px !important;
 
         .product-title {
           font-size: 0.8rem !important;
@@ -746,4 +751,5 @@
       }
     }
   }
+
 }
