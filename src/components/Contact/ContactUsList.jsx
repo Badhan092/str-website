@@ -42,8 +42,8 @@ const ContactUsList = () => {
       Icon: LuPhoneCall,
       title: "Contact",
       texts: [
-        { label: "Mobile: ", value: "+1 (555) 123-4567" },
-        { label: "Email: ", value: "support@example.com" },
+        { label: "Mobile: ", value: "+880 1672916863" },
+        { label: "Email: ", value: "info@strsourcing.com" },
       ],
     },
     {
