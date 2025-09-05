@@ -111,7 +111,7 @@ const ContactUsForm = () => {
             <label htmlFor="file">Choose File</label>
             <input type="file" id="file" onChange={handleChange} />
 
-            <button type="submit">Send</button>
+            <button className="button" type="submit">Send</button>
             {submitted && <p className="success">Thank you! Your information was sent.</p>}
           </form>
         </div>
