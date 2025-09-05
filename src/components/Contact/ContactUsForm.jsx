@@ -52,7 +52,7 @@ const ContactUsForm = () => {
       };
 
       emailjs
-        .send("your_service_id", "your_template_id", templateParams, "your_public_key")
+        .send("service_t0tsnjb", "template_7uldamk", templateParams, "9DbgdUuq08ZURVimu")
         .then(() => {
           setSubmitted(true);
           setFormData({
@@ -111,7 +111,9 @@ const ContactUsForm = () => {
             <label htmlFor="file">Choose File</label>
             <input type="file" id="file" onChange={handleChange} />
 
-            <button className="button" type="submit">Send</button>
+            <button className="button" type="submit">
+              Send
+            </button>
             {submitted && <p className="success">Thank you! Your information was sent.</p>}
           </form>
         </div>
