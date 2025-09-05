@@ -1,36 +1,19 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 
 const ContactUsForm = () => {
-  const [formData, setFormData] = useState({
-    company: "",
-    contact: "",
-    service: "",
-    email: "",
-    website: "",
-    file: null,
-  });
-
-  const [errors, setErrors] = useState({});
+  const formRef = useRef();
   const [submitted, setSubmitted] = useState(false);
+  const [errors, setErrors] = useState({});
 
-  const handleChange = (e) => {
-    const { id, value, files } = e.target;
-    if (files) {
-      setFormData((prev) => ({ ...prev, [id]: files[0] }));
-    } else {
-      setFormData((prev) => ({ ...prev, [id]: value }));
-    }
-  };
-
-  const validate = () => {
+  const validate = (formData) => {
     const newErrors = {};
-    if (!formData.company.trim()) newErrors.company = "Company name is required";
-    if (!formData.contact.trim()) newErrors.contact = "Contact person is required";
-    if (!formData.service.trim()) newErrors.service = "Service is required";
-    if (!formData.email.trim()) {
+    if (!formData.get("company").trim()) newErrors.company = "Company name is required";
+    if (!formData.get("contact").trim()) newErrors.contact = "Contact person is required";
+    if (!formData.get("service").trim()) newErrors.service = "Service is required";
+    if (!formData.get("email").trim()) {
       newErrors.email = "Email is required";
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+    } else if (!/\S+@\S+\.\S+/.test(formData.get("email"))) {
       newErrors.email = "Invalid email format";
     }
     return newErrors;
@@ -38,31 +21,21 @@ const ContactUsForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const validationErrors = validate();
+    const formData = new FormData(formRef.current);
+    const validationErrors = validate(formData);
     setErrors(validationErrors);
 
     if (Object.keys(validationErrors).length === 0) {
-      const templateParams = {
-        company: formData.company,
-        contact: formData.contact,
-        service: formData.service,
-        email: formData.email,
-        website: formData.website,
-        file: formData.file ? formData.file.name : "No file uploaded",
-      };
-
       emailjs
-        .send("service_t0tsnjb", "template_7uldamk", templateParams, "9DbgdUuq08ZURVimu")
+        .sendForm(
+          "service_t0tsnjb", // your service ID
+          "template_7uldamk", // your template ID
+          formRef.current,
+          "9DbgdUuq08ZURVimu" // your public key
+        )
         .then(() => {
           setSubmitted(true);
-          setFormData({
-            company: "",
-            contact: "",
-            service: "",
-            email: "",
-            website: "",
-            file: null,
-          });
+          formRef.current.reset(); // clear form
         })
         .catch((err) => {
           console.error("Email sending failed:", err);
@@ -74,42 +47,41 @@ const ContactUsForm = () => {
     <div className="container">
       <div className="contact-form-details">
         <div className="contact-form-image">
-          <img src="/img/banner/contact-us.jpg" />
+          <img src="/img/banner/contact-us.jpg" alt="Contact" />
         </div>
         <div className="contact-form">
-          <form onSubmit={handleSubmit} noValidate>
+          <form ref={formRef} onSubmit={handleSubmit} noValidate>
             <div style={{ marginBottom: "10px" }}>
               <h2>Get In Touch</h2>
-              <p> We'd love to hear from you! Fill out the form below and we'll get back to you.</p>
+              <p>We'd love to hear from you! Fill out the form below and we'll get back to you.</p>
             </div>
 
             <label htmlFor="company">Name of Company</label>
-            <input type="text" id="company" value={formData.company} onChange={handleChange} />
+            <input type="text" id="company" name="company" />
             {errors.company && <span className="error">{errors.company}</span>}
 
             <label htmlFor="contact">Contact Person</label>
-            <input type="text" id="contact" value={formData.contact} onChange={handleChange} />
+            <input type="text" id="contact" name="contact" />
             {errors.contact && <span className="error">{errors.contact}</span>}
 
             <label htmlFor="service">What service you need from STR Sourcing?</label>
             <textarea
               id="service"
+              name="service"
               rows="3"
-              value={formData.service}
-              onChange={handleChange}
-              placeholder="e.g. Apparels, Home Textiles, Footwear, Leather product, Jute / crafts & others"
+              placeholder="e.g. Apparels, Home Textiles, Footwear, Leather product, Jute / crafts & others"
             ></textarea>
             {errors.service && <span className="error">{errors.service}</span>}
 
             <label htmlFor="email">Email</label>
-            <input type="email" id="email" value={formData.email} onChange={handleChange} />
+            <input type="email" id="email" name="email" />
             {errors.email && <span className="error">{errors.email}</span>}
 
             <label htmlFor="website">Website</label>
-            <input type="text" id="website" value={formData.website} onChange={handleChange} />
+            <input type="text" id="website" name="website" />
 
             <label htmlFor="file">Choose File</label>
-            <input type="file" id="file" onChange={handleChange} />
+            <input type="file" id="file" name="my_file" />
 
             <button className="button" type="submit">
               Send
