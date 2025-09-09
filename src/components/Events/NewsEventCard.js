@@ -4,23 +4,15 @@ import Link from "next/link";
 const Events = [
   {
     id: 1,
-    title: "Pohela Boishakh office decoration",
+    title: "Participate in the Bangladesh Edition of Textile Series of Expo 2025",
     description:
-      "Brighten up your workspace with traditional Boishakhi elements — alpana art, red-white drapes, flower garlands, and festive props that reflect the spirit of Bengali New Year.",
-    date: "April 14, 2025",
-    image: "/img/events/01.jpg",
+      "Bangladesh's thriving denim industry possesses unparalleled quality, versatility, and capacity. To promote these aspects of the industry and brand Bangladesh, The Bangladesh Denim Expo came into being in 2014. Today, this premier international platform is influencing sustainability, innovation, and creativity in the denim community worldwide. From STR Sourcing we always appreciate and get updated with the new technology, innovation.",
+    date: "May 20, 2025",
+    image: "/img/events/denim.jpg",
   },
   {
     id: 2,
-    title: "Boishakhi office lunch & cultural program",
-    description:
-      "Enjoy a special office lunch featuring panta bhaat, ilish, and festive sweets. A treat for all employees to celebrate the Bengali New Year together.",
-    date: "April 14, 2025",
-    image: "/img/events/02.jpg",
-  },
-  {
-    id: 3,
-    title: "Boishakhi office celebration",
+    title: "Boishakhi office celebration  & cultural program",
     description:
       "End the day with a soulful evening of Baul songs, folk music, and cultural performances by colleagues to honor the spirit of Pohela Boishakh.",
     date: "April 14, 2025",
