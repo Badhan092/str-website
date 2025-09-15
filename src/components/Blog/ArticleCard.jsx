@@ -40,7 +40,7 @@ const ArticleCard = () => {
 
   return (
     <article className="hero">
-      <div className="heroTop">
+      {/* <div className="heroTop">
         <Link href={mainArticle.link} className="heroImage">
           <img src={mainArticle.img} alt={mainArticle.title} />
         </Link>
@@ -58,7 +58,7 @@ const ArticleCard = () => {
           <p className="lead">{mainArticle.text}</p>
           <div className="meta">{mainArticle.meta}</div>
         </div>
-      </div>
+      </div> */}
 
       <div className="cards">
         {smallCards.map((card, index) => (

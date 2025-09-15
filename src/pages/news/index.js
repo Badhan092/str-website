@@ -12,7 +12,7 @@ const Index = () => {
         <h2 className="section-title top-space">News</h2>
         <div className="news-container">
           <ArticleCard />
-          <AsideCard />
+          {/* <AsideCard /> */}
         </div>
       </div>
     </>

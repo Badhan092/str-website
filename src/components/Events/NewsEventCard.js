@@ -18,6 +18,14 @@ const Events = [
     date: "April 14, 2025",
     image: "/img/events/03.jpg",
   },
+  // {
+  //   id: 3,
+  //   title: "Boishakhi office celebration  & cultural program",
+  //   description:
+  //     "End the day with a soulful evening of Baul songs, folk music, and cultural performances by colleagues to honor the spirit of Pohela Boishakh.",
+  //   date: "April 14, 2025",
+  //   image: "/img/events/leather.jpg",
+  // },
 ];
 
 const NewsEventCard = () => {

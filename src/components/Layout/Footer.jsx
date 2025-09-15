@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="footer-info">
           <h4 className="footer-info-title">Head Office</h4>
           <p className="footer-info-item">House: 1/B, Road: 10, Nikunja 2, Khilket, <br/>Dhaka-1229, Bangladesh</p>
-          <p className="footer-info-item">Phone: (123) 456-7890</p>
+          <p className="footer-info-item">Phone: +880 1672916863</p>
           <p className="footer-info-item">Email: info@strsourcing.com</p>
         </div>
 
