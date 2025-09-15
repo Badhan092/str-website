@@ -313,6 +313,17 @@
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
       }
 
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(90deg, transparent, #052eee, transparent);
+        animation: card-glow 3s infinite linear;
+      }
+
       .service-no {
         position: absolute;
         width: 60px;
@@ -613,7 +624,6 @@
 }
 
 @media (min-width: 300px) and (max-width: 1024px) {
-
   .hero-banner {
     height: 80vh;
     margin-top: -29px;
@@ -637,9 +647,6 @@
         left: 0px;
         z-index: -1;
       }
-
-      
-
     }
   }
 
@@ -751,5 +758,14 @@
       }
     }
   }
+}
 
+/* Card Glow Animation */
+@keyframes card-glow {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
