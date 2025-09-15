@@ -23,7 +23,7 @@ const ContactUs = () => {
     {
       country: "Bangladesh (Head Office)",
       address: "House# 1/B, Road# 10, Nikunja 2, Khilket, Dhaka-1229",
-      phone: "(123) 456-7890",
+      phone: "+880 1672916863",
       email: "info@strsourcing.com",
     },
     {
