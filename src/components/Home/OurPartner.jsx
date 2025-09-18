@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
 
 // Partner logo data
 const partnerLogos = [
@@ -26,17 +29,30 @@ const OurPartner = () => {
         Our Partner:
       </h2>
       <p className="section-description" data-aos="fade-up">
-        Our Manufacturing partners are compliant with international standards and code of conduct
+        Our Manufacturing partners are compliant with international standards and code of conduct
       </p>
 
-      <div className="partner-section">
-        {partnerLogos.map((logo, index) => (
-          <div key={logo.id} data-aos="fade-up" data-aos-delay={index * 100}>
-            <div className="partner-card">
-              <img src={logo.src} alt={logo.alt} />
-            </div>
-          </div>
-        ))}
+      <div className="partner-section" data-aos="fade-up">
+        <Swiper
+          modules={[Autoplay]}
+          spaceBetween={20}
+          slidesPerView={3}
+          autoplay={{ delay: 2000, disableOnInteraction: false }}
+          loop={true}
+          breakpoints={{
+            320: { slidesPerView: 2, spaceBetween: 10 },
+            640: { slidesPerView: 5, spaceBetween: 15 },
+            1024: { slidesPerView: 8, spaceBetween: 20 },
+          }}
+        >
+          {partnerLogos.map((logo) => (
+            <SwiperSlide key={logo.id}>
+              <div className="partner-card">
+                <img src={logo.src} alt={logo.alt} loading="lazy" />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );

@@ -487,7 +487,8 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    height: 100px;
+    width: 100%;
+    height: 120px;
     padding: 10px;
     background-color: #ffffff9c;
     border-radius: 8px;
@@ -495,7 +496,7 @@
   }
   .partner-card img {
     width: 100%;
-    max-width: 800px;
+    height: auto;
   }
 }
 
@@ -536,7 +537,7 @@
       font-weight: 600;
       color: #333333;
       text-align: left;
-  
+
       &::after {
         content: "";
         position: absolute;
@@ -588,37 +589,73 @@
   }
 
   .donation-card {
-    background: #ffffff;
-    padding: 2rem 4rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: 1;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+    // Gradient border effect
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      padding: 3px;
+      border-radius: inherit;
+      background: linear-gradient(270deg, #6a11cb, #2575fc, #ff6a00, #fddb92, #6a11cb);
+      background-size: 300% 300%;
+      animation: borderFlow 6s linear infinite;
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      z-index: -1;
+    }
 
     &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
     }
 
     .icon {
       margin-bottom: 1rem;
-
       img {
-        width: 60px;
+        width: 70px;
         height: auto;
+        transition: transform 0.3s ease;
       }
     }
 
+    &:hover .icon img {
+      transform: rotate(6deg) scale(1.05);
+    }
+
     h3 {
-      font-size: 1.2rem;
-      color: #333;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #222;
       margin-bottom: 1rem;
     }
 
     p {
-      font-size: 0.9rem;
-      line-height: 1.4rem;
-      color: #333333;
+      font-size: 0.95rem;
+      line-height: 1.5rem;
+      color: #555;
       margin-bottom: 1rem;
+    }
+  }
+
+  /* Moving gradient animation */
+  @keyframes borderFlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
     }
   }
 }
