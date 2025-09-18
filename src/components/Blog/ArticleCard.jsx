@@ -3,44 +3,46 @@ import Link from "next/link";
 
 const ArticleCard = () => {
   const mainArticle = {
-    img: "https://ichef.bbci.co.uk/news/1024/cpsprodpb/9c55/live/643d85b0-6cfb-11f0-a946-676c1a094566.jpg.webp?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder",
-    tags: ["World", "Politics"],
-    title: "Trump to hit India with 25% tariffs - plus 'penalty' for trade with Russia",
-    text: "The US will impose 25% tariffs on goods imported from India plus an unspecified penalty for buying Russian oil and weapons, President Donald Trump has saidPosting on his Truth Social platform, he said the measures would take effect from 1 August.",
-    meta: "By Nikita Yadav | BBC News, Delhi — 30 July 2025",
-    link: "https://www.bbc.com/news/articles/cz71w1dgl84o",
+    img: "https://textiletoday.com.bd/storage/uploads/2025/7/3054d5hDvr3vb73iOv8k.jpeg",
+    tags: ["World", "Textile"],
+    title:
+      "BGMEA Leaders and MS Executives discuss growth and collaboration in bangladesh RMG sector",
+    text: "On 2nd July, Directors of the Bangladesh Garment Manufacturers and Exporters Association (BGMEA), Nafis-Ud-Doula and Shah Rayeed Chowdhury, met with Marks & Spencer (M&S) team The discussion focused on advancing the ready-made garment (RMG) industry and exploring opportunities for expanding M&S's business in Bangladesh.The meeting provided a platform for both sides to delve into key issues and the immense growth potential within the Bangladeshi apparel sector.",
+    meta: "ByvDesk Report | July 3, 2025 11:32 AM",
+    link: "https://www.textiletoday.com.bd/bgmea-leaders-and-ms-executives-discuss-growth-and-collaboration-in-bangladesh-rmg-sector",
   };
 
   const smallCards = [
     {
-      img: "https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder",
-      title: "Markets Rally as Tech Stocks Lead Recovery",
-      text: "Stocks climbed after upbeat earnings from several major tech companies, easing recession fears.",
-      link: "/news/markets-recovery",
+      img: "/img/history/textile.png",
+      title: "𝐒𝐭𝐞𝐩 𝐢𝐧𝐭𝐨 𝐭𝐡𝐞 𝐄𝐩𝐢𝐜𝐞𝐧𝐭𝐞𝐫 𝐨𝐟 𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡 𝐓𝐞𝐱𝐭𝐢𝐥𝐞 & 𝐀𝐩𝐩𝐚𝐫𝐞𝐥 𝐑𝐞𝐯𝐨𝐥𝐮𝐭𝐢𝐨𝐧!",
+      text: "Be a part of CEMS-Global USA’s Textile Series of Exhibitions - Exhibit at South Asia’s Oldest and Most Prestigious B2B Textile Exhibition for the past 24 years!",
+      link: "https://www.facebook.com/cemstextileseries/videos/709528662013549/?mibextid=D5vuiz&rdid=lQf2qiYJsqDuNbWY#",
     },
     {
-      img: "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder",
-      title: "Local Startup Raises $25M to Expand AI Platform",
-      text: "The company plans to use the funds to grow engineering and launch new features next year.",
-      link: "/news/ai-startup-funding",
+      img: "https://www.textiletoday.com.bd/storage/uploads/2025/7/6027uVPZZozCm8KLka0z.jpeg",
+      title:
+        "Spanish fashion giant Mango has appointed Helena Helmersson, former CEO of H&M Group, to its Board",
+      text: "Directors as an independent member—marking a bold step in its push to strengthen corporate governance and global leadership as part of its ambitious 4E Strategic Plan.",
+      link: "https://www.textiletoday.com.bd/mango-appoints-former-hm-ceo-helena-helmersson-to-its-board",
     },
     {
-      img: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder",
-      title: "Health Officials Update Recommendations for Seasonal Vaccines",
-      text: "New guidelines aim to increase vaccination rates among high-risk groups.",
-      link: "/news/vaccine-update",
+      img: "https://textiletoday.com.bd/storage/uploads/2022/12/BGMEA-and-RAJUK.jpg",
+      title: "BGMEA urges RAJUK to allocate land at Purbachal for apparel club",
+      text: "BGMEA President Faruque Hassan requested RAJUK to allocate land at Purbachal to build an apparel club to facilitate the meeting and recreation of foreign nationals working for global...",
+      link: "https://www.textiletoday.com.bd/bgmea-urges-rajuk-allocate-land-purbachal-apparel-club",
     },
     {
-      img: "https://images.unsplash.com/photo-1506702315536-dd8b83e2dcf9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder",
-      title: "Art Biennale Draws Crowds with Immersive Installations",
-      text: "Artists explore technology and identity through large-scale experiential works.",
-      link: "/news/art-biennale",
+      img: "https://textiletoday.com.bd/storage/uploads/2024/1/32170TttWdpmFvYSJrNg.jpeg",
+      title: "Bangladesh RMG spreading its footprint across the world",
+      text: "BGMEA President Faruque Hassan highlighted Bangladesh's garment export performance in the world market in the last 15 years (2009-2023).",
+      link: "https://www.textiletoday.com.bd/bangladesh-rmg-spreading-its-footprint-across-the-world",
     },
   ];
 
   return (
     <article className="hero">
-      {/* <div className="heroTop">
+      <div className="heroTop">
         <Link href={mainArticle.link} className="heroImage">
           <img src={mainArticle.img} alt={mainArticle.title} />
         </Link>
@@ -58,7 +60,7 @@ const ArticleCard = () => {
           <p className="lead">{mainArticle.text}</p>
           <div className="meta">{mainArticle.meta}</div>
         </div>
-      </div> */}
+      </div>
 
       <div className="cards">
         {smallCards.map((card, index) => (
