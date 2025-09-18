@@ -1,3 +1,14 @@
+
+@use "@/styles/home/homepage.scss";
+@use "@/styles/contact/contactpage.scss";
+@use "@/styles/responsiblities/responsiblitypage.scss";
+@use "@/styles/we/wepage.scss";
+@use "@/styles/story/storypage.scss";
+@use "@/styles/events/eventspage.scss";
+@use "@/styles/products/productspage.scss";
+@use "@/styles/csr/csr.scss";
+
+
 // Global media query breakpoints
 $breakpoint-xs: 480px;
 $breakpoint-sm: 768px;
@@ -489,11 +500,3 @@ textarea {
     }
   }
 }
-@import "@/styles/home/homepage.scss";
-@import "@/styles/contact/contactpage.scss";
-@import "@/styles/responsiblities/responsiblitypage.scss";
-@import "@/styles/we/wepage.scss";
-@import "@/styles/story/storypage.scss";
-@import "@/styles/events/eventspage.scss";
-@import "@/styles/products/productspage.scss";
-@import "@/styles/csr/csr.scss";
