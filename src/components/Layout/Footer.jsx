@@ -24,7 +24,7 @@ const Footer = () => {
           <img src="/img/logo-white.png" alt="STR Logo" className="logo" />
           <p className="text">
             At STR Sourcing, we are a global sourcing and export company built on three core values:
-            Sustainability, Trust, and Responsibility. These principles define who we are and how we
+            Sustainability, Trustworthy, and Responsibility. These principles define who we are and how we
             work—delivering world-class products with integrity, transparency, and a commitment to
             long-term impact.
           </p>
