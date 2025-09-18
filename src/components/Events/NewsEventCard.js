@@ -20,7 +20,7 @@ const Events = [
   },
   {
     id: 3,
-    title: "Our team had the privilege of visiting the Exhibition organized (BTA).",
+    title: "Our team had the privilege of visiting the Exhibition organized by BTA.",
     description:
       "Our team had the privilege of visiting the Exhibition organized by the Bangladesh Tanners Association (BTA). The event brought together key stakeholders from the leather and tannery sector, showcasing the latest innovations, sustainable practices, and opportunities for future growth.",
     date: "June 21, 2025",

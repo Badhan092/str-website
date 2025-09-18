@@ -17,10 +17,10 @@ const Events = [
   },
   {
     id: 3,
-    title: "Our team had the privilege of visiting the Exhibition organized by BTA.",
+    title: "Our team had the privilege of visiting the Exhibition organized by the Bangladesh Tanners Association (BTA).",
     description:
       "Our team had the privilege of visiting the Exhibition organized by the Bangladesh Tanners Association (BTA). The event brought together key stakeholders from the leather and tannery sector, showcasing the latest innovations, sustainable practices, and opportunities for future growth.The exhibition was an excellent platform for networking, exchanging ideas, and gaining valuable insights into industry trends. We were pleased to engage with leading professionals and explore avenues for collaboration that support responsible and innovative development in the leather industry.We extend our thanks to the BTA for organizing such an impactful event and look forward to continued engagement in future initiatives.",
-    date: "June 21, 2025",
+    date: "April 14, 2025",
     image: "/img/events/leather.jpg",
   },
 ];
