@@ -6,7 +6,7 @@ const OfficeLocation = ({ country, address, phone, email, showBreak }) => (
   <>
     <h3 className="subtitle">{country}</h3>
     <p className="office-location-description">{address}</p>
-    <p className="office-location-description">Phone: {phone}</p>
+    {/* <p className="office-location-description">Phone: {phone}</p> */}
     <p className="office-location-description">
       Email: <a href={`mailto:${email}?subject=Inquiry&body=Hello, I’d like to...`}>{email}</a>
     </p>
@@ -23,13 +23,19 @@ const ContactUs = () => {
     {
       country: "Bangladesh (Head Office)",
       address: "House# 1/B, Road# 10, Nikunja 2, Khilket, Dhaka-1229",
-      phone: "+880 1672916863",
+      // phone: "+880 1672916863",
+      email: "info@strsourcing.com",
+    },
+    {
+      country: "USA (Contact Address)",
+      address: "7829 Cardinal Cove North, Indianapolis, IN-46256",
+      // phone: "(123) 456-7890",
       email: "info@strsourcing.com",
     },
     {
       country: "Germany (Contact Address)",
       address: "Adam-Opel-Straße 24 ,60386 ,Frankfurt am Main",
-      phone: "(123) 456-7890",
+      // phone: "(123) 456-7890",
       email: "info@strsourcing.com",
     },
   ];

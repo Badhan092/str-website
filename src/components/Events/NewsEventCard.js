@@ -18,14 +18,14 @@ const Events = [
     date: "April 14, 2025",
     image: "/img/events/03.jpg",
   },
-  // {
-  //   id: 3,
-  //   title: "Boishakhi office celebration  & cultural program",
-  //   description:
-  //     "End the day with a soulful evening of Baul songs, folk music, and cultural performances by colleagues to honor the spirit of Pohela Boishakh.",
-  //   date: "April 14, 2025",
-  //   image: "/img/events/leather.jpg",
-  // },
+  {
+    id: 3,
+    title: "Our team had the privilege of visiting the Exhibition organized (BTA).",
+    description:
+      "Our team had the privilege of visiting the Exhibition organized by the Bangladesh Tanners Association (BTA). The event brought together key stakeholders from the leather and tannery sector, showcasing the latest innovations, sustainable practices, and opportunities for future growth.",
+    date: "June 21, 2025",
+    image: "/img/events/leather.jpg",
+  },
 ];
 
 const NewsEventCard = () => {

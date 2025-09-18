@@ -42,7 +42,7 @@ const ContactUsList = () => {
       Icon: LuPhoneCall,
       title: "Contact",
       texts: [
-        { label: "Mobile: ", value: "+880 1672916863" },
+        { label: "Mobile: ", value: "+880 1672916863,  +880 17 0692 2655" },
         { label: "Email: ", value: "info@strsourcing.com" },
       ],
     },

@@ -505,7 +505,7 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 2rem;
+  gap: 1.5rem;
   width: 100%;
 
   .office-location {
@@ -532,11 +532,11 @@
 
     .subtitle {
       position: relative;
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: 600;
       color: #333333;
       text-align: left;
-      margin-bottom: 5px;
+  
       &::after {
         content: "";
         position: absolute;
@@ -550,7 +550,7 @@
     }
 
     .location-text {
-      font-size: 1.2rem;
+      font-size: 0.9rem;
       line-height: 1.6rem;
       color: #333333;
       text-align: center;
