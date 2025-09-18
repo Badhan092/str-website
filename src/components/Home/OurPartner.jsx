@@ -40,7 +40,7 @@ const OurPartner = () => {
           autoplay={{ delay: 2000, disableOnInteraction: false }}
           loop={true}
           breakpoints={{
-            320: { slidesPerView: 2, spaceBetween: 10 },
+            320: { slidesPerView: 4, spaceBetween: 10 },
             640: { slidesPerView: 5, spaceBetween: 15 },
             1024: { slidesPerView: 8, spaceBetween: 20 },
           }}
