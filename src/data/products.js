@@ -548,32 +548,32 @@ const products = [
             description: "Gauge: 14-16",
           },
           {
-            name: "LOW GAUGE SWEATER",
+            name: "COARSER GAUGE SWEATER",
             image: "/img/products/sub-cat/fashion/sweater/5.jpg",
             description: "Gauge: 3-5",
           },
           {
-            name: "LOW GAUGE SWEATER",
+            name: "COARSER GAUGE SWEATER",
             image: "/img/products/sub-cat/fashion/sweater/6.jpg",
             description: "Gauge: 3-5",
           },
           {
-            name: "LOW GAUGE SWEATER",
+            name: "COARSER GAUGE SWEATER",
             image: "/img/products/sub-cat/fashion/sweater/7.jpg",
             description: "Gauge: 4-5",
           },
           {
-            name: "LOW GAUGE SWEATER",
+            name: "COARSER GAUGE SWEATER",
             image: "/img/products/sub-cat/fashion/sweater/8.jpg",
             description: "Gauge: 5-7",
           },
           {
-            name: "LOW GAUGE SWEATER",
+            name: "COARSER GAUGE SWEATER",
             image: "/img/products/sub-cat/fashion/sweater/9.jpg",
             description: "Gauge: 5-7",
           },
           {
-            name: "LOW GAUGE SWEATER",
+            name: "COARSER GAUGE SWEATER",
             image: "/img/products/sub-cat/fashion/sweater/10.jpg",
             description: "Gauge: 5-7",
           },

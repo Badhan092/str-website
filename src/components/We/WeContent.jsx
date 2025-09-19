@@ -23,7 +23,7 @@ const WeContent = () => {
             long-term impact.
           </p>
           <p className="text">
-            Headquartered in Bangladesh, with regional offices in the USA and Europe STR Sourcing
+            headquarters in Bangladesh, with contact address in the USA and Europe STR Sourcing
             specializes in a wide range of categories including fashion apparel, denim, jute
             products, outerwear, workwear, and home textiles. We connect global brands with
             high-quality ethically produced goods by offering complete solutions—from design and
