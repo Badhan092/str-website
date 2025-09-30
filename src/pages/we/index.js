@@ -14,7 +14,7 @@ const index = () => {
       <WhyChooseUs />
       <Donation />
       <OurMission />
-      <OurPartner />
+      {/* <OurPartner /> */}
     </>
   );
 };
