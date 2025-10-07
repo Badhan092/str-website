@@ -25,10 +25,7 @@ const OurPartner = () => {
 
   return (
     <div className="container">
-      <h2 className="section-title" data-aos="fade-up">
-        Our Partner:
-      </h2>
-      <p className="section-description" data-aos="fade-up">
+      <p className="section-description" data-aos="fade-up" style={{ fontSize: "25px" }}>
         Our Manufacturing partners are compliant with international standards and code of conduct
       </p>
 
