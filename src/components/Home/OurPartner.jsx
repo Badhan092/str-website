@@ -25,7 +25,7 @@ const OurPartner = () => {
 
   return (
     <div className="container">
-      <p className="section-description" data-aos="fade-up" style={{ fontSize: "25px" }}>
+      <p className="section-description" data-aos="fade-up" style={{ fontSize: "25px", fontWeight: "600", maxWidth:"800px", lineHeight:"1.5" }}>
         Our Manufacturing partners are compliant with international standards and code of conduct
       </p>
 
