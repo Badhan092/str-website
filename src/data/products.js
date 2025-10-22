@@ -636,7 +636,7 @@ const products = [
         ],
       },
       {
-        name: "Lingarie",
+        name: "Lingerie",
         image: "/img/products/sub-cat/fashion/lingarie/lingarie.jpg",
         subCategories: [
           {
